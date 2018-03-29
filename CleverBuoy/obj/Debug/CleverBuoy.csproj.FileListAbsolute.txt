@@ -15,3 +15,5 @@
 /Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/obj/Debug/CleverBuoy.dll
 /Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/obj/Debug/CleverBuoy.pdb
 /Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/obj/Debug/CleverBuoy.csprojResolveAssemblyReference.cache
+/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/bin/Debug/Microsoft.Identity.Client.dll
+/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/bin/Debug/System.Runtime.InteropServices.RuntimeInformation.dll

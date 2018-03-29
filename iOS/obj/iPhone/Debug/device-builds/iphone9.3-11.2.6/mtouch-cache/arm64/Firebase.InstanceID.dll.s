@@ -9739,7 +9739,7 @@ _mono_aot_file_info:
 	.long 184,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 173,21,172,187,90,75,47,44,20,2,47,92,164,241,11,23
+	.byte 182,142,216,65,216,162,239,151,169,38,7,198,129,238,244,15
 	.globl _mono_aot_module_Firebase_InstanceID_info
 	.align 3
 _mono_aot_module_Firebase_InstanceID_info:

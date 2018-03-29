@@ -6,6 +6,8 @@ using CleverBuoy.Model;
 using CleverBuoy.Droid.Helper;
 using Xamarin.Forms;
 using Org.Json;
+using Android.App;
+using System.Collections.Generic;
 
 [assembly: Dependency(typeof(FaceBookManager))]
 namespace CleverBuoy.Droid.Helper
@@ -26,7 +28,7 @@ namespace CleverBuoy.Droid.Helper
         {
             _onLoginComplete = onLoginComplete;
             LoginManager.Instance.SetLoginBehavior(LoginBehavior.NativeWithFallback);
-            LoginManager.Instance.LogInWithReadPermissions(Xamarin.Forms.Forms.Context as Activity, new List<string> { "public_profile", "email" });
+            LoginManager.Instance.LogInWithReadPermissions(Forms.Context as Activity, new List<string> { "public_profile", "email" });
         }
 
         public void Logout()

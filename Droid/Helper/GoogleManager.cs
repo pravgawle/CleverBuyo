@@ -7,6 +7,7 @@ using Android.Content;
 using Android.Gms.Auth.Api;
 using Android.Gms.Common;
 using Android.OS;
+using Xamarin.Forms;
 
 namespace CleverBuoy.Droid.Helper
 {
@@ -23,7 +24,8 @@ namespace CleverBuoy.Droid.Helper
                                                              .RequestEmail()
                                                              .Build();
 
-            _googleApiClient = new GoogleApiClient.Builder(((MainActivity) Login Forms.Context).ApplicationContext)
+
+            _googleApiClient = new GoogleApiClient.Builder(((MainActivity)Forms.Context).ApplicationContext)
                 .AddConnectionCallbacks(this)
                 .AddOnConnectionFailedListener(this)
                 .AddApi(Auth.GOOGLE_SIGN_IN_API, gso)

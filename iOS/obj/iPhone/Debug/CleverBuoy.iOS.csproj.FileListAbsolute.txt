@@ -67,3 +67,4 @@
 /Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/CleverBuoy.iOS.csproj.CoreCompileInputs.cache
 /Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/CleverBuoy.iOS.exe
 /Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/CleverBuoy.iOS.pdb
+/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/bin/iPhone/Debug/Microsoft.Identity.Client.dll

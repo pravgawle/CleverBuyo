@@ -1,36 +1,40 @@
-﻿<Properties StartupConfiguration="{03BD14CB-6A92-4F58-BC76-7DB4FF69B924}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Info.plist">
+﻿<Properties StartupConfiguration="{C0789D50-2936-426B-87C2-12EF725C84C4}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Source Not Available">
     <Files>
       <File FileName="Droid/Resources/values/strings.xml" Line="4" Column="1" />
-      <File FileName="Droid/MainActivity.cs" Line="45" Column="66" />
+      <File FileName="Droid/MainActivity.cs" Line="40" Column="13" />
       <File FileName="CleverBuoy/Interfaces/IFbLoginInterface.cs" Line="9" Column="20" />
       <File FileName="CleverBuoy/Model/User.cs" Line="21" Column="32" />
-      <File FileName="Droid/Helper/FaceBookManger.cs" Line="97" Column="2" />
-      <File FileName="iOS/AppDelegate.cs" Line="28" Column="13" />
+      <File FileName="Droid/Helper/FaceBookManger.cs" Line="34" Column="29" />
+      <File FileName="iOS/AppDelegate.cs" Line="44" Column="19" />
       <File FileName="iOS/Info.plist" />
-      <File FileName="CleverBuoy/App.xaml.cs" Line="21" Column="29" />
-      <File FileName="CleverBuoy/CleverBuoyPage.xaml.cs" Line="39" Column="1" />
-      <File FileName="CleverBuoy/CleverBuoyPage.xaml" Line="17" Column="1" />
-      <File FileName="iOS/FaceBookManager.cs" Line="32" Column="15" />
+      <File FileName="CleverBuoy/App.xaml.cs" Line="24" Column="25" />
+      <File FileName="CleverBuoy/CleverBuoyPage.xaml.cs" Line="42" Column="1" />
+      <File FileName="CleverBuoy/CleverBuoyPage.xaml" Line="21" Column="1" />
+      <File FileName="iOS/FaceBookManager.cs" Line="1" Column="1" />
       <File FileName="iOS/Main.cs" Line="17" Column="1" />
       <File FileName="Droid/Resources/google-services.json" Line="1" Column="1" />
       <File FileName="iOS/GoogleManager.cs" Line="65" Column="31" />
-      <File FileName="Droid/Helper/GoogleManager.cs" Line="26" Column="82" />
+      <File FileName="Droid/Helper/GoogleManager.cs" Line="37" Column="10" />
       <File FileName="CleverBuoy/obj/Debug/CleverBuoy.CleverBuoyPage.xaml.g.cs" Line="27" Column="1" />
       <File FileName="iOS/Entitlements.plist" />
       <File FileName="CleverBuoy/App.xaml" Line="7" Column="1" />
-      <File FileName="CleverBuoy/CleverBuoy.csproj" Line="42" Column="34" />
+      <File FileName="CleverBuoy/CleverBuoy.csproj" Line="1" Column="1" />
       <File FileName="iOS/GoogleService-Info.plist" />
+      <File FileName="Droid/MSLoginPageRenderer.cs" Line="18" Column="29" />
+      <File FileName="iOS/MSLoginPageRenderer.cs" Line="16" Column="10" />
+      <File FileName="Droid/Properties/AndroidManifest.xml" Line="14" Column="12" />
+      <File FileName="Source Not Available" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/CleverBuoyPage.xaml.cs" relfile="CleverBuoy/CleverBuoyPage.xaml.cs" line="39" column="1" />
+      <Breakpoint file="/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/CleverBuoyPage.xaml.cs" relfile="CleverBuoy/CleverBuoyPage.xaml.cs" line="42" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.CleverBuoy.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.64E54E0E-2F0C-416C-B3D9-0123E284067F" automaticSigning="False" />
+  <MonoDevelop.Ide.ItemProperties.CleverBuoy.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.27febaaee5f67a5c821b10a677666960f9ae9112" automaticSigning="False" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.CleverBuoy.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MonoDevelop.Ide.ItemProperties.CleverBuoy.Droid PreferredExecutionTarget="Android.MyDevice" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
 </Properties>

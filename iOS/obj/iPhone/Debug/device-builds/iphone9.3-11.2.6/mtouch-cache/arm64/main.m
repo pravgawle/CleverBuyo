@@ -15,6 +15,8 @@ extern void *mono_aot_module_System_Runtime_Serialization_info;
 extern void *mono_aot_module_System_ServiceModel_Internals_info;
 extern void *mono_aot_module_CleverBuoy_info;
 extern void *mono_aot_module_Xamarin_Forms_Xaml_info;
+extern void *mono_aot_module_Microsoft_Identity_Client_info;
+extern void *mono_aot_module_System_Xml_Linq_info;
 extern void *mono_aot_module_Facebook_info;
 extern void *mono_aot_module_Google_SignIn_info;
 extern void *mono_aot_module_Firebase_InstanceID_info;
@@ -38,6 +40,8 @@ void xamarin_register_modules_impl ()
 	mono_aot_register_module (mono_aot_module_System_ServiceModel_Internals_info);
 	mono_aot_register_module (mono_aot_module_CleverBuoy_info);
 	mono_aot_register_module (mono_aot_module_Xamarin_Forms_Xaml_info);
+	mono_aot_register_module (mono_aot_module_Microsoft_Identity_Client_info);
+	mono_aot_register_module (mono_aot_module_System_Xml_Linq_info);
 	mono_aot_register_module (mono_aot_module_Facebook_info);
 	mono_aot_register_module (mono_aot_module_Google_SignIn_info);
 	mono_aot_register_module (mono_aot_module_Firebase_InstanceID_info);
@@ -50,6 +54,8 @@ void xamarin_register_assemblies_impl ()
 {
 	guint32 exception_gchandle = 0;
 	xamarin_open_and_register ("Xamarin.Forms.Platform.iOS.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Microsoft.Identity.Client.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("Facebook.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);

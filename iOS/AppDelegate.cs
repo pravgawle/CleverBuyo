@@ -5,6 +5,7 @@ using CleverBuoy.Interfaces;
 using Facebook.CoreKit;
 using Foundation;
 using Google.SignIn;
+using Microsoft.Identity.Client;
 using UIKit;
 using Xamarin.Forms;
 
@@ -23,6 +24,8 @@ namespace CleverBuoy.iOS
             var googleServiceDictionary = NSDictionary.FromFile("GoogleService-Info.plist");
             SignIn.SharedInstance.ClientID = googleServiceDictionary["CLIENT_ID"].ToString();
 
+            App.PCA.RedirectUri = "msalfcff1ae9-a516-4158-aeb2-a6b0c0a9d159://auth";
+
             LoadApplication(new App());
 
 
@@ -38,6 +41,7 @@ namespace CleverBuoy.iOS
         public override bool OpenUrl(UIApplication application, NSUrl url, string sourceApplication, NSObject annotation)  
         {  
             //return base.OpenUrl(application, url, sourceApplication, annotation);  
+            AuthenticationContinuationHelper.SetAuthenticationContinuationEventArgs(url);
             return ApplicationDelegate.SharedInstance.OpenUrl(application, url, sourceApplication, annotation);  
         } 
     }

@@ -13,6 +13,7 @@ using CleverBuoy.Droid.Helper;
 using CleverBuoy.Interfaces;
 using Android.Gms.Auth.Api.SignIn;
 using Android.Gms.Auth.Api;
+using Microsoft.Identity.Client;
 
 namespace CleverBuoy.Droid
 {
@@ -26,12 +27,16 @@ namespace CleverBuoy.Droid
 
             base.OnCreate(bundle);
 
-            FacebookSdk.SdkInitialize(this);
-
             global::Xamarin.Forms.Forms.Init(this, bundle);
+
+            FacebookSdk.ApplicationId = "357892324694611";
+            FacebookSdk.SdkInitialize(this.ApplicationContext);
 
             DependencyService.Register<IFbLoginInterface, FaceBookManager>();
             DependencyService.Register<IGoogleLoginInterface, GoogleManager>();
+
+            App.PCA.RedirectUri = "msalfcff1ae9-a516-4158-aeb2-a6b0c0a9d159://auth";
+            App.UiParent = new UIParent(this);
 
             LoadApplication(new App());
         }
@@ -49,6 +54,7 @@ namespace CleverBuoy.Droid
                 }
 
             }
+            AuthenticationContinuationHelper.SetAuthenticationContinuationEventArgs(requestCode, resultCode, data);
         } 
     }
 

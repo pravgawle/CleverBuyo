@@ -11,6 +11,10 @@
                 Text="LoginWithGoogle"
                 Clicked="LoginWithGoogle_Clicked"
                 />
+        <Button x:Name="LoginWithMicrosoftBtn"
+                Text="LoginWithMicrosoft"
+                Clicked="LoginWithMicrosoft_ClickedAsync"
+                />
 
 </StackLayout>
 </ContentPage>

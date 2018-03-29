@@ -20020,7 +20020,7 @@ _mono_aot_file_info:
 	.long 296,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 82,20,113,118,92,15,182,42,135,55,100,174,87,136,200,89
+	.byte 252,170,49,13,249,85,249,154,203,153,172,89,185,204,216,164
 	.globl _mono_aot_module_Google_SignIn_info
 	.align 3
 _mono_aot_module_Google_SignIn_info:

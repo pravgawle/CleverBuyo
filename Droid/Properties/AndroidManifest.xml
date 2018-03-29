@@ -2,5 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.pravinga.CleverBuoy">
 	<uses-sdk android:minSdkVersion="15" />
 	<application android:label="CleverBuoy"></application>
-        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>  
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+    <activity android:name="microsoft.identity.client.BrowserTabActivity">
+      <intent-filter>
+    <action android:name="android.intent.action.VIEW" />
+    <category android:name="android.intent.category.DEFAULT" />
+    <category android:name="android.intent.category.BROWSABLE" />
+    <data android:scheme="msalfcff1ae9-a516-4158-aeb2-a6b0c0a9d159" android:host="auth" />
+      </intent-filter>
+    </activity>
 </manifest>

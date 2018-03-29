@@ -31,6 +31,8 @@
 /Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/bin/Debug/CleverBuoy.dll
 /Volumes/Seagate Expansion Drive/CleverBuoy/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.8.0.20/lib/mono/Xamarin.iOS/Facades/System.Text.RegularExpressions.dll
+/Volumes/Seagate Expansion Drive/CleverBuoy/packages/Microsoft.Identity.Client.1.1.2-preview0008/lib/xamarin.ios10/Microsoft.Identity.Client.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.8.0.20/lib/mono/Xamarin.iOS/System.Xml.Linq.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.8.0.20/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tools.dll
 /Volumes/Seagate Expansion Drive/CleverBuoy/packages/Xamarin.Facebook.iOS.4.30.0/lib/Xamarin.iOS10/Facebook.dll
 /Volumes/Seagate Expansion Drive/CleverBuoy/packages/Xamarin.Google.iOS.SignIn.4.1.1/lib/Xamarin.iOS10/Google.SignIn.dll

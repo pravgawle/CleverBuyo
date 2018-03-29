@@ -31,3 +31,8 @@ Xamarin.GooglePlayServices.Tasks
 Xamarin.GooglePlayServices.Base
 Xamarin.GooglePlayServices.Auth.Base
 Xamarin.GooglePlayServices.Auth
+System.Diagnostics.Tools
+Microsoft.Identity.Client
+System.Runtime.Serialization.Json
+System.Collections
+System.Threading.Tasks

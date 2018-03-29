@@ -10,6 +10,7 @@
 #import <UIKit/UIKit.h>
 #import <CloudKit/CloudKit.h>
 #import <QuartzCore/QuartzCore.h>
+#import <SafariServices/SafariServices.h>
 #import <CoreSpotlight/CoreSpotlight.h>
 #import <Intents/Intents.h>
 #import <GLKit/GLKit.h>
@@ -26,6 +27,8 @@
 @protocol GIDSignInDelegate;
 @protocol GIDSignInUIDelegate;
 @class CleverBuoy_iOS_GoogleManager;
+@class Xamarin_Forms_Platform_iOS_PageRenderer;
+@class CleverBuoy_iOS_MSLoginPageRenderer;
 @class Xamarin_Forms_Platform_iOS_iOS7ButtonContainer;
 @class Xamarin_Forms_Platform_iOS_GlobalCloseContextGestureRecognizer;
 @class Xamarin_Forms_Platform_iOS_ModalWrapper;
@@ -78,7 +81,6 @@
 @class Xamarin_Forms_Platform_iOS_NavigationRenderer;
 @class Xamarin_Forms_Platform_iOS_OpenGLViewRenderer_Delegate;
 @class Xamarin_Forms_Platform_iOS_OpenGLViewRenderer;
-@class Xamarin_Forms_Platform_iOS_PageRenderer;
 @class Xamarin_Forms_Platform_iOS_PhoneMasterDetailRenderer_ChildViewController;
 @class Xamarin_Forms_Platform_iOS_PhoneMasterDetailRenderer;
 @class Xamarin_Forms_Platform_iOS_PickerRenderer_PickerSource;
@@ -115,6 +117,7 @@
 @class UIKit_UISplitViewController__UISplitViewControllerDelegate;
 @class UIKit_UITabBarController__UITabBarControllerDelegate;
 @class UIKit_UIWebView__UIWebViewDelegate;
+@class Microsoft_Identity_Client_WebUI;
 @protocol FBSDKAppGroupAddDialogDelegate;
 @protocol FBSDKCopying;
 @class FBSDKAppGroupContent;
@@ -282,6 +285,23 @@
 	-(void) signInWillDispatch:(id)p0 error:(NSError *)p1;
 	-(void) signIn:(id)p0 presentViewController:(UIViewController *)p1;
 	-(void) signIn:(id)p0 dismissViewController:(UIViewController *)p1;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_PageRenderer : UIViewController {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) viewSafeAreaInsetsDidChange;
+	-(void) viewDidAppear:(BOOL)p0;
+	-(void) viewDidDisappear:(BOOL)p0;
+	-(void) viewDidLoad;
+	-(void) viewWillDisappear:(BOOL)p0;
+	-(NSInteger) preferredStatusBarUpdateAnimation;
+	-(BOOL) prefersStatusBarHidden;
 	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end
@@ -486,23 +506,6 @@
 	-(void) viewDidLayoutSubviews;
 	-(void) viewDidLoad;
 	-(UIViewController *) childViewControllerForStatusBarHidden;
-	-(BOOL) conformsToProtocol:(void *)p0;
-	-(id) init;
-@end
-
-@interface Xamarin_Forms_Platform_iOS_PageRenderer : UIViewController {
-}
-	-(void) release;
-	-(id) retain;
-	-(int) xamarinGetGCHandle;
-	-(void) xamarinSetGCHandle: (int) gchandle;
-	-(void) viewSafeAreaInsetsDidChange;
-	-(void) viewDidAppear:(BOOL)p0;
-	-(void) viewDidDisappear:(BOOL)p0;
-	-(void) viewDidLoad;
-	-(void) viewWillDisappear:(BOOL)p0;
-	-(NSInteger) preferredStatusBarUpdateAnimation;
-	-(BOOL) prefersStatusBarHidden;
 	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end

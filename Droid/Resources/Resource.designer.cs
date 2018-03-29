@@ -26,6 +26,1434 @@ namespace CleverBuoy.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Microsoft.Identity.Client.Resource.Animation.abc_fade_in = global::CleverBuoy.Droid.Resource.Animation.abc_fade_in;
+			global::Microsoft.Identity.Client.Resource.Animation.abc_fade_out = global::CleverBuoy.Droid.Resource.Animation.abc_fade_out;
+			global::Microsoft.Identity.Client.Resource.Animation.abc_grow_fade_in_from_bottom = global::CleverBuoy.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Microsoft.Identity.Client.Resource.Animation.abc_popup_enter = global::CleverBuoy.Droid.Resource.Animation.abc_popup_enter;
+			global::Microsoft.Identity.Client.Resource.Animation.abc_popup_exit = global::CleverBuoy.Droid.Resource.Animation.abc_popup_exit;
+			global::Microsoft.Identity.Client.Resource.Animation.abc_shrink_fade_out_from_bottom = global::CleverBuoy.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Microsoft.Identity.Client.Resource.Animation.abc_slide_in_bottom = global::CleverBuoy.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Microsoft.Identity.Client.Resource.Animation.abc_slide_in_top = global::CleverBuoy.Droid.Resource.Animation.abc_slide_in_top;
+			global::Microsoft.Identity.Client.Resource.Animation.abc_slide_out_bottom = global::CleverBuoy.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Microsoft.Identity.Client.Resource.Animation.abc_slide_out_top = global::CleverBuoy.Droid.Resource.Animation.abc_slide_out_top;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionBarDivider = global::CleverBuoy.Droid.Resource.Attribute.actionBarDivider;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionBarItemBackground = global::CleverBuoy.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionBarPopupTheme = global::CleverBuoy.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionBarSize = global::CleverBuoy.Droid.Resource.Attribute.actionBarSize;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionBarSplitStyle = global::CleverBuoy.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionBarStyle = global::CleverBuoy.Droid.Resource.Attribute.actionBarStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionBarTabBarStyle = global::CleverBuoy.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionBarTabStyle = global::CleverBuoy.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionBarTabTextStyle = global::CleverBuoy.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionBarTheme = global::CleverBuoy.Droid.Resource.Attribute.actionBarTheme;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionBarWidgetTheme = global::CleverBuoy.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionButtonStyle = global::CleverBuoy.Droid.Resource.Attribute.actionButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionDropDownStyle = global::CleverBuoy.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionLayout = global::CleverBuoy.Droid.Resource.Attribute.actionLayout;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionMenuTextAppearance = global::CleverBuoy.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionMenuTextColor = global::CleverBuoy.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionModeBackground = global::CleverBuoy.Droid.Resource.Attribute.actionModeBackground;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionModeCloseButtonStyle = global::CleverBuoy.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionModeCloseDrawable = global::CleverBuoy.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionModeCopyDrawable = global::CleverBuoy.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionModeCutDrawable = global::CleverBuoy.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionModeFindDrawable = global::CleverBuoy.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionModePasteDrawable = global::CleverBuoy.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionModePopupWindowStyle = global::CleverBuoy.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionModeSelectAllDrawable = global::CleverBuoy.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionModeShareDrawable = global::CleverBuoy.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionModeSplitBackground = global::CleverBuoy.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionModeStyle = global::CleverBuoy.Droid.Resource.Attribute.actionModeStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionModeWebSearchDrawable = global::CleverBuoy.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionOverflowButtonStyle = global::CleverBuoy.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionOverflowMenuStyle = global::CleverBuoy.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionProviderClass = global::CleverBuoy.Droid.Resource.Attribute.actionProviderClass;
+			global::Microsoft.Identity.Client.Resource.Attribute.actionViewClass = global::CleverBuoy.Droid.Resource.Attribute.actionViewClass;
+			global::Microsoft.Identity.Client.Resource.Attribute.activityChooserViewStyle = global::CleverBuoy.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.alertDialogButtonGroupStyle = global::CleverBuoy.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.alertDialogCenterButtons = global::CleverBuoy.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Microsoft.Identity.Client.Resource.Attribute.alertDialogStyle = global::CleverBuoy.Droid.Resource.Attribute.alertDialogStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.alertDialogTheme = global::CleverBuoy.Droid.Resource.Attribute.alertDialogTheme;
+			global::Microsoft.Identity.Client.Resource.Attribute.allowStacking = global::CleverBuoy.Droid.Resource.Attribute.allowStacking;
+			global::Microsoft.Identity.Client.Resource.Attribute.alpha = global::CleverBuoy.Droid.Resource.Attribute.alpha;
+			global::Microsoft.Identity.Client.Resource.Attribute.arrowHeadLength = global::CleverBuoy.Droid.Resource.Attribute.arrowHeadLength;
+			global::Microsoft.Identity.Client.Resource.Attribute.arrowShaftLength = global::CleverBuoy.Droid.Resource.Attribute.arrowShaftLength;
+			global::Microsoft.Identity.Client.Resource.Attribute.autoCompleteTextViewStyle = global::CleverBuoy.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.background = global::CleverBuoy.Droid.Resource.Attribute.background;
+			global::Microsoft.Identity.Client.Resource.Attribute.backgroundSplit = global::CleverBuoy.Droid.Resource.Attribute.backgroundSplit;
+			global::Microsoft.Identity.Client.Resource.Attribute.backgroundStacked = global::CleverBuoy.Droid.Resource.Attribute.backgroundStacked;
+			global::Microsoft.Identity.Client.Resource.Attribute.backgroundTint = global::CleverBuoy.Droid.Resource.Attribute.backgroundTint;
+			global::Microsoft.Identity.Client.Resource.Attribute.backgroundTintMode = global::CleverBuoy.Droid.Resource.Attribute.backgroundTintMode;
+			global::Microsoft.Identity.Client.Resource.Attribute.barLength = global::CleverBuoy.Droid.Resource.Attribute.barLength;
+			global::Microsoft.Identity.Client.Resource.Attribute.borderlessButtonStyle = global::CleverBuoy.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.buttonBarButtonStyle = global::CleverBuoy.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.buttonBarNegativeButtonStyle = global::CleverBuoy.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.buttonBarNeutralButtonStyle = global::CleverBuoy.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.buttonBarPositiveButtonStyle = global::CleverBuoy.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.buttonBarStyle = global::CleverBuoy.Droid.Resource.Attribute.buttonBarStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.buttonGravity = global::CleverBuoy.Droid.Resource.Attribute.buttonGravity;
+			global::Microsoft.Identity.Client.Resource.Attribute.buttonPanelSideLayout = global::CleverBuoy.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Microsoft.Identity.Client.Resource.Attribute.buttonStyle = global::CleverBuoy.Droid.Resource.Attribute.buttonStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.buttonStyleSmall = global::CleverBuoy.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Microsoft.Identity.Client.Resource.Attribute.buttonTint = global::CleverBuoy.Droid.Resource.Attribute.buttonTint;
+			global::Microsoft.Identity.Client.Resource.Attribute.buttonTintMode = global::CleverBuoy.Droid.Resource.Attribute.buttonTintMode;
+			global::Microsoft.Identity.Client.Resource.Attribute.checkboxStyle = global::CleverBuoy.Droid.Resource.Attribute.checkboxStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.checkedTextViewStyle = global::CleverBuoy.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.closeIcon = global::CleverBuoy.Droid.Resource.Attribute.closeIcon;
+			global::Microsoft.Identity.Client.Resource.Attribute.closeItemLayout = global::CleverBuoy.Droid.Resource.Attribute.closeItemLayout;
+			global::Microsoft.Identity.Client.Resource.Attribute.collapseContentDescription = global::CleverBuoy.Droid.Resource.Attribute.collapseContentDescription;
+			global::Microsoft.Identity.Client.Resource.Attribute.collapseIcon = global::CleverBuoy.Droid.Resource.Attribute.collapseIcon;
+			global::Microsoft.Identity.Client.Resource.Attribute.color = global::CleverBuoy.Droid.Resource.Attribute.color;
+			global::Microsoft.Identity.Client.Resource.Attribute.colorAccent = global::CleverBuoy.Droid.Resource.Attribute.colorAccent;
+			global::Microsoft.Identity.Client.Resource.Attribute.colorBackgroundFloating = global::CleverBuoy.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Microsoft.Identity.Client.Resource.Attribute.colorButtonNormal = global::CleverBuoy.Droid.Resource.Attribute.colorButtonNormal;
+			global::Microsoft.Identity.Client.Resource.Attribute.colorControlActivated = global::CleverBuoy.Droid.Resource.Attribute.colorControlActivated;
+			global::Microsoft.Identity.Client.Resource.Attribute.colorControlHighlight = global::CleverBuoy.Droid.Resource.Attribute.colorControlHighlight;
+			global::Microsoft.Identity.Client.Resource.Attribute.colorControlNormal = global::CleverBuoy.Droid.Resource.Attribute.colorControlNormal;
+			global::Microsoft.Identity.Client.Resource.Attribute.colorPrimary = global::CleverBuoy.Droid.Resource.Attribute.colorPrimary;
+			global::Microsoft.Identity.Client.Resource.Attribute.colorPrimaryDark = global::CleverBuoy.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Microsoft.Identity.Client.Resource.Attribute.colorSwitchThumbNormal = global::CleverBuoy.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Microsoft.Identity.Client.Resource.Attribute.commitIcon = global::CleverBuoy.Droid.Resource.Attribute.commitIcon;
+			global::Microsoft.Identity.Client.Resource.Attribute.contentInsetEnd = global::CleverBuoy.Droid.Resource.Attribute.contentInsetEnd;
+			global::Microsoft.Identity.Client.Resource.Attribute.contentInsetEndWithActions = global::CleverBuoy.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Microsoft.Identity.Client.Resource.Attribute.contentInsetLeft = global::CleverBuoy.Droid.Resource.Attribute.contentInsetLeft;
+			global::Microsoft.Identity.Client.Resource.Attribute.contentInsetRight = global::CleverBuoy.Droid.Resource.Attribute.contentInsetRight;
+			global::Microsoft.Identity.Client.Resource.Attribute.contentInsetStart = global::CleverBuoy.Droid.Resource.Attribute.contentInsetStart;
+			global::Microsoft.Identity.Client.Resource.Attribute.contentInsetStartWithNavigation = global::CleverBuoy.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Microsoft.Identity.Client.Resource.Attribute.controlBackground = global::CleverBuoy.Droid.Resource.Attribute.controlBackground;
+			global::Microsoft.Identity.Client.Resource.Attribute.customNavigationLayout = global::CleverBuoy.Droid.Resource.Attribute.customNavigationLayout;
+			global::Microsoft.Identity.Client.Resource.Attribute.defaultQueryHint = global::CleverBuoy.Droid.Resource.Attribute.defaultQueryHint;
+			global::Microsoft.Identity.Client.Resource.Attribute.dialogPreferredPadding = global::CleverBuoy.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Microsoft.Identity.Client.Resource.Attribute.dialogTheme = global::CleverBuoy.Droid.Resource.Attribute.dialogTheme;
+			global::Microsoft.Identity.Client.Resource.Attribute.displayOptions = global::CleverBuoy.Droid.Resource.Attribute.displayOptions;
+			global::Microsoft.Identity.Client.Resource.Attribute.divider = global::CleverBuoy.Droid.Resource.Attribute.divider;
+			global::Microsoft.Identity.Client.Resource.Attribute.dividerHorizontal = global::CleverBuoy.Droid.Resource.Attribute.dividerHorizontal;
+			global::Microsoft.Identity.Client.Resource.Attribute.dividerPadding = global::CleverBuoy.Droid.Resource.Attribute.dividerPadding;
+			global::Microsoft.Identity.Client.Resource.Attribute.dividerVertical = global::CleverBuoy.Droid.Resource.Attribute.dividerVertical;
+			global::Microsoft.Identity.Client.Resource.Attribute.drawableSize = global::CleverBuoy.Droid.Resource.Attribute.drawableSize;
+			global::Microsoft.Identity.Client.Resource.Attribute.drawerArrowStyle = global::CleverBuoy.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.dropDownListViewStyle = global::CleverBuoy.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.dropdownListPreferredItemHeight = global::CleverBuoy.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Microsoft.Identity.Client.Resource.Attribute.editTextBackground = global::CleverBuoy.Droid.Resource.Attribute.editTextBackground;
+			global::Microsoft.Identity.Client.Resource.Attribute.editTextColor = global::CleverBuoy.Droid.Resource.Attribute.editTextColor;
+			global::Microsoft.Identity.Client.Resource.Attribute.editTextStyle = global::CleverBuoy.Droid.Resource.Attribute.editTextStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.elevation = global::CleverBuoy.Droid.Resource.Attribute.elevation;
+			global::Microsoft.Identity.Client.Resource.Attribute.expandActivityOverflowButtonDrawable = global::CleverBuoy.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Microsoft.Identity.Client.Resource.Attribute.gapBetweenBars = global::CleverBuoy.Droid.Resource.Attribute.gapBetweenBars;
+			global::Microsoft.Identity.Client.Resource.Attribute.goIcon = global::CleverBuoy.Droid.Resource.Attribute.goIcon;
+			global::Microsoft.Identity.Client.Resource.Attribute.height = global::CleverBuoy.Droid.Resource.Attribute.height;
+			global::Microsoft.Identity.Client.Resource.Attribute.hideOnContentScroll = global::CleverBuoy.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Microsoft.Identity.Client.Resource.Attribute.homeAsUpIndicator = global::CleverBuoy.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Microsoft.Identity.Client.Resource.Attribute.homeLayout = global::CleverBuoy.Droid.Resource.Attribute.homeLayout;
+			global::Microsoft.Identity.Client.Resource.Attribute.icon = global::CleverBuoy.Droid.Resource.Attribute.icon;
+			global::Microsoft.Identity.Client.Resource.Attribute.iconifiedByDefault = global::CleverBuoy.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Microsoft.Identity.Client.Resource.Attribute.imageButtonStyle = global::CleverBuoy.Droid.Resource.Attribute.imageButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.indeterminateProgressStyle = global::CleverBuoy.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.initialActivityCount = global::CleverBuoy.Droid.Resource.Attribute.initialActivityCount;
+			global::Microsoft.Identity.Client.Resource.Attribute.isLightTheme = global::CleverBuoy.Droid.Resource.Attribute.isLightTheme;
+			global::Microsoft.Identity.Client.Resource.Attribute.itemPadding = global::CleverBuoy.Droid.Resource.Attribute.itemPadding;
+			global::Microsoft.Identity.Client.Resource.Attribute.layout = global::CleverBuoy.Droid.Resource.Attribute.layout;
+			global::Microsoft.Identity.Client.Resource.Attribute.listChoiceBackgroundIndicator = global::CleverBuoy.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Microsoft.Identity.Client.Resource.Attribute.listDividerAlertDialog = global::CleverBuoy.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Microsoft.Identity.Client.Resource.Attribute.listItemLayout = global::CleverBuoy.Droid.Resource.Attribute.listItemLayout;
+			global::Microsoft.Identity.Client.Resource.Attribute.listLayout = global::CleverBuoy.Droid.Resource.Attribute.listLayout;
+			global::Microsoft.Identity.Client.Resource.Attribute.listMenuViewStyle = global::CleverBuoy.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.listPopupWindowStyle = global::CleverBuoy.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.listPreferredItemHeight = global::CleverBuoy.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Microsoft.Identity.Client.Resource.Attribute.listPreferredItemHeightLarge = global::CleverBuoy.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Microsoft.Identity.Client.Resource.Attribute.listPreferredItemHeightSmall = global::CleverBuoy.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Microsoft.Identity.Client.Resource.Attribute.listPreferredItemPaddingLeft = global::CleverBuoy.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Microsoft.Identity.Client.Resource.Attribute.listPreferredItemPaddingRight = global::CleverBuoy.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Microsoft.Identity.Client.Resource.Attribute.logo = global::CleverBuoy.Droid.Resource.Attribute.logo;
+			global::Microsoft.Identity.Client.Resource.Attribute.logoDescription = global::CleverBuoy.Droid.Resource.Attribute.logoDescription;
+			global::Microsoft.Identity.Client.Resource.Attribute.maxButtonHeight = global::CleverBuoy.Droid.Resource.Attribute.maxButtonHeight;
+			global::Microsoft.Identity.Client.Resource.Attribute.measureWithLargestChild = global::CleverBuoy.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Microsoft.Identity.Client.Resource.Attribute.multiChoiceItemLayout = global::CleverBuoy.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Microsoft.Identity.Client.Resource.Attribute.navigationContentDescription = global::CleverBuoy.Droid.Resource.Attribute.navigationContentDescription;
+			global::Microsoft.Identity.Client.Resource.Attribute.navigationIcon = global::CleverBuoy.Droid.Resource.Attribute.navigationIcon;
+			global::Microsoft.Identity.Client.Resource.Attribute.navigationMode = global::CleverBuoy.Droid.Resource.Attribute.navigationMode;
+			global::Microsoft.Identity.Client.Resource.Attribute.overlapAnchor = global::CleverBuoy.Droid.Resource.Attribute.overlapAnchor;
+			global::Microsoft.Identity.Client.Resource.Attribute.paddingBottomNoButtons = global::CleverBuoy.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Microsoft.Identity.Client.Resource.Attribute.paddingEnd = global::CleverBuoy.Droid.Resource.Attribute.paddingEnd;
+			global::Microsoft.Identity.Client.Resource.Attribute.paddingStart = global::CleverBuoy.Droid.Resource.Attribute.paddingStart;
+			global::Microsoft.Identity.Client.Resource.Attribute.paddingTopNoTitle = global::CleverBuoy.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Microsoft.Identity.Client.Resource.Attribute.panelBackground = global::CleverBuoy.Droid.Resource.Attribute.panelBackground;
+			global::Microsoft.Identity.Client.Resource.Attribute.panelMenuListTheme = global::CleverBuoy.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Microsoft.Identity.Client.Resource.Attribute.panelMenuListWidth = global::CleverBuoy.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Microsoft.Identity.Client.Resource.Attribute.popupMenuStyle = global::CleverBuoy.Droid.Resource.Attribute.popupMenuStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.popupTheme = global::CleverBuoy.Droid.Resource.Attribute.popupTheme;
+			global::Microsoft.Identity.Client.Resource.Attribute.popupWindowStyle = global::CleverBuoy.Droid.Resource.Attribute.popupWindowStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.preserveIconSpacing = global::CleverBuoy.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Microsoft.Identity.Client.Resource.Attribute.progressBarPadding = global::CleverBuoy.Droid.Resource.Attribute.progressBarPadding;
+			global::Microsoft.Identity.Client.Resource.Attribute.progressBarStyle = global::CleverBuoy.Droid.Resource.Attribute.progressBarStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.queryBackground = global::CleverBuoy.Droid.Resource.Attribute.queryBackground;
+			global::Microsoft.Identity.Client.Resource.Attribute.queryHint = global::CleverBuoy.Droid.Resource.Attribute.queryHint;
+			global::Microsoft.Identity.Client.Resource.Attribute.radioButtonStyle = global::CleverBuoy.Droid.Resource.Attribute.radioButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.ratingBarStyle = global::CleverBuoy.Droid.Resource.Attribute.ratingBarStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.ratingBarStyleIndicator = global::CleverBuoy.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Microsoft.Identity.Client.Resource.Attribute.ratingBarStyleSmall = global::CleverBuoy.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Microsoft.Identity.Client.Resource.Attribute.searchHintIcon = global::CleverBuoy.Droid.Resource.Attribute.searchHintIcon;
+			global::Microsoft.Identity.Client.Resource.Attribute.searchIcon = global::CleverBuoy.Droid.Resource.Attribute.searchIcon;
+			global::Microsoft.Identity.Client.Resource.Attribute.searchViewStyle = global::CleverBuoy.Droid.Resource.Attribute.searchViewStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.seekBarStyle = global::CleverBuoy.Droid.Resource.Attribute.seekBarStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.selectableItemBackground = global::CleverBuoy.Droid.Resource.Attribute.selectableItemBackground;
+			global::Microsoft.Identity.Client.Resource.Attribute.selectableItemBackgroundBorderless = global::CleverBuoy.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Microsoft.Identity.Client.Resource.Attribute.showAsAction = global::CleverBuoy.Droid.Resource.Attribute.showAsAction;
+			global::Microsoft.Identity.Client.Resource.Attribute.showDividers = global::CleverBuoy.Droid.Resource.Attribute.showDividers;
+			global::Microsoft.Identity.Client.Resource.Attribute.showText = global::CleverBuoy.Droid.Resource.Attribute.showText;
+			global::Microsoft.Identity.Client.Resource.Attribute.showTitle = global::CleverBuoy.Droid.Resource.Attribute.showTitle;
+			global::Microsoft.Identity.Client.Resource.Attribute.singleChoiceItemLayout = global::CleverBuoy.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Microsoft.Identity.Client.Resource.Attribute.spinBars = global::CleverBuoy.Droid.Resource.Attribute.spinBars;
+			global::Microsoft.Identity.Client.Resource.Attribute.spinnerDropDownItemStyle = global::CleverBuoy.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.spinnerStyle = global::CleverBuoy.Droid.Resource.Attribute.spinnerStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.splitTrack = global::CleverBuoy.Droid.Resource.Attribute.splitTrack;
+			global::Microsoft.Identity.Client.Resource.Attribute.srcCompat = global::CleverBuoy.Droid.Resource.Attribute.srcCompat;
+			global::Microsoft.Identity.Client.Resource.Attribute.state_above_anchor = global::CleverBuoy.Droid.Resource.Attribute.state_above_anchor;
+			global::Microsoft.Identity.Client.Resource.Attribute.subMenuArrow = global::CleverBuoy.Droid.Resource.Attribute.subMenuArrow;
+			global::Microsoft.Identity.Client.Resource.Attribute.submitBackground = global::CleverBuoy.Droid.Resource.Attribute.submitBackground;
+			global::Microsoft.Identity.Client.Resource.Attribute.subtitle = global::CleverBuoy.Droid.Resource.Attribute.subtitle;
+			global::Microsoft.Identity.Client.Resource.Attribute.subtitleTextAppearance = global::CleverBuoy.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Microsoft.Identity.Client.Resource.Attribute.subtitleTextColor = global::CleverBuoy.Droid.Resource.Attribute.subtitleTextColor;
+			global::Microsoft.Identity.Client.Resource.Attribute.subtitleTextStyle = global::CleverBuoy.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.suggestionRowLayout = global::CleverBuoy.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Microsoft.Identity.Client.Resource.Attribute.switchMinWidth = global::CleverBuoy.Droid.Resource.Attribute.switchMinWidth;
+			global::Microsoft.Identity.Client.Resource.Attribute.switchPadding = global::CleverBuoy.Droid.Resource.Attribute.switchPadding;
+			global::Microsoft.Identity.Client.Resource.Attribute.switchStyle = global::CleverBuoy.Droid.Resource.Attribute.switchStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.switchTextAppearance = global::CleverBuoy.Droid.Resource.Attribute.switchTextAppearance;
+			global::Microsoft.Identity.Client.Resource.Attribute.textAllCaps = global::CleverBuoy.Droid.Resource.Attribute.textAllCaps;
+			global::Microsoft.Identity.Client.Resource.Attribute.textAppearanceLargePopupMenu = global::CleverBuoy.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Microsoft.Identity.Client.Resource.Attribute.textAppearanceListItem = global::CleverBuoy.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Microsoft.Identity.Client.Resource.Attribute.textAppearanceListItemSecondary = global::CleverBuoy.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Microsoft.Identity.Client.Resource.Attribute.textAppearanceListItemSmall = global::CleverBuoy.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Microsoft.Identity.Client.Resource.Attribute.textAppearancePopupMenuHeader = global::CleverBuoy.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Microsoft.Identity.Client.Resource.Attribute.textAppearanceSearchResultSubtitle = global::CleverBuoy.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Microsoft.Identity.Client.Resource.Attribute.textAppearanceSearchResultTitle = global::CleverBuoy.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Microsoft.Identity.Client.Resource.Attribute.textAppearanceSmallPopupMenu = global::CleverBuoy.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Microsoft.Identity.Client.Resource.Attribute.textColorAlertDialogListItem = global::CleverBuoy.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Microsoft.Identity.Client.Resource.Attribute.textColorSearchUrl = global::CleverBuoy.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Microsoft.Identity.Client.Resource.Attribute.theme = global::CleverBuoy.Droid.Resource.Attribute.theme;
+			global::Microsoft.Identity.Client.Resource.Attribute.thickness = global::CleverBuoy.Droid.Resource.Attribute.thickness;
+			global::Microsoft.Identity.Client.Resource.Attribute.thumbTextPadding = global::CleverBuoy.Droid.Resource.Attribute.thumbTextPadding;
+			global::Microsoft.Identity.Client.Resource.Attribute.thumbTint = global::CleverBuoy.Droid.Resource.Attribute.thumbTint;
+			global::Microsoft.Identity.Client.Resource.Attribute.thumbTintMode = global::CleverBuoy.Droid.Resource.Attribute.thumbTintMode;
+			global::Microsoft.Identity.Client.Resource.Attribute.tickMark = global::CleverBuoy.Droid.Resource.Attribute.tickMark;
+			global::Microsoft.Identity.Client.Resource.Attribute.tickMarkTint = global::CleverBuoy.Droid.Resource.Attribute.tickMarkTint;
+			global::Microsoft.Identity.Client.Resource.Attribute.tickMarkTintMode = global::CleverBuoy.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Microsoft.Identity.Client.Resource.Attribute.tint = global::CleverBuoy.Droid.Resource.Attribute.tint;
+			global::Microsoft.Identity.Client.Resource.Attribute.tintMode = global::CleverBuoy.Droid.Resource.Attribute.tintMode;
+			global::Microsoft.Identity.Client.Resource.Attribute.title = global::CleverBuoy.Droid.Resource.Attribute.title;
+			global::Microsoft.Identity.Client.Resource.Attribute.titleMargin = global::CleverBuoy.Droid.Resource.Attribute.titleMargin;
+			global::Microsoft.Identity.Client.Resource.Attribute.titleMarginBottom = global::CleverBuoy.Droid.Resource.Attribute.titleMarginBottom;
+			global::Microsoft.Identity.Client.Resource.Attribute.titleMarginEnd = global::CleverBuoy.Droid.Resource.Attribute.titleMarginEnd;
+			global::Microsoft.Identity.Client.Resource.Attribute.titleMarginStart = global::CleverBuoy.Droid.Resource.Attribute.titleMarginStart;
+			global::Microsoft.Identity.Client.Resource.Attribute.titleMarginTop = global::CleverBuoy.Droid.Resource.Attribute.titleMarginTop;
+			global::Microsoft.Identity.Client.Resource.Attribute.titleMargins = global::CleverBuoy.Droid.Resource.Attribute.titleMargins;
+			global::Microsoft.Identity.Client.Resource.Attribute.titleTextAppearance = global::CleverBuoy.Droid.Resource.Attribute.titleTextAppearance;
+			global::Microsoft.Identity.Client.Resource.Attribute.titleTextColor = global::CleverBuoy.Droid.Resource.Attribute.titleTextColor;
+			global::Microsoft.Identity.Client.Resource.Attribute.titleTextStyle = global::CleverBuoy.Droid.Resource.Attribute.titleTextStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.toolbarNavigationButtonStyle = global::CleverBuoy.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.toolbarStyle = global::CleverBuoy.Droid.Resource.Attribute.toolbarStyle;
+			global::Microsoft.Identity.Client.Resource.Attribute.track = global::CleverBuoy.Droid.Resource.Attribute.track;
+			global::Microsoft.Identity.Client.Resource.Attribute.trackTint = global::CleverBuoy.Droid.Resource.Attribute.trackTint;
+			global::Microsoft.Identity.Client.Resource.Attribute.trackTintMode = global::CleverBuoy.Droid.Resource.Attribute.trackTintMode;
+			global::Microsoft.Identity.Client.Resource.Attribute.voiceIcon = global::CleverBuoy.Droid.Resource.Attribute.voiceIcon;
+			global::Microsoft.Identity.Client.Resource.Attribute.windowActionBar = global::CleverBuoy.Droid.Resource.Attribute.windowActionBar;
+			global::Microsoft.Identity.Client.Resource.Attribute.windowActionBarOverlay = global::CleverBuoy.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Microsoft.Identity.Client.Resource.Attribute.windowActionModeOverlay = global::CleverBuoy.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Microsoft.Identity.Client.Resource.Attribute.windowFixedHeightMajor = global::CleverBuoy.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Microsoft.Identity.Client.Resource.Attribute.windowFixedHeightMinor = global::CleverBuoy.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Microsoft.Identity.Client.Resource.Attribute.windowFixedWidthMajor = global::CleverBuoy.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Microsoft.Identity.Client.Resource.Attribute.windowFixedWidthMinor = global::CleverBuoy.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Microsoft.Identity.Client.Resource.Attribute.windowMinWidthMajor = global::CleverBuoy.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Microsoft.Identity.Client.Resource.Attribute.windowMinWidthMinor = global::CleverBuoy.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Microsoft.Identity.Client.Resource.Attribute.windowNoTitle = global::CleverBuoy.Droid.Resource.Attribute.windowNoTitle;
+			global::Microsoft.Identity.Client.Resource.Boolean.abc_action_bar_embed_tabs = global::CleverBuoy.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Microsoft.Identity.Client.Resource.Boolean.abc_allow_stacked_button_bar = global::CleverBuoy.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Microsoft.Identity.Client.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::CleverBuoy.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Microsoft.Identity.Client.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::CleverBuoy.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::Microsoft.Identity.Client.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::CleverBuoy.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::Microsoft.Identity.Client.Resource.Color.abc_background_cache_hint_selector_material_dark = global::CleverBuoy.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.abc_background_cache_hint_selector_material_light = global::CleverBuoy.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.abc_btn_colored_borderless_text_material = global::CleverBuoy.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Microsoft.Identity.Client.Resource.Color.abc_btn_colored_text_material = global::CleverBuoy.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Microsoft.Identity.Client.Resource.Color.abc_color_highlight_material = global::CleverBuoy.Droid.Resource.Color.abc_color_highlight_material;
+			global::Microsoft.Identity.Client.Resource.Color.abc_hint_foreground_material_dark = global::CleverBuoy.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.abc_hint_foreground_material_light = global::CleverBuoy.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.abc_input_method_navigation_guard = global::CleverBuoy.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Microsoft.Identity.Client.Resource.Color.abc_primary_text_disable_only_material_dark = global::CleverBuoy.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.abc_primary_text_disable_only_material_light = global::CleverBuoy.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.abc_primary_text_material_dark = global::CleverBuoy.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.abc_primary_text_material_light = global::CleverBuoy.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.abc_search_url_text = global::CleverBuoy.Droid.Resource.Color.abc_search_url_text;
+			global::Microsoft.Identity.Client.Resource.Color.abc_search_url_text_normal = global::CleverBuoy.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Microsoft.Identity.Client.Resource.Color.abc_search_url_text_pressed = global::CleverBuoy.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Microsoft.Identity.Client.Resource.Color.abc_search_url_text_selected = global::CleverBuoy.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Microsoft.Identity.Client.Resource.Color.abc_secondary_text_material_dark = global::CleverBuoy.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.abc_secondary_text_material_light = global::CleverBuoy.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.abc_tint_btn_checkable = global::CleverBuoy.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Microsoft.Identity.Client.Resource.Color.abc_tint_default = global::CleverBuoy.Droid.Resource.Color.abc_tint_default;
+			global::Microsoft.Identity.Client.Resource.Color.abc_tint_edittext = global::CleverBuoy.Droid.Resource.Color.abc_tint_edittext;
+			global::Microsoft.Identity.Client.Resource.Color.abc_tint_seek_thumb = global::CleverBuoy.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Microsoft.Identity.Client.Resource.Color.abc_tint_spinner = global::CleverBuoy.Droid.Resource.Color.abc_tint_spinner;
+			global::Microsoft.Identity.Client.Resource.Color.abc_tint_switch_thumb = global::CleverBuoy.Droid.Resource.Color.abc_tint_switch_thumb;
+			global::Microsoft.Identity.Client.Resource.Color.abc_tint_switch_track = global::CleverBuoy.Droid.Resource.Color.abc_tint_switch_track;
+			global::Microsoft.Identity.Client.Resource.Color.accent_material_dark = global::CleverBuoy.Droid.Resource.Color.accent_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.accent_material_light = global::CleverBuoy.Droid.Resource.Color.accent_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.background_floating_material_dark = global::CleverBuoy.Droid.Resource.Color.background_floating_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.background_floating_material_light = global::CleverBuoy.Droid.Resource.Color.background_floating_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.background_material_dark = global::CleverBuoy.Droid.Resource.Color.background_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.background_material_light = global::CleverBuoy.Droid.Resource.Color.background_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.bright_foreground_disabled_material_dark = global::CleverBuoy.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.bright_foreground_disabled_material_light = global::CleverBuoy.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.bright_foreground_inverse_material_dark = global::CleverBuoy.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.bright_foreground_inverse_material_light = global::CleverBuoy.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.bright_foreground_material_dark = global::CleverBuoy.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.bright_foreground_material_light = global::CleverBuoy.Droid.Resource.Color.bright_foreground_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.button_material_dark = global::CleverBuoy.Droid.Resource.Color.button_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.button_material_light = global::CleverBuoy.Droid.Resource.Color.button_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.dim_foreground_disabled_material_dark = global::CleverBuoy.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.dim_foreground_disabled_material_light = global::CleverBuoy.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.dim_foreground_material_dark = global::CleverBuoy.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.dim_foreground_material_light = global::CleverBuoy.Droid.Resource.Color.dim_foreground_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.foreground_material_dark = global::CleverBuoy.Droid.Resource.Color.foreground_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.foreground_material_light = global::CleverBuoy.Droid.Resource.Color.foreground_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.highlighted_text_material_dark = global::CleverBuoy.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.highlighted_text_material_light = global::CleverBuoy.Droid.Resource.Color.highlighted_text_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.material_blue_grey_800 = global::CleverBuoy.Droid.Resource.Color.material_blue_grey_800;
+			global::Microsoft.Identity.Client.Resource.Color.material_blue_grey_900 = global::CleverBuoy.Droid.Resource.Color.material_blue_grey_900;
+			global::Microsoft.Identity.Client.Resource.Color.material_blue_grey_950 = global::CleverBuoy.Droid.Resource.Color.material_blue_grey_950;
+			global::Microsoft.Identity.Client.Resource.Color.material_deep_teal_200 = global::CleverBuoy.Droid.Resource.Color.material_deep_teal_200;
+			global::Microsoft.Identity.Client.Resource.Color.material_deep_teal_500 = global::CleverBuoy.Droid.Resource.Color.material_deep_teal_500;
+			global::Microsoft.Identity.Client.Resource.Color.material_grey_100 = global::CleverBuoy.Droid.Resource.Color.material_grey_100;
+			global::Microsoft.Identity.Client.Resource.Color.material_grey_300 = global::CleverBuoy.Droid.Resource.Color.material_grey_300;
+			global::Microsoft.Identity.Client.Resource.Color.material_grey_50 = global::CleverBuoy.Droid.Resource.Color.material_grey_50;
+			global::Microsoft.Identity.Client.Resource.Color.material_grey_600 = global::CleverBuoy.Droid.Resource.Color.material_grey_600;
+			global::Microsoft.Identity.Client.Resource.Color.material_grey_800 = global::CleverBuoy.Droid.Resource.Color.material_grey_800;
+			global::Microsoft.Identity.Client.Resource.Color.material_grey_850 = global::CleverBuoy.Droid.Resource.Color.material_grey_850;
+			global::Microsoft.Identity.Client.Resource.Color.material_grey_900 = global::CleverBuoy.Droid.Resource.Color.material_grey_900;
+			global::Microsoft.Identity.Client.Resource.Color.notification_action_color_filter = global::CleverBuoy.Droid.Resource.Color.notification_action_color_filter;
+			global::Microsoft.Identity.Client.Resource.Color.notification_icon_bg_color = global::CleverBuoy.Droid.Resource.Color.notification_icon_bg_color;
+			global::Microsoft.Identity.Client.Resource.Color.notification_material_background_media_default_color = global::CleverBuoy.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Microsoft.Identity.Client.Resource.Color.primary_dark_material_dark = global::CleverBuoy.Droid.Resource.Color.primary_dark_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.primary_dark_material_light = global::CleverBuoy.Droid.Resource.Color.primary_dark_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.primary_material_dark = global::CleverBuoy.Droid.Resource.Color.primary_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.primary_material_light = global::CleverBuoy.Droid.Resource.Color.primary_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.primary_text_default_material_dark = global::CleverBuoy.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.primary_text_default_material_light = global::CleverBuoy.Droid.Resource.Color.primary_text_default_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.primary_text_disabled_material_dark = global::CleverBuoy.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.primary_text_disabled_material_light = global::CleverBuoy.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.ripple_material_dark = global::CleverBuoy.Droid.Resource.Color.ripple_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.ripple_material_light = global::CleverBuoy.Droid.Resource.Color.ripple_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.secondary_text_default_material_dark = global::CleverBuoy.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.secondary_text_default_material_light = global::CleverBuoy.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.secondary_text_disabled_material_dark = global::CleverBuoy.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.secondary_text_disabled_material_light = global::CleverBuoy.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.switch_thumb_disabled_material_dark = global::CleverBuoy.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.switch_thumb_disabled_material_light = global::CleverBuoy.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.switch_thumb_material_dark = global::CleverBuoy.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.switch_thumb_material_light = global::CleverBuoy.Droid.Resource.Color.switch_thumb_material_light;
+			global::Microsoft.Identity.Client.Resource.Color.switch_thumb_normal_material_dark = global::CleverBuoy.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Microsoft.Identity.Client.Resource.Color.switch_thumb_normal_material_light = global::CleverBuoy.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_content_inset_material = global::CleverBuoy.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::CleverBuoy.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_default_height_material = global::CleverBuoy.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_default_padding_end_material = global::CleverBuoy.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_default_padding_start_material = global::CleverBuoy.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_elevation_material = global::CleverBuoy.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::CleverBuoy.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::CleverBuoy.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::CleverBuoy.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_progress_bar_size = global::CleverBuoy.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_stacked_max_height = global::CleverBuoy.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::CleverBuoy.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::CleverBuoy.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::CleverBuoy.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_button_min_height_material = global::CleverBuoy.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_button_min_width_material = global::CleverBuoy.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_action_button_min_width_overflow_material = global::CleverBuoy.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_alert_dialog_button_bar_height = global::CleverBuoy.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_button_inset_horizontal_material = global::CleverBuoy.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_button_inset_vertical_material = global::CleverBuoy.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_button_padding_horizontal_material = global::CleverBuoy.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_button_padding_vertical_material = global::CleverBuoy.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::CleverBuoy.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_config_prefDialogWidth = global::CleverBuoy.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_control_corner_material = global::CleverBuoy.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_control_inset_material = global::CleverBuoy.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_control_padding_material = global::CleverBuoy.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_fixed_height_major = global::CleverBuoy.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_fixed_height_minor = global::CleverBuoy.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_fixed_width_major = global::CleverBuoy.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_fixed_width_minor = global::CleverBuoy.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::CleverBuoy.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::CleverBuoy.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_min_width_major = global::CleverBuoy.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_min_width_minor = global::CleverBuoy.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_padding_material = global::CleverBuoy.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_padding_top_material = global::CleverBuoy.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_dialog_title_divider_material = global::CleverBuoy.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_disabled_alpha_material_dark = global::CleverBuoy.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_disabled_alpha_material_light = global::CleverBuoy.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_dropdownitem_icon_width = global::CleverBuoy.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_dropdownitem_text_padding_left = global::CleverBuoy.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_dropdownitem_text_padding_right = global::CleverBuoy.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_edit_text_inset_bottom_material = global::CleverBuoy.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::CleverBuoy.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_edit_text_inset_top_material = global::CleverBuoy.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_floating_window_z = global::CleverBuoy.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_list_item_padding_horizontal_material = global::CleverBuoy.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_panel_menu_list_width = global::CleverBuoy.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_progress_bar_height_material = global::CleverBuoy.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_search_view_preferred_height = global::CleverBuoy.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_search_view_preferred_width = global::CleverBuoy.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_seekbar_track_background_height_material = global::CleverBuoy.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_seekbar_track_progress_height_material = global::CleverBuoy.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_select_dialog_padding_start_material = global::CleverBuoy.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_switch_padding = global::CleverBuoy.Droid.Resource.Dimension.abc_switch_padding;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_body_1_material = global::CleverBuoy.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_body_2_material = global::CleverBuoy.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_button_material = global::CleverBuoy.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_caption_material = global::CleverBuoy.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_display_1_material = global::CleverBuoy.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_display_2_material = global::CleverBuoy.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_display_3_material = global::CleverBuoy.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_display_4_material = global::CleverBuoy.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_headline_material = global::CleverBuoy.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_large_material = global::CleverBuoy.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_medium_material = global::CleverBuoy.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_menu_header_material = global::CleverBuoy.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_menu_material = global::CleverBuoy.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_small_material = global::CleverBuoy.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_subhead_material = global::CleverBuoy.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::CleverBuoy.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_title_material = global::CleverBuoy.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Microsoft.Identity.Client.Resource.Dimension.abc_text_size_title_material_toolbar = global::CleverBuoy.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Microsoft.Identity.Client.Resource.Dimension.disabled_alpha_material_dark = global::CleverBuoy.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Microsoft.Identity.Client.Resource.Dimension.disabled_alpha_material_light = global::CleverBuoy.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Microsoft.Identity.Client.Resource.Dimension.highlight_alpha_material_colored = global::CleverBuoy.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Microsoft.Identity.Client.Resource.Dimension.highlight_alpha_material_dark = global::CleverBuoy.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Microsoft.Identity.Client.Resource.Dimension.highlight_alpha_material_light = global::CleverBuoy.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Microsoft.Identity.Client.Resource.Dimension.hint_alpha_material_dark = global::CleverBuoy.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Microsoft.Identity.Client.Resource.Dimension.hint_alpha_material_light = global::CleverBuoy.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Microsoft.Identity.Client.Resource.Dimension.hint_pressed_alpha_material_dark = global::CleverBuoy.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Microsoft.Identity.Client.Resource.Dimension.hint_pressed_alpha_material_light = global::CleverBuoy.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_action_icon_size = global::CleverBuoy.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_action_text_size = global::CleverBuoy.Droid.Resource.Dimension.notification_action_text_size;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_big_circle_margin = global::CleverBuoy.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_content_margin_start = global::CleverBuoy.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_large_icon_height = global::CleverBuoy.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_large_icon_width = global::CleverBuoy.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_main_column_padding_top = global::CleverBuoy.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_media_narrow_margin = global::CleverBuoy.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_right_icon_size = global::CleverBuoy.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_right_side_padding_top = global::CleverBuoy.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_small_icon_background_padding = global::CleverBuoy.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_small_icon_size_as_large = global::CleverBuoy.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_subtext_size = global::CleverBuoy.Droid.Resource.Dimension.notification_subtext_size;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_top_pad = global::CleverBuoy.Droid.Resource.Dimension.notification_top_pad;
+			global::Microsoft.Identity.Client.Resource.Dimension.notification_top_pad_large_text = global::CleverBuoy.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::CleverBuoy.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_action_bar_item_background_material = global::CleverBuoy.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_btn_borderless_material = global::CleverBuoy.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_btn_check_material = global::CleverBuoy.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::CleverBuoy.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::CleverBuoy.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_btn_colored_material = global::CleverBuoy.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_btn_default_mtrl_shape = global::CleverBuoy.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_btn_radio_material = global::CleverBuoy.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::CleverBuoy.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::CleverBuoy.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::CleverBuoy.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::CleverBuoy.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_cab_background_internal_bg = global::CleverBuoy.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_cab_background_top_material = global::CleverBuoy.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::CleverBuoy.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_control_background_material = global::CleverBuoy.Droid.Resource.Drawable.abc_control_background_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_dialog_material_background = global::CleverBuoy.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_edit_text_material = global::CleverBuoy.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_ab_back_material = global::CleverBuoy.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::CleverBuoy.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_clear_material = global::CleverBuoy.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::CleverBuoy.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_go_search_api_material = global::CleverBuoy.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::CleverBuoy.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::CleverBuoy.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_menu_overflow_material = global::CleverBuoy.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::CleverBuoy.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::CleverBuoy.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::CleverBuoy.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_search_api_material = global::CleverBuoy.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_star_black_16dp = global::CleverBuoy.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_star_black_36dp = global::CleverBuoy.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_star_black_48dp = global::CleverBuoy.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_star_half_black_16dp = global::CleverBuoy.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_star_half_black_36dp = global::CleverBuoy.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_star_half_black_48dp = global::CleverBuoy.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ic_voice_search_api_material = global::CleverBuoy.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_item_background_holo_dark = global::CleverBuoy.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_item_background_holo_light = global::CleverBuoy.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_list_divider_mtrl_alpha = global::CleverBuoy.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_list_focused_holo = global::CleverBuoy.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_list_longpressed_holo = global::CleverBuoy.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_list_pressed_holo_dark = global::CleverBuoy.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_list_pressed_holo_light = global::CleverBuoy.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::CleverBuoy.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::CleverBuoy.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::CleverBuoy.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_list_selector_disabled_holo_light = global::CleverBuoy.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_list_selector_holo_dark = global::CleverBuoy.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_list_selector_holo_light = global::CleverBuoy.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::CleverBuoy.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_popup_background_mtrl_mult = global::CleverBuoy.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ratingbar_indicator_material = global::CleverBuoy.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ratingbar_material = global::CleverBuoy.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_ratingbar_small_material = global::CleverBuoy.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::CleverBuoy.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::CleverBuoy.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::CleverBuoy.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::CleverBuoy.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::CleverBuoy.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_seekbar_thumb_material = global::CleverBuoy.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_seekbar_tick_mark_material = global::CleverBuoy.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_seekbar_track_material = global::CleverBuoy.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::CleverBuoy.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_spinner_textfield_background_material = global::CleverBuoy.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_switch_thumb_material = global::CleverBuoy.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_switch_track_mtrl_alpha = global::CleverBuoy.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_tab_indicator_material = global::CleverBuoy.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::CleverBuoy.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_text_cursor_material = global::CleverBuoy.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::CleverBuoy.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::CleverBuoy.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::CleverBuoy.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::CleverBuoy.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::CleverBuoy.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::CleverBuoy.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::CleverBuoy.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::CleverBuoy.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::CleverBuoy.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::CleverBuoy.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_textfield_search_material = global::CleverBuoy.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Microsoft.Identity.Client.Resource.Drawable.abc_vector_test = global::CleverBuoy.Droid.Resource.Drawable.abc_vector_test;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_action_background = global::CleverBuoy.Droid.Resource.Drawable.notification_action_background;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_bg = global::CleverBuoy.Droid.Resource.Drawable.notification_bg;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_bg_low = global::CleverBuoy.Droid.Resource.Drawable.notification_bg_low;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_bg_low_normal = global::CleverBuoy.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_bg_low_pressed = global::CleverBuoy.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_bg_normal = global::CleverBuoy.Droid.Resource.Drawable.notification_bg_normal;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_bg_normal_pressed = global::CleverBuoy.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_icon_background = global::CleverBuoy.Droid.Resource.Drawable.notification_icon_background;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_template_icon_bg = global::CleverBuoy.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_template_icon_low_bg = global::CleverBuoy.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Microsoft.Identity.Client.Resource.Drawable.notification_tile_bg = global::CleverBuoy.Droid.Resource.Drawable.notification_tile_bg;
+			global::Microsoft.Identity.Client.Resource.Drawable.notify_panel_notification_icon_bg = global::CleverBuoy.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Microsoft.Identity.Client.Resource.Id.action0 = global::CleverBuoy.Droid.Resource.Id.action0;
+			global::Microsoft.Identity.Client.Resource.Id.action_bar = global::CleverBuoy.Droid.Resource.Id.action_bar;
+			global::Microsoft.Identity.Client.Resource.Id.action_bar_activity_content = global::CleverBuoy.Droid.Resource.Id.action_bar_activity_content;
+			global::Microsoft.Identity.Client.Resource.Id.action_bar_container = global::CleverBuoy.Droid.Resource.Id.action_bar_container;
+			global::Microsoft.Identity.Client.Resource.Id.action_bar_root = global::CleverBuoy.Droid.Resource.Id.action_bar_root;
+			global::Microsoft.Identity.Client.Resource.Id.action_bar_spinner = global::CleverBuoy.Droid.Resource.Id.action_bar_spinner;
+			global::Microsoft.Identity.Client.Resource.Id.action_bar_subtitle = global::CleverBuoy.Droid.Resource.Id.action_bar_subtitle;
+			global::Microsoft.Identity.Client.Resource.Id.action_bar_title = global::CleverBuoy.Droid.Resource.Id.action_bar_title;
+			global::Microsoft.Identity.Client.Resource.Id.action_container = global::CleverBuoy.Droid.Resource.Id.action_container;
+			global::Microsoft.Identity.Client.Resource.Id.action_context_bar = global::CleverBuoy.Droid.Resource.Id.action_context_bar;
+			global::Microsoft.Identity.Client.Resource.Id.action_divider = global::CleverBuoy.Droid.Resource.Id.action_divider;
+			global::Microsoft.Identity.Client.Resource.Id.action_image = global::CleverBuoy.Droid.Resource.Id.action_image;
+			global::Microsoft.Identity.Client.Resource.Id.action_menu_divider = global::CleverBuoy.Droid.Resource.Id.action_menu_divider;
+			global::Microsoft.Identity.Client.Resource.Id.action_menu_presenter = global::CleverBuoy.Droid.Resource.Id.action_menu_presenter;
+			global::Microsoft.Identity.Client.Resource.Id.action_mode_bar = global::CleverBuoy.Droid.Resource.Id.action_mode_bar;
+			global::Microsoft.Identity.Client.Resource.Id.action_mode_bar_stub = global::CleverBuoy.Droid.Resource.Id.action_mode_bar_stub;
+			global::Microsoft.Identity.Client.Resource.Id.action_mode_close_button = global::CleverBuoy.Droid.Resource.Id.action_mode_close_button;
+			global::Microsoft.Identity.Client.Resource.Id.action_text = global::CleverBuoy.Droid.Resource.Id.action_text;
+			global::Microsoft.Identity.Client.Resource.Id.actions = global::CleverBuoy.Droid.Resource.Id.actions;
+			global::Microsoft.Identity.Client.Resource.Id.activity_chooser_view_content = global::CleverBuoy.Droid.Resource.Id.activity_chooser_view_content;
+			global::Microsoft.Identity.Client.Resource.Id.add = global::CleverBuoy.Droid.Resource.Id.add;
+			global::Microsoft.Identity.Client.Resource.Id.alertTitle = global::CleverBuoy.Droid.Resource.Id.alertTitle;
+			global::Microsoft.Identity.Client.Resource.Id.always = global::CleverBuoy.Droid.Resource.Id.always;
+			global::Microsoft.Identity.Client.Resource.Id.beginning = global::CleverBuoy.Droid.Resource.Id.beginning;
+			global::Microsoft.Identity.Client.Resource.Id.bottom = global::CleverBuoy.Droid.Resource.Id.bottom;
+			global::Microsoft.Identity.Client.Resource.Id.buttonPanel = global::CleverBuoy.Droid.Resource.Id.buttonPanel;
+			global::Microsoft.Identity.Client.Resource.Id.cancel_action = global::CleverBuoy.Droid.Resource.Id.cancel_action;
+			global::Microsoft.Identity.Client.Resource.Id.checkbox = global::CleverBuoy.Droid.Resource.Id.checkbox;
+			global::Microsoft.Identity.Client.Resource.Id.chronometer = global::CleverBuoy.Droid.Resource.Id.chronometer;
+			global::Microsoft.Identity.Client.Resource.Id.collapseActionView = global::CleverBuoy.Droid.Resource.Id.collapseActionView;
+			global::Microsoft.Identity.Client.Resource.Id.contentPanel = global::CleverBuoy.Droid.Resource.Id.contentPanel;
+			global::Microsoft.Identity.Client.Resource.Id.custom = global::CleverBuoy.Droid.Resource.Id.custom;
+			global::Microsoft.Identity.Client.Resource.Id.customPanel = global::CleverBuoy.Droid.Resource.Id.customPanel;
+			global::Microsoft.Identity.Client.Resource.Id.decor_content_parent = global::CleverBuoy.Droid.Resource.Id.decor_content_parent;
+			global::Microsoft.Identity.Client.Resource.Id.default_activity_button = global::CleverBuoy.Droid.Resource.Id.default_activity_button;
+			global::Microsoft.Identity.Client.Resource.Id.disableHome = global::CleverBuoy.Droid.Resource.Id.disableHome;
+			global::Microsoft.Identity.Client.Resource.Id.edit_query = global::CleverBuoy.Droid.Resource.Id.edit_query;
+			global::Microsoft.Identity.Client.Resource.Id.end = global::CleverBuoy.Droid.Resource.Id.end;
+			global::Microsoft.Identity.Client.Resource.Id.end_padder = global::CleverBuoy.Droid.Resource.Id.end_padder;
+			global::Microsoft.Identity.Client.Resource.Id.expand_activities_button = global::CleverBuoy.Droid.Resource.Id.expand_activities_button;
+			global::Microsoft.Identity.Client.Resource.Id.expanded_menu = global::CleverBuoy.Droid.Resource.Id.expanded_menu;
+			global::Microsoft.Identity.Client.Resource.Id.home = global::CleverBuoy.Droid.Resource.Id.home;
+			global::Microsoft.Identity.Client.Resource.Id.homeAsUp = global::CleverBuoy.Droid.Resource.Id.homeAsUp;
+			global::Microsoft.Identity.Client.Resource.Id.icon = global::CleverBuoy.Droid.Resource.Id.icon;
+			global::Microsoft.Identity.Client.Resource.Id.icon_group = global::CleverBuoy.Droid.Resource.Id.icon_group;
+			global::Microsoft.Identity.Client.Resource.Id.ifRoom = global::CleverBuoy.Droid.Resource.Id.ifRoom;
+			global::Microsoft.Identity.Client.Resource.Id.image = global::CleverBuoy.Droid.Resource.Id.image;
+			global::Microsoft.Identity.Client.Resource.Id.info = global::CleverBuoy.Droid.Resource.Id.info;
+			global::Microsoft.Identity.Client.Resource.Id.line1 = global::CleverBuoy.Droid.Resource.Id.line1;
+			global::Microsoft.Identity.Client.Resource.Id.line3 = global::CleverBuoy.Droid.Resource.Id.line3;
+			global::Microsoft.Identity.Client.Resource.Id.listMode = global::CleverBuoy.Droid.Resource.Id.listMode;
+			global::Microsoft.Identity.Client.Resource.Id.list_item = global::CleverBuoy.Droid.Resource.Id.list_item;
+			global::Microsoft.Identity.Client.Resource.Id.media_actions = global::CleverBuoy.Droid.Resource.Id.media_actions;
+			global::Microsoft.Identity.Client.Resource.Id.middle = global::CleverBuoy.Droid.Resource.Id.middle;
+			global::Microsoft.Identity.Client.Resource.Id.multiply = global::CleverBuoy.Droid.Resource.Id.multiply;
+			global::Microsoft.Identity.Client.Resource.Id.never = global::CleverBuoy.Droid.Resource.Id.never;
+			global::Microsoft.Identity.Client.Resource.Id.none = global::CleverBuoy.Droid.Resource.Id.none;
+			global::Microsoft.Identity.Client.Resource.Id.normal = global::CleverBuoy.Droid.Resource.Id.normal;
+			global::Microsoft.Identity.Client.Resource.Id.notification_background = global::CleverBuoy.Droid.Resource.Id.notification_background;
+			global::Microsoft.Identity.Client.Resource.Id.notification_main_column = global::CleverBuoy.Droid.Resource.Id.notification_main_column;
+			global::Microsoft.Identity.Client.Resource.Id.notification_main_column_container = global::CleverBuoy.Droid.Resource.Id.notification_main_column_container;
+			global::Microsoft.Identity.Client.Resource.Id.parentPanel = global::CleverBuoy.Droid.Resource.Id.parentPanel;
+			global::Microsoft.Identity.Client.Resource.Id.progress_circular = global::CleverBuoy.Droid.Resource.Id.progress_circular;
+			global::Microsoft.Identity.Client.Resource.Id.progress_horizontal = global::CleverBuoy.Droid.Resource.Id.progress_horizontal;
+			global::Microsoft.Identity.Client.Resource.Id.radio = global::CleverBuoy.Droid.Resource.Id.radio;
+			global::Microsoft.Identity.Client.Resource.Id.right_icon = global::CleverBuoy.Droid.Resource.Id.right_icon;
+			global::Microsoft.Identity.Client.Resource.Id.right_side = global::CleverBuoy.Droid.Resource.Id.right_side;
+			global::Microsoft.Identity.Client.Resource.Id.screen = global::CleverBuoy.Droid.Resource.Id.screen;
+			global::Microsoft.Identity.Client.Resource.Id.scrollIndicatorDown = global::CleverBuoy.Droid.Resource.Id.scrollIndicatorDown;
+			global::Microsoft.Identity.Client.Resource.Id.scrollIndicatorUp = global::CleverBuoy.Droid.Resource.Id.scrollIndicatorUp;
+			global::Microsoft.Identity.Client.Resource.Id.scrollView = global::CleverBuoy.Droid.Resource.Id.scrollView;
+			global::Microsoft.Identity.Client.Resource.Id.search_badge = global::CleverBuoy.Droid.Resource.Id.search_badge;
+			global::Microsoft.Identity.Client.Resource.Id.search_bar = global::CleverBuoy.Droid.Resource.Id.search_bar;
+			global::Microsoft.Identity.Client.Resource.Id.search_button = global::CleverBuoy.Droid.Resource.Id.search_button;
+			global::Microsoft.Identity.Client.Resource.Id.search_close_btn = global::CleverBuoy.Droid.Resource.Id.search_close_btn;
+			global::Microsoft.Identity.Client.Resource.Id.search_edit_frame = global::CleverBuoy.Droid.Resource.Id.search_edit_frame;
+			global::Microsoft.Identity.Client.Resource.Id.search_go_btn = global::CleverBuoy.Droid.Resource.Id.search_go_btn;
+			global::Microsoft.Identity.Client.Resource.Id.search_mag_icon = global::CleverBuoy.Droid.Resource.Id.search_mag_icon;
+			global::Microsoft.Identity.Client.Resource.Id.search_plate = global::CleverBuoy.Droid.Resource.Id.search_plate;
+			global::Microsoft.Identity.Client.Resource.Id.search_src_text = global::CleverBuoy.Droid.Resource.Id.search_src_text;
+			global::Microsoft.Identity.Client.Resource.Id.search_voice_btn = global::CleverBuoy.Droid.Resource.Id.search_voice_btn;
+			global::Microsoft.Identity.Client.Resource.Id.select_dialog_listview = global::CleverBuoy.Droid.Resource.Id.select_dialog_listview;
+			global::Microsoft.Identity.Client.Resource.Id.shortcut = global::CleverBuoy.Droid.Resource.Id.shortcut;
+			global::Microsoft.Identity.Client.Resource.Id.showCustom = global::CleverBuoy.Droid.Resource.Id.showCustom;
+			global::Microsoft.Identity.Client.Resource.Id.showHome = global::CleverBuoy.Droid.Resource.Id.showHome;
+			global::Microsoft.Identity.Client.Resource.Id.showTitle = global::CleverBuoy.Droid.Resource.Id.showTitle;
+			global::Microsoft.Identity.Client.Resource.Id.spacer = global::CleverBuoy.Droid.Resource.Id.spacer;
+			global::Microsoft.Identity.Client.Resource.Id.split_action_bar = global::CleverBuoy.Droid.Resource.Id.split_action_bar;
+			global::Microsoft.Identity.Client.Resource.Id.src_atop = global::CleverBuoy.Droid.Resource.Id.src_atop;
+			global::Microsoft.Identity.Client.Resource.Id.src_in = global::CleverBuoy.Droid.Resource.Id.src_in;
+			global::Microsoft.Identity.Client.Resource.Id.src_over = global::CleverBuoy.Droid.Resource.Id.src_over;
+			global::Microsoft.Identity.Client.Resource.Id.status_bar_latest_event_content = global::CleverBuoy.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Microsoft.Identity.Client.Resource.Id.submenuarrow = global::CleverBuoy.Droid.Resource.Id.submenuarrow;
+			global::Microsoft.Identity.Client.Resource.Id.submit_area = global::CleverBuoy.Droid.Resource.Id.submit_area;
+			global::Microsoft.Identity.Client.Resource.Id.tabMode = global::CleverBuoy.Droid.Resource.Id.tabMode;
+			global::Microsoft.Identity.Client.Resource.Id.text = global::CleverBuoy.Droid.Resource.Id.text;
+			global::Microsoft.Identity.Client.Resource.Id.text2 = global::CleverBuoy.Droid.Resource.Id.text2;
+			global::Microsoft.Identity.Client.Resource.Id.textSpacerNoButtons = global::CleverBuoy.Droid.Resource.Id.textSpacerNoButtons;
+			global::Microsoft.Identity.Client.Resource.Id.textSpacerNoTitle = global::CleverBuoy.Droid.Resource.Id.textSpacerNoTitle;
+			global::Microsoft.Identity.Client.Resource.Id.time = global::CleverBuoy.Droid.Resource.Id.time;
+			global::Microsoft.Identity.Client.Resource.Id.title = global::CleverBuoy.Droid.Resource.Id.title;
+			global::Microsoft.Identity.Client.Resource.Id.titleDividerNoCustom = global::CleverBuoy.Droid.Resource.Id.titleDividerNoCustom;
+			global::Microsoft.Identity.Client.Resource.Id.title_template = global::CleverBuoy.Droid.Resource.Id.title_template;
+			global::Microsoft.Identity.Client.Resource.Id.top = global::CleverBuoy.Droid.Resource.Id.top;
+			global::Microsoft.Identity.Client.Resource.Id.topPanel = global::CleverBuoy.Droid.Resource.Id.topPanel;
+			global::Microsoft.Identity.Client.Resource.Id.up = global::CleverBuoy.Droid.Resource.Id.up;
+			global::Microsoft.Identity.Client.Resource.Id.useLogo = global::CleverBuoy.Droid.Resource.Id.useLogo;
+			global::Microsoft.Identity.Client.Resource.Id.withText = global::CleverBuoy.Droid.Resource.Id.withText;
+			global::Microsoft.Identity.Client.Resource.Id.wrap_content = global::CleverBuoy.Droid.Resource.Id.wrap_content;
+			global::Microsoft.Identity.Client.Resource.Integer.abc_config_activityDefaultDur = global::CleverBuoy.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Microsoft.Identity.Client.Resource.Integer.abc_config_activityShortDur = global::CleverBuoy.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Microsoft.Identity.Client.Resource.Integer.cancel_button_image_alpha = global::CleverBuoy.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Microsoft.Identity.Client.Resource.Integer.status_bar_notification_info_maxnum = global::CleverBuoy.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_action_bar_title_item = global::CleverBuoy.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_action_bar_up_container = global::CleverBuoy.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_action_bar_view_list_nav_layout = global::CleverBuoy.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_action_menu_item_layout = global::CleverBuoy.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_action_menu_layout = global::CleverBuoy.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_action_mode_bar = global::CleverBuoy.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_action_mode_close_item_material = global::CleverBuoy.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_activity_chooser_view = global::CleverBuoy.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_activity_chooser_view_list_item = global::CleverBuoy.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_alert_dialog_button_bar_material = global::CleverBuoy.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_alert_dialog_material = global::CleverBuoy.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_alert_dialog_title_material = global::CleverBuoy.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_dialog_title_material = global::CleverBuoy.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_expanded_menu_layout = global::CleverBuoy.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_list_menu_item_checkbox = global::CleverBuoy.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_list_menu_item_icon = global::CleverBuoy.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_list_menu_item_layout = global::CleverBuoy.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_list_menu_item_radio = global::CleverBuoy.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_popup_menu_header_item_layout = global::CleverBuoy.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_popup_menu_item_layout = global::CleverBuoy.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_screen_content_include = global::CleverBuoy.Droid.Resource.Layout.abc_screen_content_include;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_screen_simple = global::CleverBuoy.Droid.Resource.Layout.abc_screen_simple;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_screen_simple_overlay_action_mode = global::CleverBuoy.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_screen_toolbar = global::CleverBuoy.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_search_dropdown_item_icons_2line = global::CleverBuoy.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_search_view = global::CleverBuoy.Droid.Resource.Layout.abc_search_view;
+			global::Microsoft.Identity.Client.Resource.Layout.abc_select_dialog_material = global::CleverBuoy.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_action = global::CleverBuoy.Droid.Resource.Layout.notification_action;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_action_tombstone = global::CleverBuoy.Droid.Resource.Layout.notification_action_tombstone;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_media_action = global::CleverBuoy.Droid.Resource.Layout.notification_media_action;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_media_cancel_action = global::CleverBuoy.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_template_big_media = global::CleverBuoy.Droid.Resource.Layout.notification_template_big_media;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_template_big_media_custom = global::CleverBuoy.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_template_big_media_narrow = global::CleverBuoy.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_template_big_media_narrow_custom = global::CleverBuoy.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_template_custom_big = global::CleverBuoy.Droid.Resource.Layout.notification_template_custom_big;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_template_icon_group = global::CleverBuoy.Droid.Resource.Layout.notification_template_icon_group;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_template_lines_media = global::CleverBuoy.Droid.Resource.Layout.notification_template_lines_media;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_template_media = global::CleverBuoy.Droid.Resource.Layout.notification_template_media;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_template_media_custom = global::CleverBuoy.Droid.Resource.Layout.notification_template_media_custom;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_template_part_chronometer = global::CleverBuoy.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Microsoft.Identity.Client.Resource.Layout.notification_template_part_time = global::CleverBuoy.Droid.Resource.Layout.notification_template_part_time;
+			global::Microsoft.Identity.Client.Resource.Layout.select_dialog_item_material = global::CleverBuoy.Droid.Resource.Layout.select_dialog_item_material;
+			global::Microsoft.Identity.Client.Resource.Layout.select_dialog_multichoice_material = global::CleverBuoy.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Microsoft.Identity.Client.Resource.Layout.select_dialog_singlechoice_material = global::CleverBuoy.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Microsoft.Identity.Client.Resource.Layout.support_simple_spinner_dropdown_item = global::CleverBuoy.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Microsoft.Identity.Client.Resource.String.abc_action_bar_home_description = global::CleverBuoy.Droid.Resource.String.abc_action_bar_home_description;
+			global::Microsoft.Identity.Client.Resource.String.abc_action_bar_home_description_format = global::CleverBuoy.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::Microsoft.Identity.Client.Resource.String.abc_action_bar_home_subtitle_description_format = global::CleverBuoy.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::Microsoft.Identity.Client.Resource.String.abc_action_bar_up_description = global::CleverBuoy.Droid.Resource.String.abc_action_bar_up_description;
+			global::Microsoft.Identity.Client.Resource.String.abc_action_menu_overflow_description = global::CleverBuoy.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Microsoft.Identity.Client.Resource.String.abc_action_mode_done = global::CleverBuoy.Droid.Resource.String.abc_action_mode_done;
+			global::Microsoft.Identity.Client.Resource.String.abc_activity_chooser_view_see_all = global::CleverBuoy.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Microsoft.Identity.Client.Resource.String.abc_activitychooserview_choose_application = global::CleverBuoy.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Microsoft.Identity.Client.Resource.String.abc_capital_off = global::CleverBuoy.Droid.Resource.String.abc_capital_off;
+			global::Microsoft.Identity.Client.Resource.String.abc_capital_on = global::CleverBuoy.Droid.Resource.String.abc_capital_on;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_body_1_material = global::CleverBuoy.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_body_2_material = global::CleverBuoy.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_button_material = global::CleverBuoy.Droid.Resource.String.abc_font_family_button_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_caption_material = global::CleverBuoy.Droid.Resource.String.abc_font_family_caption_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_display_1_material = global::CleverBuoy.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_display_2_material = global::CleverBuoy.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_display_3_material = global::CleverBuoy.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_display_4_material = global::CleverBuoy.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_headline_material = global::CleverBuoy.Droid.Resource.String.abc_font_family_headline_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_menu_material = global::CleverBuoy.Droid.Resource.String.abc_font_family_menu_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_subhead_material = global::CleverBuoy.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_font_family_title_material = global::CleverBuoy.Droid.Resource.String.abc_font_family_title_material;
+			global::Microsoft.Identity.Client.Resource.String.abc_search_hint = global::CleverBuoy.Droid.Resource.String.abc_search_hint;
+			global::Microsoft.Identity.Client.Resource.String.abc_searchview_description_clear = global::CleverBuoy.Droid.Resource.String.abc_searchview_description_clear;
+			global::Microsoft.Identity.Client.Resource.String.abc_searchview_description_query = global::CleverBuoy.Droid.Resource.String.abc_searchview_description_query;
+			global::Microsoft.Identity.Client.Resource.String.abc_searchview_description_search = global::CleverBuoy.Droid.Resource.String.abc_searchview_description_search;
+			global::Microsoft.Identity.Client.Resource.String.abc_searchview_description_submit = global::CleverBuoy.Droid.Resource.String.abc_searchview_description_submit;
+			global::Microsoft.Identity.Client.Resource.String.abc_searchview_description_voice = global::CleverBuoy.Droid.Resource.String.abc_searchview_description_voice;
+			global::Microsoft.Identity.Client.Resource.String.abc_shareactionprovider_share_with = global::CleverBuoy.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Microsoft.Identity.Client.Resource.String.abc_shareactionprovider_share_with_application = global::CleverBuoy.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Microsoft.Identity.Client.Resource.String.abc_toolbar_collapse_description = global::CleverBuoy.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Microsoft.Identity.Client.Resource.String.search_menu_title = global::CleverBuoy.Droid.Resource.String.search_menu_title;
+			global::Microsoft.Identity.Client.Resource.String.status_bar_notification_info_overflow = global::CleverBuoy.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Microsoft.Identity.Client.Resource.Style.AlertDialog_AppCompat = global::CleverBuoy.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.AlertDialog_AppCompat_Light = global::CleverBuoy.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Microsoft.Identity.Client.Resource.Style.Animation_AppCompat_Dialog = global::CleverBuoy.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Animation_AppCompat_DropDownUp = global::CleverBuoy.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Microsoft.Identity.Client.Resource.Style.Base_AlertDialog_AppCompat = global::CleverBuoy.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.Base_AlertDialog_AppCompat_Light = global::CleverBuoy.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Animation_AppCompat_Dialog = global::CleverBuoy.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::CleverBuoy.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Microsoft.Identity.Client.Resource.Style.Base_DialogWindowTitle_AppCompat = global::CleverBuoy.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::CleverBuoy.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Button = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Large = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Small = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Title = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Microsoft.Identity.Client.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::CleverBuoy.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Theme_AppCompat = global::CleverBuoy.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::CleverBuoy.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Theme_AppCompat_Dialog = global::CleverBuoy.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::CleverBuoy.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::CleverBuoy.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::CleverBuoy.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::CleverBuoy.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Theme_AppCompat_Light = global::CleverBuoy.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::CleverBuoy.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::CleverBuoy.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::CleverBuoy.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::CleverBuoy.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::CleverBuoy.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::CleverBuoy.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Microsoft.Identity.Client.Resource.Style.Base_ThemeOverlay_AppCompat = global::CleverBuoy.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::CleverBuoy.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::CleverBuoy.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Microsoft.Identity.Client.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::CleverBuoy.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::CleverBuoy.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::CleverBuoy.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Microsoft.Identity.Client.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::CleverBuoy.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::CleverBuoy.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::CleverBuoy.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::CleverBuoy.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::CleverBuoy.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::CleverBuoy.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V21_Theme_AppCompat = global::CleverBuoy.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::CleverBuoy.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V21_Theme_AppCompat_Light = global::CleverBuoy.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::CleverBuoy.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::CleverBuoy.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V22_Theme_AppCompat = global::CleverBuoy.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V22_Theme_AppCompat_Light = global::CleverBuoy.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V23_Theme_AppCompat = global::CleverBuoy.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V23_Theme_AppCompat_Light = global::CleverBuoy.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V7_Theme_AppCompat = global::CleverBuoy.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::CleverBuoy.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V7_Theme_AppCompat_Light = global::CleverBuoy.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::CleverBuoy.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::CleverBuoy.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::CleverBuoy.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Microsoft.Identity.Client.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::CleverBuoy.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ActionBar = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ActionButton = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ActionMode = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Button = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Button_Small = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_EditText = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ImageButton = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ListView = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_RatingBar = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_SearchView = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_SeekBar = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Spinner = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Toolbar = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Microsoft.Identity.Client.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::CleverBuoy.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Microsoft.Identity.Client.Resource.Style.Platform_AppCompat = global::CleverBuoy.Droid.Resource.Style.Platform_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.Platform_AppCompat_Light = global::CleverBuoy.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Microsoft.Identity.Client.Resource.Style.Platform_ThemeOverlay_AppCompat = global::CleverBuoy.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::CleverBuoy.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Microsoft.Identity.Client.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::CleverBuoy.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Microsoft.Identity.Client.Resource.Style.Platform_V11_AppCompat = global::CleverBuoy.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.Platform_V11_AppCompat_Light = global::CleverBuoy.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::Microsoft.Identity.Client.Resource.Style.Platform_V14_AppCompat = global::CleverBuoy.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.Platform_V14_AppCompat_Light = global::CleverBuoy.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::Microsoft.Identity.Client.Resource.Style.Platform_V21_AppCompat = global::CleverBuoy.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.Platform_V21_AppCompat_Light = global::CleverBuoy.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Microsoft.Identity.Client.Resource.Style.Platform_Widget_AppCompat_Spinner = global::CleverBuoy.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Microsoft.Identity.Client.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::CleverBuoy.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::CleverBuoy.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Microsoft.Identity.Client.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::CleverBuoy.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Microsoft.Identity.Client.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::CleverBuoy.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Microsoft.Identity.Client.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::CleverBuoy.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Microsoft.Identity.Client.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::CleverBuoy.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Microsoft.Identity.Client.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::CleverBuoy.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Microsoft.Identity.Client.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::CleverBuoy.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Microsoft.Identity.Client.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::CleverBuoy.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Microsoft.Identity.Client.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::CleverBuoy.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Microsoft.Identity.Client.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::CleverBuoy.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Microsoft.Identity.Client.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::CleverBuoy.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Microsoft.Identity.Client.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::CleverBuoy.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Microsoft.Identity.Client.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::CleverBuoy.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Body1 = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Body2 = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Button = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Caption = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Display1 = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Display2 = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Display3 = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Display4 = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Headline = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Inverse = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Large = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Medium = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Menu = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Notification;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification_Info = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification_Line2 = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification_Media = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Media;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification_Time = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification_Title = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Small = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Subhead = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Title = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CleverBuoy.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_StatusBar_EventContent = global::CleverBuoy.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::CleverBuoy.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::CleverBuoy.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::CleverBuoy.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::CleverBuoy.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CleverBuoy.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CleverBuoy.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Microsoft.Identity.Client.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::CleverBuoy.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_CompactMenu = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_DayNight = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_Dialog = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_Dialog_Alert = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_Light = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_Light_Dialog = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.Theme_AppCompat_NoActionBar = global::CleverBuoy.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.ThemeOverlay_AppCompat = global::CleverBuoy.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Microsoft.Identity.Client.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::CleverBuoy.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.ThemeOverlay_AppCompat_Dark = global::CleverBuoy.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Microsoft.Identity.Client.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::CleverBuoy.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::CleverBuoy.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Microsoft.Identity.Client.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::CleverBuoy.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Microsoft.Identity.Client.Resource.Style.ThemeOverlay_AppCompat_Light = global::CleverBuoy.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ActionBar = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ActionButton = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ActionMode = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ActivityChooserView = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Button = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Button_Borderless = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Button_Colored = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Button_Small = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ButtonBar = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_EditText = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ImageButton = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_ActionBar = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_ActionButton = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_SearchView = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ListMenuView = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ListPopupWindow = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ListView = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ListView_DropDown = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ListView_Menu = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_NotificationActionContainer = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_NotificationActionContainer;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_NotificationActionText = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_NotificationActionText;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_PopupMenu = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_PopupWindow = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ProgressBar = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_RatingBar = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_RatingBar_Small = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_SearchView = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_SeekBar = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Spinner = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Toolbar = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Microsoft.Identity.Client.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::CleverBuoy.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar = global::CleverBuoy.Droid.Resource.Styleable.ActionBar;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_background = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_background;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_backgroundSplit = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_backgroundStacked = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_contentInsetEnd = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_contentInsetLeft = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_contentInsetRight = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_contentInsetStart = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_customNavigationLayout = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_displayOptions = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_divider = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_divider;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_elevation = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_height = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_height;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_hideOnContentScroll = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_homeAsUpIndicator = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_homeLayout = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_icon = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_icon;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_itemPadding = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_logo = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_logo;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_navigationMode = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_popupTheme = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_progressBarPadding = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_progressBarStyle = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_subtitle = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_subtitleTextStyle = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_title = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_title;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBar_titleTextStyle = global::CleverBuoy.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBarLayout = global::CleverBuoy.Droid.Resource.Styleable.ActionBarLayout;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::CleverBuoy.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionMenuItemView = global::CleverBuoy.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionMenuItemView_android_minWidth = global::CleverBuoy.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionMenuView = global::CleverBuoy.Droid.Resource.Styleable.ActionMenuView;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionMode = global::CleverBuoy.Droid.Resource.Styleable.ActionMode;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionMode_background = global::CleverBuoy.Droid.Resource.Styleable.ActionMode_background;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionMode_backgroundSplit = global::CleverBuoy.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionMode_closeItemLayout = global::CleverBuoy.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionMode_height = global::CleverBuoy.Droid.Resource.Styleable.ActionMode_height;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionMode_subtitleTextStyle = global::CleverBuoy.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActionMode_titleTextStyle = global::CleverBuoy.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActivityChooserView = global::CleverBuoy.Droid.Resource.Styleable.ActivityChooserView;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::CleverBuoy.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Microsoft.Identity.Client.Resource.Styleable.ActivityChooserView_initialActivityCount = global::CleverBuoy.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Microsoft.Identity.Client.Resource.Styleable.AlertDialog = global::CleverBuoy.Droid.Resource.Styleable.AlertDialog;
+			global::Microsoft.Identity.Client.Resource.Styleable.AlertDialog_android_layout = global::CleverBuoy.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Microsoft.Identity.Client.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::CleverBuoy.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Microsoft.Identity.Client.Resource.Styleable.AlertDialog_listItemLayout = global::CleverBuoy.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Microsoft.Identity.Client.Resource.Styleable.AlertDialog_listLayout = global::CleverBuoy.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Microsoft.Identity.Client.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::CleverBuoy.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Microsoft.Identity.Client.Resource.Styleable.AlertDialog_showTitle = global::CleverBuoy.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::CleverBuoy.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatImageView = global::CleverBuoy.Droid.Resource.Styleable.AppCompatImageView;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatImageView_android_src = global::CleverBuoy.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatImageView_srcCompat = global::CleverBuoy.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatImageView_tint = global::CleverBuoy.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatImageView_tintMode = global::CleverBuoy.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatSeekBar = global::CleverBuoy.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatSeekBar_android_thumb = global::CleverBuoy.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatSeekBar_tickMark = global::CleverBuoy.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::CleverBuoy.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::CleverBuoy.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextHelper = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextView = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTextView;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextView_android_textAppearance = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTextView_textAllCaps = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionBarDivider = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionBarSize = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionBarStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionBarTheme = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionModeBackground = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionModeStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_buttonStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_checkboxStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_colorAccent = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_colorControlActivated = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_colorControlNormal = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_colorPrimary = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_controlBackground = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_dialogTheme = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_dividerVertical = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_editTextBackground = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_editTextColor = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_editTextStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_panelBackground = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_searchViewStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_seekBarStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_spinnerStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_switchStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_toolbarStyle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_windowActionBar = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Microsoft.Identity.Client.Resource.Styleable.AppCompatTheme_windowNoTitle = global::CleverBuoy.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Microsoft.Identity.Client.Resource.Styleable.ButtonBarLayout = global::CleverBuoy.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Microsoft.Identity.Client.Resource.Styleable.ButtonBarLayout_allowStacking = global::CleverBuoy.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Microsoft.Identity.Client.Resource.Styleable.ColorStateListItem = global::CleverBuoy.Droid.Resource.Styleable.ColorStateListItem;
+			global::Microsoft.Identity.Client.Resource.Styleable.ColorStateListItem_alpha = global::CleverBuoy.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Microsoft.Identity.Client.Resource.Styleable.ColorStateListItem_android_alpha = global::CleverBuoy.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Microsoft.Identity.Client.Resource.Styleable.ColorStateListItem_android_color = global::CleverBuoy.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Microsoft.Identity.Client.Resource.Styleable.CompoundButton = global::CleverBuoy.Droid.Resource.Styleable.CompoundButton;
+			global::Microsoft.Identity.Client.Resource.Styleable.CompoundButton_android_button = global::CleverBuoy.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Microsoft.Identity.Client.Resource.Styleable.CompoundButton_buttonTint = global::CleverBuoy.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Microsoft.Identity.Client.Resource.Styleable.CompoundButton_buttonTintMode = global::CleverBuoy.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Microsoft.Identity.Client.Resource.Styleable.DrawerArrowToggle = global::CleverBuoy.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Microsoft.Identity.Client.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::CleverBuoy.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Microsoft.Identity.Client.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::CleverBuoy.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Microsoft.Identity.Client.Resource.Styleable.DrawerArrowToggle_barLength = global::CleverBuoy.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Microsoft.Identity.Client.Resource.Styleable.DrawerArrowToggle_color = global::CleverBuoy.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Microsoft.Identity.Client.Resource.Styleable.DrawerArrowToggle_drawableSize = global::CleverBuoy.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Microsoft.Identity.Client.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::CleverBuoy.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Microsoft.Identity.Client.Resource.Styleable.DrawerArrowToggle_spinBars = global::CleverBuoy.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Microsoft.Identity.Client.Resource.Styleable.DrawerArrowToggle_thickness = global::CleverBuoy.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Microsoft.Identity.Client.Resource.Styleable.LinearLayoutCompat = global::CleverBuoy.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Microsoft.Identity.Client.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::CleverBuoy.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Microsoft.Identity.Client.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::CleverBuoy.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Microsoft.Identity.Client.Resource.Styleable.LinearLayoutCompat_android_gravity = global::CleverBuoy.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Microsoft.Identity.Client.Resource.Styleable.LinearLayoutCompat_android_orientation = global::CleverBuoy.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Microsoft.Identity.Client.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::CleverBuoy.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Microsoft.Identity.Client.Resource.Styleable.LinearLayoutCompat_divider = global::CleverBuoy.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Microsoft.Identity.Client.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::CleverBuoy.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Microsoft.Identity.Client.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::CleverBuoy.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Microsoft.Identity.Client.Resource.Styleable.LinearLayoutCompat_showDividers = global::CleverBuoy.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Microsoft.Identity.Client.Resource.Styleable.LinearLayoutCompat_Layout = global::CleverBuoy.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Microsoft.Identity.Client.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::CleverBuoy.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Microsoft.Identity.Client.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::CleverBuoy.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Microsoft.Identity.Client.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::CleverBuoy.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Microsoft.Identity.Client.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::CleverBuoy.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Microsoft.Identity.Client.Resource.Styleable.ListPopupWindow = global::CleverBuoy.Droid.Resource.Styleable.ListPopupWindow;
+			global::Microsoft.Identity.Client.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::CleverBuoy.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Microsoft.Identity.Client.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::CleverBuoy.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuGroup = global::CleverBuoy.Droid.Resource.Styleable.MenuGroup;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuGroup_android_checkableBehavior = global::CleverBuoy.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuGroup_android_enabled = global::CleverBuoy.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuGroup_android_id = global::CleverBuoy.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuGroup_android_menuCategory = global::CleverBuoy.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuGroup_android_orderInCategory = global::CleverBuoy.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuGroup_android_visible = global::CleverBuoy.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuItem = global::CleverBuoy.Droid.Resource.Styleable.MenuItem;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuItem_actionLayout = global::CleverBuoy.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuItem_actionProviderClass = global::CleverBuoy.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuItem_actionViewClass = global::CleverBuoy.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::CleverBuoy.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuItem_android_checkable = global::CleverBuoy.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuItem_android_checked = global::CleverBuoy.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuItem_android_enabled = global::CleverBuoy.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuItem_android_icon = global::CleverBuoy.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuItem_android_id = global::CleverBuoy.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuItem_android_menuCategory = global::CleverBuoy.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuItem_android_numericShortcut = global::CleverBuoy.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuItem_android_onClick = global::CleverBuoy.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuItem_android_orderInCategory = global::CleverBuoy.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuItem_android_title = global::CleverBuoy.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuItem_android_titleCondensed = global::CleverBuoy.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuItem_android_visible = global::CleverBuoy.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuItem_showAsAction = global::CleverBuoy.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuView = global::CleverBuoy.Droid.Resource.Styleable.MenuView;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuView_android_headerBackground = global::CleverBuoy.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuView_android_horizontalDivider = global::CleverBuoy.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuView_android_itemBackground = global::CleverBuoy.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::CleverBuoy.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuView_android_itemTextAppearance = global::CleverBuoy.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuView_android_verticalDivider = global::CleverBuoy.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuView_android_windowAnimationStyle = global::CleverBuoy.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuView_preserveIconSpacing = global::CleverBuoy.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Microsoft.Identity.Client.Resource.Styleable.MenuView_subMenuArrow = global::CleverBuoy.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Microsoft.Identity.Client.Resource.Styleable.PopupWindow = global::CleverBuoy.Droid.Resource.Styleable.PopupWindow;
+			global::Microsoft.Identity.Client.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::CleverBuoy.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.PopupWindow_android_popupBackground = global::CleverBuoy.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Microsoft.Identity.Client.Resource.Styleable.PopupWindow_overlapAnchor = global::CleverBuoy.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Microsoft.Identity.Client.Resource.Styleable.PopupWindowBackgroundState = global::CleverBuoy.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Microsoft.Identity.Client.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::CleverBuoy.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Microsoft.Identity.Client.Resource.Styleable.RecycleListView = global::CleverBuoy.Droid.Resource.Styleable.RecycleListView;
+			global::Microsoft.Identity.Client.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::CleverBuoy.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Microsoft.Identity.Client.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::CleverBuoy.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Microsoft.Identity.Client.Resource.Styleable.SearchView = global::CleverBuoy.Droid.Resource.Styleable.SearchView;
+			global::Microsoft.Identity.Client.Resource.Styleable.SearchView_android_focusable = global::CleverBuoy.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Microsoft.Identity.Client.Resource.Styleable.SearchView_android_imeOptions = global::CleverBuoy.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Microsoft.Identity.Client.Resource.Styleable.SearchView_android_inputType = global::CleverBuoy.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Microsoft.Identity.Client.Resource.Styleable.SearchView_android_maxWidth = global::CleverBuoy.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Microsoft.Identity.Client.Resource.Styleable.SearchView_closeIcon = global::CleverBuoy.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Microsoft.Identity.Client.Resource.Styleable.SearchView_commitIcon = global::CleverBuoy.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Microsoft.Identity.Client.Resource.Styleable.SearchView_defaultQueryHint = global::CleverBuoy.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Microsoft.Identity.Client.Resource.Styleable.SearchView_goIcon = global::CleverBuoy.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Microsoft.Identity.Client.Resource.Styleable.SearchView_iconifiedByDefault = global::CleverBuoy.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Microsoft.Identity.Client.Resource.Styleable.SearchView_layout = global::CleverBuoy.Droid.Resource.Styleable.SearchView_layout;
+			global::Microsoft.Identity.Client.Resource.Styleable.SearchView_queryBackground = global::CleverBuoy.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Microsoft.Identity.Client.Resource.Styleable.SearchView_queryHint = global::CleverBuoy.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Microsoft.Identity.Client.Resource.Styleable.SearchView_searchHintIcon = global::CleverBuoy.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Microsoft.Identity.Client.Resource.Styleable.SearchView_searchIcon = global::CleverBuoy.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Microsoft.Identity.Client.Resource.Styleable.SearchView_submitBackground = global::CleverBuoy.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Microsoft.Identity.Client.Resource.Styleable.SearchView_suggestionRowLayout = global::CleverBuoy.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Microsoft.Identity.Client.Resource.Styleable.SearchView_voiceIcon = global::CleverBuoy.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Microsoft.Identity.Client.Resource.Styleable.Spinner = global::CleverBuoy.Droid.Resource.Styleable.Spinner;
+			global::Microsoft.Identity.Client.Resource.Styleable.Spinner_android_dropDownWidth = global::CleverBuoy.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Microsoft.Identity.Client.Resource.Styleable.Spinner_android_entries = global::CleverBuoy.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Microsoft.Identity.Client.Resource.Styleable.Spinner_android_popupBackground = global::CleverBuoy.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Microsoft.Identity.Client.Resource.Styleable.Spinner_android_prompt = global::CleverBuoy.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Microsoft.Identity.Client.Resource.Styleable.Spinner_popupTheme = global::CleverBuoy.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat = global::CleverBuoy.Droid.Resource.Styleable.SwitchCompat;
+			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_android_textOff = global::CleverBuoy.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_android_textOn = global::CleverBuoy.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_android_thumb = global::CleverBuoy.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_showText = global::CleverBuoy.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_splitTrack = global::CleverBuoy.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_switchMinWidth = global::CleverBuoy.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_switchPadding = global::CleverBuoy.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_switchTextAppearance = global::CleverBuoy.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_thumbTextPadding = global::CleverBuoy.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_thumbTint = global::CleverBuoy.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_thumbTintMode = global::CleverBuoy.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_track = global::CleverBuoy.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_trackTint = global::CleverBuoy.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Microsoft.Identity.Client.Resource.Styleable.SwitchCompat_trackTintMode = global::CleverBuoy.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance = global::CleverBuoy.Droid.Resource.Styleable.TextAppearance;
+			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance_android_shadowColor = global::CleverBuoy.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance_android_shadowDx = global::CleverBuoy.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance_android_shadowDy = global::CleverBuoy.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance_android_shadowRadius = global::CleverBuoy.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance_android_textColor = global::CleverBuoy.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance_android_textColorHint = global::CleverBuoy.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance_android_textSize = global::CleverBuoy.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance_android_textStyle = global::CleverBuoy.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance_android_typeface = global::CleverBuoy.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Microsoft.Identity.Client.Resource.Styleable.TextAppearance_textAllCaps = global::CleverBuoy.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar = global::CleverBuoy.Droid.Resource.Styleable.Toolbar;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_android_gravity = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_android_minHeight = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_buttonGravity = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_collapseContentDescription = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_collapseIcon = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_contentInsetEnd = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_contentInsetLeft = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_contentInsetRight = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_contentInsetStart = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_logo = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_logo;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_logoDescription = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_maxButtonHeight = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_navigationContentDescription = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_navigationIcon = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_popupTheme = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_subtitle = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_subtitleTextAppearance = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_subtitleTextColor = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_title = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_title;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_titleMargin = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_titleMarginBottom = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_titleMarginEnd = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_titleMarginStart = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_titleMarginTop = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_titleMargins = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_titleTextAppearance = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Microsoft.Identity.Client.Resource.Styleable.Toolbar_titleTextColor = global::CleverBuoy.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Microsoft.Identity.Client.Resource.Styleable.View = global::CleverBuoy.Droid.Resource.Styleable.View;
+			global::Microsoft.Identity.Client.Resource.Styleable.View_android_focusable = global::CleverBuoy.Droid.Resource.Styleable.View_android_focusable;
+			global::Microsoft.Identity.Client.Resource.Styleable.View_android_theme = global::CleverBuoy.Droid.Resource.Styleable.View_android_theme;
+			global::Microsoft.Identity.Client.Resource.Styleable.View_paddingEnd = global::CleverBuoy.Droid.Resource.Styleable.View_paddingEnd;
+			global::Microsoft.Identity.Client.Resource.Styleable.View_paddingStart = global::CleverBuoy.Droid.Resource.Styleable.View_paddingStart;
+			global::Microsoft.Identity.Client.Resource.Styleable.View_theme = global::CleverBuoy.Droid.Resource.Styleable.View_theme;
+			global::Microsoft.Identity.Client.Resource.Styleable.ViewBackgroundHelper = global::CleverBuoy.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Microsoft.Identity.Client.Resource.Styleable.ViewBackgroundHelper_android_background = global::CleverBuoy.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Microsoft.Identity.Client.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::CleverBuoy.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Microsoft.Identity.Client.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::CleverBuoy.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Microsoft.Identity.Client.Resource.Styleable.ViewStubCompat = global::CleverBuoy.Droid.Resource.Styleable.ViewStubCompat;
+			global::Microsoft.Identity.Client.Resource.Styleable.ViewStubCompat_android_id = global::CleverBuoy.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Microsoft.Identity.Client.Resource.Styleable.ViewStubCompat_android_inflatedId = global::CleverBuoy.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Microsoft.Identity.Client.Resource.Styleable.ViewStubCompat_android_layout = global::CleverBuoy.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::CleverBuoy.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -4478,44 +5906,44 @@ namespace CleverBuoy.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f0b00c4
-			public const int AlertDialog_AppCompat = 2131427524;
-			
-			// aapt resource value: 0x7f0b00c5
-			public const int AlertDialog_AppCompat_Light = 2131427525;
-			
 			// aapt resource value: 0x7f0b00c6
-			public const int Animation_AppCompat_Dialog = 2131427526;
+			public const int AlertDialog_AppCompat = 2131427526;
 			
 			// aapt resource value: 0x7f0b00c7
-			public const int Animation_AppCompat_DropDownUp = 2131427527;
-			
-			// aapt resource value: 0x7f0b0186
-			public const int Animation_Design_BottomSheetDialog = 2131427718;
-			
-			// aapt resource value: 0x7f0b01a1
-			public const int AppCompatDialogStyle = 2131427745;
+			public const int AlertDialog_AppCompat_Light = 2131427527;
 			
 			// aapt resource value: 0x7f0b00c8
-			public const int Base_AlertDialog_AppCompat = 2131427528;
+			public const int Animation_AppCompat_Dialog = 2131427528;
 			
 			// aapt resource value: 0x7f0b00c9
-			public const int Base_AlertDialog_AppCompat_Light = 2131427529;
+			public const int Animation_AppCompat_DropDownUp = 2131427529;
+			
+			// aapt resource value: 0x7f0b0188
+			public const int Animation_Design_BottomSheetDialog = 2131427720;
+			
+			// aapt resource value: 0x7f0b01a3
+			public const int AppCompatDialogStyle = 2131427747;
 			
 			// aapt resource value: 0x7f0b00ca
-			public const int Base_Animation_AppCompat_Dialog = 2131427530;
+			public const int Base_AlertDialog_AppCompat = 2131427530;
 			
 			// aapt resource value: 0x7f0b00cb
-			public const int Base_Animation_AppCompat_DropDownUp = 2131427531;
+			public const int Base_AlertDialog_AppCompat_Light = 2131427531;
+			
+			// aapt resource value: 0x7f0b00cc
+			public const int Base_Animation_AppCompat_Dialog = 2131427532;
+			
+			// aapt resource value: 0x7f0b00cd
+			public const int Base_Animation_AppCompat_DropDownUp = 2131427533;
 			
 			// aapt resource value: 0x7f0b0024
 			public const int Base_CardView = 2131427364;
 			
-			// aapt resource value: 0x7f0b00cc
-			public const int Base_DialogWindowTitle_AppCompat = 2131427532;
+			// aapt resource value: 0x7f0b00ce
+			public const int Base_DialogWindowTitle_AppCompat = 2131427534;
 			
-			// aapt resource value: 0x7f0b00cd
-			public const int Base_DialogWindowTitleBackground_AppCompat = 2131427533;
+			// aapt resource value: 0x7f0b00cf
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131427535;
 			
 			// aapt resource value: 0x7f0b0066
 			public const int Base_TextAppearance_AppCompat = 2131427430;
@@ -4571,8 +5999,8 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b0073
 			public const int Base_TextAppearance_AppCompat_Menu = 2131427443;
 			
-			// aapt resource value: 0x7f0b00ce
-			public const int Base_TextAppearance_AppCompat_SearchResult = 2131427534;
+			// aapt resource value: 0x7f0b00d0
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131427536;
 			
 			// aapt resource value: 0x7f0b0074
 			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131427444;
@@ -4631,8 +6059,8 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b00bc
 			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131427516;
 			
-			// aapt resource value: 0x7f0b00cf
-			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131427535;
+			// aapt resource value: 0x7f0b00d1
+			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131427537;
 			
 			// aapt resource value: 0x7f0b0080
 			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131427456;
@@ -4649,8 +6077,8 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b0084
 			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131427460;
 			
-			// aapt resource value: 0x7f0b00d0
-			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131427536;
+			// aapt resource value: 0x7f0b00d2
+			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131427538;
 			
 			// aapt resource value: 0x7f0b0085
 			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131427461;
@@ -4661,8 +6089,8 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b0087
 			public const int Base_Theme_AppCompat = 2131427463;
 			
-			// aapt resource value: 0x7f0b00d1
-			public const int Base_Theme_AppCompat_CompactMenu = 2131427537;
+			// aapt resource value: 0x7f0b00d3
+			public const int Base_Theme_AppCompat_CompactMenu = 2131427539;
 			
 			// aapt resource value: 0x7f0b0038
 			public const int Base_Theme_AppCompat_Dialog = 2131427384;
@@ -4670,8 +6098,8 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b0039
 			public const int Base_Theme_AppCompat_Dialog_Alert = 2131427385;
 			
-			// aapt resource value: 0x7f0b00d2
-			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131427538;
+			// aapt resource value: 0x7f0b00d4
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131427540;
 			
 			// aapt resource value: 0x7f0b003a
 			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131427386;
@@ -4682,8 +6110,8 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b0088
 			public const int Base_Theme_AppCompat_Light = 2131427464;
 			
-			// aapt resource value: 0x7f0b00d3
-			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131427539;
+			// aapt resource value: 0x7f0b00d5
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131427541;
 			
 			// aapt resource value: 0x7f0b003b
 			public const int Base_Theme_AppCompat_Light_Dialog = 2131427387;
@@ -4691,8 +6119,8 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b003c
 			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131427388;
 			
-			// aapt resource value: 0x7f0b00d4
-			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131427540;
+			// aapt resource value: 0x7f0b00d6
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131427542;
 			
 			// aapt resource value: 0x7f0b003d
 			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131427389;
@@ -4700,17 +6128,17 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b0029
 			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131427369;
 			
-			// aapt resource value: 0x7f0b00d5
-			public const int Base_ThemeOverlay_AppCompat = 2131427541;
-			
-			// aapt resource value: 0x7f0b00d6
-			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131427542;
-			
 			// aapt resource value: 0x7f0b00d7
-			public const int Base_ThemeOverlay_AppCompat_Dark = 2131427543;
+			public const int Base_ThemeOverlay_AppCompat = 2131427543;
 			
 			// aapt resource value: 0x7f0b00d8
-			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131427544;
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131427544;
+			
+			// aapt resource value: 0x7f0b00d9
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131427545;
+			
+			// aapt resource value: 0x7f0b00da
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131427546;
 			
 			// aapt resource value: 0x7f0b003e
 			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131427390;
@@ -4718,8 +6146,8 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b003f
 			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131427391;
 			
-			// aapt resource value: 0x7f0b00d9
-			public const int Base_ThemeOverlay_AppCompat_Light = 2131427545;
+			// aapt resource value: 0x7f0b00db
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131427547;
 			
 			// aapt resource value: 0x7f0b0040
 			public const int Base_V11_Theme_AppCompat_Dialog = 2131427392;
@@ -4763,35 +6191,35 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b00be
 			public const int Base_V23_Theme_AppCompat_Light = 2131427518;
 			
-			// aapt resource value: 0x7f0b00da
-			public const int Base_V7_Theme_AppCompat = 2131427546;
-			
-			// aapt resource value: 0x7f0b00db
-			public const int Base_V7_Theme_AppCompat_Dialog = 2131427547;
-			
 			// aapt resource value: 0x7f0b00dc
-			public const int Base_V7_Theme_AppCompat_Light = 2131427548;
+			public const int Base_V7_Theme_AppCompat = 2131427548;
 			
 			// aapt resource value: 0x7f0b00dd
-			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131427549;
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131427549;
 			
 			// aapt resource value: 0x7f0b00de
-			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131427550;
+			public const int Base_V7_Theme_AppCompat_Light = 2131427550;
 			
 			// aapt resource value: 0x7f0b00df
-			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131427551;
+			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131427551;
 			
 			// aapt resource value: 0x7f0b00e0
-			public const int Base_V7_Widget_AppCompat_EditText = 2131427552;
+			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131427552;
 			
 			// aapt resource value: 0x7f0b00e1
-			public const int Base_Widget_AppCompat_ActionBar = 2131427553;
+			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131427553;
 			
 			// aapt resource value: 0x7f0b00e2
-			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131427554;
+			public const int Base_V7_Widget_AppCompat_EditText = 2131427554;
 			
 			// aapt resource value: 0x7f0b00e3
-			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131427555;
+			public const int Base_Widget_AppCompat_ActionBar = 2131427555;
+			
+			// aapt resource value: 0x7f0b00e4
+			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131427556;
+			
+			// aapt resource value: 0x7f0b00e5
+			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131427557;
 			
 			// aapt resource value: 0x7f0b008e
 			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131427470;
@@ -4808,11 +6236,11 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b0092
 			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131427474;
 			
-			// aapt resource value: 0x7f0b00e4
-			public const int Base_Widget_AppCompat_ActionMode = 2131427556;
+			// aapt resource value: 0x7f0b00e6
+			public const int Base_Widget_AppCompat_ActionMode = 2131427558;
 			
-			// aapt resource value: 0x7f0b00e5
-			public const int Base_Widget_AppCompat_ActivityChooserView = 2131427557;
+			// aapt resource value: 0x7f0b00e7
+			public const int Base_Widget_AppCompat_ActivityChooserView = 2131427559;
 			
 			// aapt resource value: 0x7f0b004c
 			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131427404;
@@ -4826,8 +6254,8 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b0095
 			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131427477;
 			
-			// aapt resource value: 0x7f0b00e6
-			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131427558;
+			// aapt resource value: 0x7f0b00e8
+			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131427560;
 			
 			// aapt resource value: 0x7f0b00bf
 			public const int Base_Widget_AppCompat_Button_Colored = 2131427519;
@@ -4838,8 +6266,8 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b0097
 			public const int Base_Widget_AppCompat_ButtonBar = 2131427479;
 			
-			// aapt resource value: 0x7f0b00e7
-			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131427559;
+			// aapt resource value: 0x7f0b00e9
+			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131427561;
 			
 			// aapt resource value: 0x7f0b0098
 			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131427480;
@@ -4847,14 +6275,14 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b0099
 			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131427481;
 			
-			// aapt resource value: 0x7f0b00e8
-			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131427560;
+			// aapt resource value: 0x7f0b00ea
+			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131427562;
 			
 			// aapt resource value: 0x7f0b0027
 			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131427367;
 			
-			// aapt resource value: 0x7f0b00e9
-			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131427561;
+			// aapt resource value: 0x7f0b00eb
+			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131427563;
 			
 			// aapt resource value: 0x7f0b009a
 			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131427482;
@@ -4865,14 +6293,14 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b009b
 			public const int Base_Widget_AppCompat_ImageButton = 2131427483;
 			
-			// aapt resource value: 0x7f0b00ea
-			public const int Base_Widget_AppCompat_Light_ActionBar = 2131427562;
-			
-			// aapt resource value: 0x7f0b00eb
-			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131427563;
-			
 			// aapt resource value: 0x7f0b00ec
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131427564;
+			public const int Base_Widget_AppCompat_Light_ActionBar = 2131427564;
+			
+			// aapt resource value: 0x7f0b00ed
+			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131427565;
+			
+			// aapt resource value: 0x7f0b00ee
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131427566;
 			
 			// aapt resource value: 0x7f0b009c
 			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131427484;
@@ -4889,8 +6317,8 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b00a0
 			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131427488;
 			
-			// aapt resource value: 0x7f0b00ed
-			public const int Base_Widget_AppCompat_ListMenuView = 2131427565;
+			// aapt resource value: 0x7f0b00ef
+			public const int Base_Widget_AppCompat_ListMenuView = 2131427567;
 			
 			// aapt resource value: 0x7f0b00a1
 			public const int Base_Widget_AppCompat_ListPopupWindow = 2131427489;
@@ -4910,8 +6338,8 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b00a6
 			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131427494;
 			
-			// aapt resource value: 0x7f0b00ee
-			public const int Base_Widget_AppCompat_PopupWindow = 2131427566;
+			// aapt resource value: 0x7f0b00f0
+			public const int Base_Widget_AppCompat_PopupWindow = 2131427568;
 			
 			// aapt resource value: 0x7f0b0043
 			public const int Base_Widget_AppCompat_ProgressBar = 2131427395;
@@ -4928,17 +6356,17 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b00c1
 			public const int Base_Widget_AppCompat_RatingBar_Small = 2131427521;
 			
-			// aapt resource value: 0x7f0b00ef
-			public const int Base_Widget_AppCompat_SearchView = 2131427567;
+			// aapt resource value: 0x7f0b00f1
+			public const int Base_Widget_AppCompat_SearchView = 2131427569;
 			
-			// aapt resource value: 0x7f0b00f0
-			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131427568;
+			// aapt resource value: 0x7f0b00f2
+			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131427570;
 			
 			// aapt resource value: 0x7f0b00a8
 			public const int Base_Widget_AppCompat_SeekBar = 2131427496;
 			
-			// aapt resource value: 0x7f0b00f1
-			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131427569;
+			// aapt resource value: 0x7f0b00f3
+			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131427571;
 			
 			// aapt resource value: 0x7f0b00a9
 			public const int Base_Widget_AppCompat_Spinner = 2131427497;
@@ -4949,17 +6377,17 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b00aa
 			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131427498;
 			
-			// aapt resource value: 0x7f0b00f2
-			public const int Base_Widget_AppCompat_Toolbar = 2131427570;
+			// aapt resource value: 0x7f0b00f4
+			public const int Base_Widget_AppCompat_Toolbar = 2131427572;
 			
 			// aapt resource value: 0x7f0b00ab
 			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131427499;
 			
-			// aapt resource value: 0x7f0b0187
-			public const int Base_Widget_Design_AppBarLayout = 2131427719;
+			// aapt resource value: 0x7f0b0189
+			public const int Base_Widget_Design_AppBarLayout = 2131427721;
 			
-			// aapt resource value: 0x7f0b0188
-			public const int Base_Widget_Design_TabLayout = 2131427720;
+			// aapt resource value: 0x7f0b018a
+			public const int Base_Widget_Design_TabLayout = 2131427722;
 			
 			// aapt resource value: 0x7f0b0023
 			public const int CardView = 2131427363;
@@ -5012,11 +6440,11 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b000d
 			public const int MessengerButtonText_White_Small = 2131427341;
 			
-			// aapt resource value: 0x7f0b019f
-			public const int MyTheme = 2131427743;
+			// aapt resource value: 0x7f0b01a1
+			public const int MyTheme = 2131427745;
 			
-			// aapt resource value: 0x7f0b01a0
-			public const int MyTheme_Base = 2131427744;
+			// aapt resource value: 0x7f0b01a2
+			public const int MyTheme_Base = 2131427746;
 			
 			// aapt resource value: 0x7f0b0045
 			public const int Platform_AppCompat = 2131427397;
@@ -5050,6 +6478,12 @@ namespace CleverBuoy.Droid
 			
 			// aapt resource value: 0x7f0b00b0
 			public const int Platform_V21_AppCompat_Light = 2131427504;
+			
+			// aapt resource value: 0x7f0b00c4
+			public const int Platform_V25_AppCompat = 2131427524;
+			
+			// aapt resource value: 0x7f0b00c5
+			public const int Platform_V25_AppCompat_Light = 2131427525;
 			
 			// aapt resource value: 0x7f0b0049
 			public const int Platform_Widget_AppCompat_Spinner = 2131427401;
@@ -5096,65 +6530,65 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b0065
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131427429;
 			
-			// aapt resource value: 0x7f0b00f3
-			public const int TextAppearance_AppCompat = 2131427571;
-			
-			// aapt resource value: 0x7f0b00f4
-			public const int TextAppearance_AppCompat_Body1 = 2131427572;
-			
 			// aapt resource value: 0x7f0b00f5
-			public const int TextAppearance_AppCompat_Body2 = 2131427573;
+			public const int TextAppearance_AppCompat = 2131427573;
 			
 			// aapt resource value: 0x7f0b00f6
-			public const int TextAppearance_AppCompat_Button = 2131427574;
+			public const int TextAppearance_AppCompat_Body1 = 2131427574;
 			
 			// aapt resource value: 0x7f0b00f7
-			public const int TextAppearance_AppCompat_Caption = 2131427575;
+			public const int TextAppearance_AppCompat_Body2 = 2131427575;
 			
 			// aapt resource value: 0x7f0b00f8
-			public const int TextAppearance_AppCompat_Display1 = 2131427576;
+			public const int TextAppearance_AppCompat_Button = 2131427576;
 			
 			// aapt resource value: 0x7f0b00f9
-			public const int TextAppearance_AppCompat_Display2 = 2131427577;
+			public const int TextAppearance_AppCompat_Caption = 2131427577;
 			
 			// aapt resource value: 0x7f0b00fa
-			public const int TextAppearance_AppCompat_Display3 = 2131427578;
+			public const int TextAppearance_AppCompat_Display1 = 2131427578;
 			
 			// aapt resource value: 0x7f0b00fb
-			public const int TextAppearance_AppCompat_Display4 = 2131427579;
+			public const int TextAppearance_AppCompat_Display2 = 2131427579;
 			
 			// aapt resource value: 0x7f0b00fc
-			public const int TextAppearance_AppCompat_Headline = 2131427580;
+			public const int TextAppearance_AppCompat_Display3 = 2131427580;
 			
 			// aapt resource value: 0x7f0b00fd
-			public const int TextAppearance_AppCompat_Inverse = 2131427581;
+			public const int TextAppearance_AppCompat_Display4 = 2131427581;
 			
 			// aapt resource value: 0x7f0b00fe
-			public const int TextAppearance_AppCompat_Large = 2131427582;
+			public const int TextAppearance_AppCompat_Headline = 2131427582;
 			
 			// aapt resource value: 0x7f0b00ff
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131427583;
+			public const int TextAppearance_AppCompat_Inverse = 2131427583;
 			
 			// aapt resource value: 0x7f0b0100
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131427584;
+			public const int TextAppearance_AppCompat_Large = 2131427584;
 			
 			// aapt resource value: 0x7f0b0101
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131427585;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131427585;
 			
 			// aapt resource value: 0x7f0b0102
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131427586;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131427586;
 			
 			// aapt resource value: 0x7f0b0103
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131427587;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131427587;
 			
 			// aapt resource value: 0x7f0b0104
-			public const int TextAppearance_AppCompat_Medium = 2131427588;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131427588;
 			
 			// aapt resource value: 0x7f0b0105
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131427589;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131427589;
 			
 			// aapt resource value: 0x7f0b0106
-			public const int TextAppearance_AppCompat_Menu = 2131427590;
+			public const int TextAppearance_AppCompat_Medium = 2131427590;
+			
+			// aapt resource value: 0x7f0b0107
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131427591;
+			
+			// aapt resource value: 0x7f0b0108
+			public const int TextAppearance_AppCompat_Menu = 2131427592;
 			
 			// aapt resource value: 0x7f0b0051
 			public const int TextAppearance_AppCompat_Notification = 2131427409;
@@ -5165,11 +6599,11 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b00b2
 			public const int TextAppearance_AppCompat_Notification_Info_Media = 2131427506;
 			
-			// aapt resource value: 0x7f0b0107
-			public const int TextAppearance_AppCompat_Notification_Line2 = 2131427591;
+			// aapt resource value: 0x7f0b0109
+			public const int TextAppearance_AppCompat_Notification_Line2 = 2131427593;
 			
-			// aapt resource value: 0x7f0b0108
-			public const int TextAppearance_AppCompat_Notification_Line2_Media = 2131427592;
+			// aapt resource value: 0x7f0b010a
+			public const int TextAppearance_AppCompat_Notification_Line2_Media = 2131427594;
 			
 			// aapt resource value: 0x7f0b00b3
 			public const int TextAppearance_AppCompat_Notification_Media = 2131427507;
@@ -5186,107 +6620,107 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b00b6
 			public const int TextAppearance_AppCompat_Notification_Title_Media = 2131427510;
 			
-			// aapt resource value: 0x7f0b0109
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131427593;
-			
-			// aapt resource value: 0x7f0b010a
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131427594;
-			
 			// aapt resource value: 0x7f0b010b
-			public const int TextAppearance_AppCompat_Small = 2131427595;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131427595;
 			
 			// aapt resource value: 0x7f0b010c
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131427596;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131427596;
 			
 			// aapt resource value: 0x7f0b010d
-			public const int TextAppearance_AppCompat_Subhead = 2131427597;
+			public const int TextAppearance_AppCompat_Small = 2131427597;
 			
 			// aapt resource value: 0x7f0b010e
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131427598;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131427598;
 			
 			// aapt resource value: 0x7f0b010f
-			public const int TextAppearance_AppCompat_Title = 2131427599;
+			public const int TextAppearance_AppCompat_Subhead = 2131427599;
 			
 			// aapt resource value: 0x7f0b0110
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131427600;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131427600;
 			
 			// aapt resource value: 0x7f0b0111
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131427601;
+			public const int TextAppearance_AppCompat_Title = 2131427601;
 			
 			// aapt resource value: 0x7f0b0112
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131427602;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131427602;
 			
 			// aapt resource value: 0x7f0b0113
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131427603;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131427603;
 			
 			// aapt resource value: 0x7f0b0114
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131427604;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131427604;
 			
 			// aapt resource value: 0x7f0b0115
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131427605;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131427605;
 			
 			// aapt resource value: 0x7f0b0116
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131427606;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131427606;
 			
 			// aapt resource value: 0x7f0b0117
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131427607;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131427607;
 			
 			// aapt resource value: 0x7f0b0118
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131427608;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131427608;
 			
 			// aapt resource value: 0x7f0b0119
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131427609;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131427609;
 			
 			// aapt resource value: 0x7f0b011a
-			public const int TextAppearance_AppCompat_Widget_Button = 2131427610;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131427610;
 			
 			// aapt resource value: 0x7f0b011b
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131427611;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131427611;
 			
 			// aapt resource value: 0x7f0b011c
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131427612;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131427612;
 			
 			// aapt resource value: 0x7f0b011d
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131427613;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131427613;
 			
 			// aapt resource value: 0x7f0b011e
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131427614;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131427614;
 			
 			// aapt resource value: 0x7f0b011f
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131427615;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131427615;
 			
 			// aapt resource value: 0x7f0b0120
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131427616;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131427616;
 			
 			// aapt resource value: 0x7f0b0121
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131427617;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131427617;
 			
 			// aapt resource value: 0x7f0b0122
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131427618;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131427618;
 			
 			// aapt resource value: 0x7f0b0123
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131427619;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131427619;
 			
-			// aapt resource value: 0x7f0b0189
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131427721;
+			// aapt resource value: 0x7f0b0124
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131427620;
 			
-			// aapt resource value: 0x7f0b018a
-			public const int TextAppearance_Design_Counter = 2131427722;
+			// aapt resource value: 0x7f0b0125
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131427621;
 			
 			// aapt resource value: 0x7f0b018b
-			public const int TextAppearance_Design_Counter_Overflow = 2131427723;
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131427723;
 			
 			// aapt resource value: 0x7f0b018c
-			public const int TextAppearance_Design_Error = 2131427724;
+			public const int TextAppearance_Design_Counter = 2131427724;
 			
 			// aapt resource value: 0x7f0b018d
-			public const int TextAppearance_Design_Hint = 2131427725;
+			public const int TextAppearance_Design_Counter_Overflow = 2131427725;
 			
 			// aapt resource value: 0x7f0b018e
-			public const int TextAppearance_Design_Snackbar_Message = 2131427726;
+			public const int TextAppearance_Design_Error = 2131427726;
 			
 			// aapt resource value: 0x7f0b018f
-			public const int TextAppearance_Design_Tab = 2131427727;
+			public const int TextAppearance_Design_Hint = 2131427727;
+			
+			// aapt resource value: 0x7f0b0190
+			public const int TextAppearance_Design_Snackbar_Message = 2131427728;
+			
+			// aapt resource value: 0x7f0b0191
+			public const int TextAppearance_Design_Tab = 2131427729;
 			
 			// aapt resource value: 0x7f0b0018
 			public const int TextAppearance_MediaRouter_PrimaryText = 2131427352;
@@ -5312,20 +6746,20 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b0057
 			public const int TextAppearance_StatusBar_EventContent_Title = 2131427415;
 			
-			// aapt resource value: 0x7f0b0124
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131427620;
-			
-			// aapt resource value: 0x7f0b0125
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131427621;
-			
 			// aapt resource value: 0x7f0b0126
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131427622;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131427622;
 			
 			// aapt resource value: 0x7f0b0127
-			public const int Theme_AppCompat = 2131427623;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131427623;
 			
 			// aapt resource value: 0x7f0b0128
-			public const int Theme_AppCompat_CompactMenu = 2131427624;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131427624;
+			
+			// aapt resource value: 0x7f0b0129
+			public const int Theme_AppCompat = 2131427625;
+			
+			// aapt resource value: 0x7f0b012a
+			public const int Theme_AppCompat_CompactMenu = 2131427626;
 			
 			// aapt resource value: 0x7f0b002b
 			public const int Theme_AppCompat_DayNight = 2131427371;
@@ -5348,59 +6782,59 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b0031
 			public const int Theme_AppCompat_DayNight_NoActionBar = 2131427377;
 			
-			// aapt resource value: 0x7f0b0129
-			public const int Theme_AppCompat_Dialog = 2131427625;
-			
-			// aapt resource value: 0x7f0b012a
-			public const int Theme_AppCompat_Dialog_Alert = 2131427626;
-			
 			// aapt resource value: 0x7f0b012b
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131427627;
+			public const int Theme_AppCompat_Dialog = 2131427627;
 			
 			// aapt resource value: 0x7f0b012c
-			public const int Theme_AppCompat_DialogWhenLarge = 2131427628;
+			public const int Theme_AppCompat_Dialog_Alert = 2131427628;
 			
 			// aapt resource value: 0x7f0b012d
-			public const int Theme_AppCompat_Light = 2131427629;
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131427629;
 			
 			// aapt resource value: 0x7f0b012e
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131427630;
+			public const int Theme_AppCompat_DialogWhenLarge = 2131427630;
 			
 			// aapt resource value: 0x7f0b012f
-			public const int Theme_AppCompat_Light_Dialog = 2131427631;
+			public const int Theme_AppCompat_Light = 2131427631;
 			
 			// aapt resource value: 0x7f0b0130
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131427632;
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131427632;
 			
 			// aapt resource value: 0x7f0b0131
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131427633;
+			public const int Theme_AppCompat_Light_Dialog = 2131427633;
 			
 			// aapt resource value: 0x7f0b0132
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131427634;
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131427634;
 			
 			// aapt resource value: 0x7f0b0133
-			public const int Theme_AppCompat_Light_NoActionBar = 2131427635;
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131427635;
 			
 			// aapt resource value: 0x7f0b0134
-			public const int Theme_AppCompat_NoActionBar = 2131427636;
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131427636;
 			
-			// aapt resource value: 0x7f0b0190
-			public const int Theme_Design = 2131427728;
+			// aapt resource value: 0x7f0b0135
+			public const int Theme_AppCompat_Light_NoActionBar = 2131427637;
 			
-			// aapt resource value: 0x7f0b0191
-			public const int Theme_Design_BottomSheetDialog = 2131427729;
+			// aapt resource value: 0x7f0b0136
+			public const int Theme_AppCompat_NoActionBar = 2131427638;
 			
 			// aapt resource value: 0x7f0b0192
-			public const int Theme_Design_Light = 2131427730;
+			public const int Theme_Design = 2131427730;
 			
 			// aapt resource value: 0x7f0b0193
-			public const int Theme_Design_Light_BottomSheetDialog = 2131427731;
+			public const int Theme_Design_BottomSheetDialog = 2131427731;
 			
 			// aapt resource value: 0x7f0b0194
-			public const int Theme_Design_Light_NoActionBar = 2131427732;
+			public const int Theme_Design_Light = 2131427732;
 			
 			// aapt resource value: 0x7f0b0195
-			public const int Theme_Design_NoActionBar = 2131427733;
+			public const int Theme_Design_Light_BottomSheetDialog = 2131427733;
+			
+			// aapt resource value: 0x7f0b0196
+			public const int Theme_Design_Light_NoActionBar = 2131427734;
+			
+			// aapt resource value: 0x7f0b0197
+			public const int Theme_Design_NoActionBar = 2131427735;
 			
 			// aapt resource value: 0x7f0b001b
 			public const int Theme_MediaRouter = 2131427355;
@@ -5414,26 +6848,26 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b001e
 			public const int Theme_MediaRouter_LightControlPanel = 2131427358;
 			
-			// aapt resource value: 0x7f0b0135
-			public const int ThemeOverlay_AppCompat = 2131427637;
-			
-			// aapt resource value: 0x7f0b0136
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131427638;
-			
 			// aapt resource value: 0x7f0b0137
-			public const int ThemeOverlay_AppCompat_Dark = 2131427639;
+			public const int ThemeOverlay_AppCompat = 2131427639;
 			
 			// aapt resource value: 0x7f0b0138
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131427640;
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131427640;
 			
 			// aapt resource value: 0x7f0b0139
-			public const int ThemeOverlay_AppCompat_Dialog = 2131427641;
+			public const int ThemeOverlay_AppCompat_Dark = 2131427641;
 			
 			// aapt resource value: 0x7f0b013a
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131427642;
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131427642;
 			
 			// aapt resource value: 0x7f0b013b
-			public const int ThemeOverlay_AppCompat_Light = 2131427643;
+			public const int ThemeOverlay_AppCompat_Dialog = 2131427643;
+			
+			// aapt resource value: 0x7f0b013c
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131427644;
+			
+			// aapt resource value: 0x7f0b013d
+			public const int ThemeOverlay_AppCompat_Light = 2131427645;
 			
 			// aapt resource value: 0x7f0b001f
 			public const int ThemeOverlay_MediaRouter_Dark = 2131427359;
@@ -5441,164 +6875,164 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b0020
 			public const int ThemeOverlay_MediaRouter_Light = 2131427360;
 			
-			// aapt resource value: 0x7f0b013c
-			public const int Widget_AppCompat_ActionBar = 2131427644;
-			
-			// aapt resource value: 0x7f0b013d
-			public const int Widget_AppCompat_ActionBar_Solid = 2131427645;
-			
 			// aapt resource value: 0x7f0b013e
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131427646;
+			public const int Widget_AppCompat_ActionBar = 2131427646;
 			
 			// aapt resource value: 0x7f0b013f
-			public const int Widget_AppCompat_ActionBar_TabText = 2131427647;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131427647;
 			
 			// aapt resource value: 0x7f0b0140
-			public const int Widget_AppCompat_ActionBar_TabView = 2131427648;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131427648;
 			
 			// aapt resource value: 0x7f0b0141
-			public const int Widget_AppCompat_ActionButton = 2131427649;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131427649;
 			
 			// aapt resource value: 0x7f0b0142
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131427650;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131427650;
 			
 			// aapt resource value: 0x7f0b0143
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131427651;
+			public const int Widget_AppCompat_ActionButton = 2131427651;
 			
 			// aapt resource value: 0x7f0b0144
-			public const int Widget_AppCompat_ActionMode = 2131427652;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131427652;
 			
 			// aapt resource value: 0x7f0b0145
-			public const int Widget_AppCompat_ActivityChooserView = 2131427653;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131427653;
 			
 			// aapt resource value: 0x7f0b0146
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131427654;
+			public const int Widget_AppCompat_ActionMode = 2131427654;
 			
 			// aapt resource value: 0x7f0b0147
-			public const int Widget_AppCompat_Button = 2131427655;
+			public const int Widget_AppCompat_ActivityChooserView = 2131427655;
 			
 			// aapt resource value: 0x7f0b0148
-			public const int Widget_AppCompat_Button_Borderless = 2131427656;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131427656;
 			
 			// aapt resource value: 0x7f0b0149
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131427657;
+			public const int Widget_AppCompat_Button = 2131427657;
 			
 			// aapt resource value: 0x7f0b014a
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131427658;
+			public const int Widget_AppCompat_Button_Borderless = 2131427658;
 			
 			// aapt resource value: 0x7f0b014b
-			public const int Widget_AppCompat_Button_Colored = 2131427659;
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131427659;
 			
 			// aapt resource value: 0x7f0b014c
-			public const int Widget_AppCompat_Button_Small = 2131427660;
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131427660;
 			
 			// aapt resource value: 0x7f0b014d
-			public const int Widget_AppCompat_ButtonBar = 2131427661;
+			public const int Widget_AppCompat_Button_Colored = 2131427661;
 			
 			// aapt resource value: 0x7f0b014e
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131427662;
+			public const int Widget_AppCompat_Button_Small = 2131427662;
 			
 			// aapt resource value: 0x7f0b014f
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131427663;
+			public const int Widget_AppCompat_ButtonBar = 2131427663;
 			
 			// aapt resource value: 0x7f0b0150
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131427664;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131427664;
 			
 			// aapt resource value: 0x7f0b0151
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131427665;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131427665;
 			
 			// aapt resource value: 0x7f0b0152
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131427666;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131427666;
 			
 			// aapt resource value: 0x7f0b0153
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131427667;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131427667;
 			
 			// aapt resource value: 0x7f0b0154
-			public const int Widget_AppCompat_EditText = 2131427668;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131427668;
 			
 			// aapt resource value: 0x7f0b0155
-			public const int Widget_AppCompat_ImageButton = 2131427669;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131427669;
 			
 			// aapt resource value: 0x7f0b0156
-			public const int Widget_AppCompat_Light_ActionBar = 2131427670;
+			public const int Widget_AppCompat_EditText = 2131427670;
 			
 			// aapt resource value: 0x7f0b0157
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131427671;
+			public const int Widget_AppCompat_ImageButton = 2131427671;
 			
 			// aapt resource value: 0x7f0b0158
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131427672;
+			public const int Widget_AppCompat_Light_ActionBar = 2131427672;
 			
 			// aapt resource value: 0x7f0b0159
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131427673;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131427673;
 			
 			// aapt resource value: 0x7f0b015a
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131427674;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131427674;
 			
 			// aapt resource value: 0x7f0b015b
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131427675;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131427675;
 			
 			// aapt resource value: 0x7f0b015c
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131427676;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131427676;
 			
 			// aapt resource value: 0x7f0b015d
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131427677;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131427677;
 			
 			// aapt resource value: 0x7f0b015e
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131427678;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131427678;
 			
 			// aapt resource value: 0x7f0b015f
-			public const int Widget_AppCompat_Light_ActionButton = 2131427679;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131427679;
 			
 			// aapt resource value: 0x7f0b0160
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131427680;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131427680;
 			
 			// aapt resource value: 0x7f0b0161
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131427681;
+			public const int Widget_AppCompat_Light_ActionButton = 2131427681;
 			
 			// aapt resource value: 0x7f0b0162
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131427682;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131427682;
 			
 			// aapt resource value: 0x7f0b0163
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131427683;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131427683;
 			
 			// aapt resource value: 0x7f0b0164
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131427684;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131427684;
 			
 			// aapt resource value: 0x7f0b0165
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131427685;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131427685;
 			
 			// aapt resource value: 0x7f0b0166
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131427686;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131427686;
 			
 			// aapt resource value: 0x7f0b0167
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131427687;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131427687;
 			
 			// aapt resource value: 0x7f0b0168
-			public const int Widget_AppCompat_Light_PopupMenu = 2131427688;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131427688;
 			
 			// aapt resource value: 0x7f0b0169
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131427689;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131427689;
 			
 			// aapt resource value: 0x7f0b016a
-			public const int Widget_AppCompat_Light_SearchView = 2131427690;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131427690;
 			
 			// aapt resource value: 0x7f0b016b
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131427691;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131427691;
 			
 			// aapt resource value: 0x7f0b016c
-			public const int Widget_AppCompat_ListMenuView = 2131427692;
+			public const int Widget_AppCompat_Light_SearchView = 2131427692;
 			
 			// aapt resource value: 0x7f0b016d
-			public const int Widget_AppCompat_ListPopupWindow = 2131427693;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131427693;
 			
 			// aapt resource value: 0x7f0b016e
-			public const int Widget_AppCompat_ListView = 2131427694;
+			public const int Widget_AppCompat_ListMenuView = 2131427694;
 			
 			// aapt resource value: 0x7f0b016f
-			public const int Widget_AppCompat_ListView_DropDown = 2131427695;
+			public const int Widget_AppCompat_ListPopupWindow = 2131427695;
 			
 			// aapt resource value: 0x7f0b0170
-			public const int Widget_AppCompat_ListView_Menu = 2131427696;
+			public const int Widget_AppCompat_ListView = 2131427696;
+			
+			// aapt resource value: 0x7f0b0171
+			public const int Widget_AppCompat_ListView_DropDown = 2131427697;
+			
+			// aapt resource value: 0x7f0b0172
+			public const int Widget_AppCompat_ListView_Menu = 2131427698;
 			
 			// aapt resource value: 0x7f0b00b7
 			public const int Widget_AppCompat_NotificationActionContainer = 2131427511;
@@ -5606,95 +7040,95 @@ namespace CleverBuoy.Droid
 			// aapt resource value: 0x7f0b00b8
 			public const int Widget_AppCompat_NotificationActionText = 2131427512;
 			
-			// aapt resource value: 0x7f0b0171
-			public const int Widget_AppCompat_PopupMenu = 2131427697;
-			
-			// aapt resource value: 0x7f0b0172
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131427698;
-			
 			// aapt resource value: 0x7f0b0173
-			public const int Widget_AppCompat_PopupWindow = 2131427699;
+			public const int Widget_AppCompat_PopupMenu = 2131427699;
 			
 			// aapt resource value: 0x7f0b0174
-			public const int Widget_AppCompat_ProgressBar = 2131427700;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131427700;
 			
 			// aapt resource value: 0x7f0b0175
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131427701;
+			public const int Widget_AppCompat_PopupWindow = 2131427701;
 			
 			// aapt resource value: 0x7f0b0176
-			public const int Widget_AppCompat_RatingBar = 2131427702;
+			public const int Widget_AppCompat_ProgressBar = 2131427702;
 			
 			// aapt resource value: 0x7f0b0177
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131427703;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131427703;
 			
 			// aapt resource value: 0x7f0b0178
-			public const int Widget_AppCompat_RatingBar_Small = 2131427704;
+			public const int Widget_AppCompat_RatingBar = 2131427704;
 			
 			// aapt resource value: 0x7f0b0179
-			public const int Widget_AppCompat_SearchView = 2131427705;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131427705;
 			
 			// aapt resource value: 0x7f0b017a
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131427706;
+			public const int Widget_AppCompat_RatingBar_Small = 2131427706;
 			
 			// aapt resource value: 0x7f0b017b
-			public const int Widget_AppCompat_SeekBar = 2131427707;
+			public const int Widget_AppCompat_SearchView = 2131427707;
 			
 			// aapt resource value: 0x7f0b017c
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131427708;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131427708;
 			
 			// aapt resource value: 0x7f0b017d
-			public const int Widget_AppCompat_Spinner = 2131427709;
+			public const int Widget_AppCompat_SeekBar = 2131427709;
 			
 			// aapt resource value: 0x7f0b017e
-			public const int Widget_AppCompat_Spinner_DropDown = 2131427710;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131427710;
 			
 			// aapt resource value: 0x7f0b017f
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131427711;
+			public const int Widget_AppCompat_Spinner = 2131427711;
 			
 			// aapt resource value: 0x7f0b0180
-			public const int Widget_AppCompat_Spinner_Underlined = 2131427712;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131427712;
 			
 			// aapt resource value: 0x7f0b0181
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131427713;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131427713;
 			
 			// aapt resource value: 0x7f0b0182
-			public const int Widget_AppCompat_Toolbar = 2131427714;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131427714;
 			
 			// aapt resource value: 0x7f0b0183
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131427715;
-			
-			// aapt resource value: 0x7f0b0185
-			public const int Widget_Design_AppBarLayout = 2131427717;
-			
-			// aapt resource value: 0x7f0b0196
-			public const int Widget_Design_BottomNavigationView = 2131427734;
-			
-			// aapt resource value: 0x7f0b0197
-			public const int Widget_Design_BottomSheet_Modal = 2131427735;
-			
-			// aapt resource value: 0x7f0b0198
-			public const int Widget_Design_CollapsingToolbar = 2131427736;
-			
-			// aapt resource value: 0x7f0b0199
-			public const int Widget_Design_CoordinatorLayout = 2131427737;
-			
-			// aapt resource value: 0x7f0b019a
-			public const int Widget_Design_FloatingActionButton = 2131427738;
-			
-			// aapt resource value: 0x7f0b019b
-			public const int Widget_Design_NavigationView = 2131427739;
-			
-			// aapt resource value: 0x7f0b019c
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131427740;
-			
-			// aapt resource value: 0x7f0b019d
-			public const int Widget_Design_Snackbar = 2131427741;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131427715;
 			
 			// aapt resource value: 0x7f0b0184
-			public const int Widget_Design_TabLayout = 2131427716;
+			public const int Widget_AppCompat_Toolbar = 2131427716;
+			
+			// aapt resource value: 0x7f0b0185
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131427717;
+			
+			// aapt resource value: 0x7f0b0187
+			public const int Widget_Design_AppBarLayout = 2131427719;
+			
+			// aapt resource value: 0x7f0b0198
+			public const int Widget_Design_BottomNavigationView = 2131427736;
+			
+			// aapt resource value: 0x7f0b0199
+			public const int Widget_Design_BottomSheet_Modal = 2131427737;
+			
+			// aapt resource value: 0x7f0b019a
+			public const int Widget_Design_CollapsingToolbar = 2131427738;
+			
+			// aapt resource value: 0x7f0b019b
+			public const int Widget_Design_CoordinatorLayout = 2131427739;
+			
+			// aapt resource value: 0x7f0b019c
+			public const int Widget_Design_FloatingActionButton = 2131427740;
+			
+			// aapt resource value: 0x7f0b019d
+			public const int Widget_Design_NavigationView = 2131427741;
 			
 			// aapt resource value: 0x7f0b019e
-			public const int Widget_Design_TextInputLayout = 2131427742;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131427742;
+			
+			// aapt resource value: 0x7f0b019f
+			public const int Widget_Design_Snackbar = 2131427743;
+			
+			// aapt resource value: 0x7f0b0186
+			public const int Widget_Design_TabLayout = 2131427718;
+			
+			// aapt resource value: 0x7f0b01a0
+			public const int Widget_Design_TextInputLayout = 2131427744;
 			
 			// aapt resource value: 0x7f0b0021
 			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131427361;

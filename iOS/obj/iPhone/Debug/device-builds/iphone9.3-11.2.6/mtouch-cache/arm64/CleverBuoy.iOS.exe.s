@@ -213,7 +213,7 @@ Lme_1:
 	.no_dead_strip CleverBuoy_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 CleverBuoy_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 .file 2 "/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/AppDelegate.cs"
-.loc 2 17 0 prologue_end
+.loc 2 18 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa9015fb6
@@ -242,7 +242,7 @@ ldr x16, [x16, #224]
 .word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 18 0
+.loc 2 19 0
 .word 0xf9401fb1
 .word 0xf9407a31
 .word 0xb4000051
@@ -252,7 +252,7 @@ bl _p_2
 .word 0xf9408e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 20 0
+.loc 2 21 0
 .word 0xf9401fb1
 .word 0xf9409e31
 .word 0xb4000051
@@ -266,7 +266,7 @@ bl _p_3
 .word 0xf940be31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 21 0
+.loc 2 22 0
 .word 0xf9401fb1
 .word 0xf940ce31
 .word 0xb4000051
@@ -280,7 +280,7 @@ bl _p_4
 .word 0xf940ee31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 23 0
+.loc 2 24 0
 .word 0xf9401fb1
 .word 0xf940fe31
 .word 0xb4000051
@@ -297,7 +297,7 @@ bl _p_5
 .word 0xd63f0220
 .word 0xf9403fa0
 .word 0xaa0003f7
-.loc 2 24 0
+.loc 2 25 0
 .word 0xf9401fb1
 .word 0xf9413a31
 .word 0xb4000051
@@ -315,7 +315,7 @@ add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x1, [x16, #256]
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9416c50
+.word 0xf9417450
 .word 0xd63f0200
 .word 0xf9003ba0
 .word 0xf9401fb1
@@ -342,60 +342,81 @@ ldr x1, [x16, #256]
 .word 0xf941d631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 26 0
+.loc 2 27 0
 .word 0xf9401fb1
 .word 0xf941e631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
+add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
+ldr x0, [x16, #264]
+.word 0xf9400002
+
+adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
+add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
+ldr x1, [x16, #272]
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_7
+.word 0xf9401fb1
+.word 0xf9421e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 29 0
+.word 0xf9401fb1
+.word 0xf9422e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #264]
+ldr x0, [x16, #280]
 .word 0xd2802a01
 .word 0xd2802a01
-bl _p_7
-.word 0xf9002fa0
 bl _p_8
+.word 0xf9002fa0
+bl _p_9
 .word 0xf9401fb1
-.word 0xf9421a31
+.word 0xf9426231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa1
 .word 0xaa1803e0
-bl _p_9
+bl _p_10
 .word 0xf9401fb1
-.word 0xf9423631
+.word 0xf9427e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 29 0
+.loc 2 32 0
 .word 0xf9401fb1
-.word 0xf9424631
+.word 0xf9428e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xf94017a1
 .word 0xf9401ba2
 .word 0xaa1803e0
-bl _p_10
+bl _p_11
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf9401fb1
-.word 0xf9427231
+.word 0xf942ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0x53001c00
 .word 0xaa0003f6
-.loc 2 30 0
+.loc 2 33 0
 .word 0xf9401fb1
-.word 0xf9428e31
+.word 0xf942d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xaa1603e0
 .word 0xf9401fb1
-.word 0xf942a631
+.word 0xf942ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9415fb6
@@ -409,7 +430,7 @@ Lme_2:
 	.align 4
 	.no_dead_strip CleverBuoy_iOS_AppDelegate_OnActivated_UIKit_UIApplication
 CleverBuoy_iOS_AppDelegate_OnActivated_UIKit_UIApplication:
-.loc 2 33 0 prologue_end
+.loc 2 36 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -417,7 +438,7 @@ CleverBuoy_iOS_AppDelegate_OnActivated_UIKit_UIApplication:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #272]
+ldr x16, [x16, #288]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -433,29 +454,29 @@ ldr x16, [x16, #272]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 34 0
+.loc 2 37 0
 .word 0xf94013b1
 .word 0xf9406631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9400fa1
-bl _p_11
+bl _p_12
 .word 0xf94013b1
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 35 0
+.loc 2 38 0
 .word 0xf94013b1
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_12
+bl _p_13
 .word 0xf94013b1
 .word 0xf940a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 36 0
+.loc 2 39 0
 .word 0xf94013b1
 .word 0xf940b631
 .word 0xb4000051
@@ -473,25 +494,26 @@ Lme_3:
 	.align 4
 	.no_dead_strip CleverBuoy_iOS_AppDelegate_OpenUrl_UIKit_UIApplication_Foundation_NSUrl_string_Foundation_NSObject
 CleverBuoy_iOS_AppDelegate_OpenUrl_UIKit_UIApplication_Foundation_NSUrl_string_Foundation_NSObject:
-.loc 2 39 0 prologue_end
+.loc 2 42 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xf9000bb6
-.word 0xf9000fa0
-.word 0xf90013a1
-.word 0xf90017a2
+.word 0xf9000fb8
+.word 0xf90013a0
+.word 0xf90017a1
+.word 0xaa0203f8
 .word 0xf9001ba3
 .word 0xf9001fa4
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #280]
+ldr x16, [x16, #296]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
 .word 0xd2800016
 .word 0xf94023b1
-.word 0xf9404a31
+.word 0xf9404e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
@@ -499,50 +521,65 @@ ldr x16, [x16, #280]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023b1
-.word 0xf9406a31
+.word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 41 0
+.loc 2 44 0
 .word 0xf94023b1
-.word 0xf9407a31
+.word 0xf9407e31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_13
+.word 0xaa1803e0
+.word 0xaa1803e0
+bl _p_14
+.word 0x53001c00
+.word 0xf94023b1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 45 0
+.word 0xf94023b1
+.word 0xf940ae31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_15
 .word 0xf90037a0
 .word 0xf94023b1
-.word 0xf9409231
+.word 0xf940c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a5
-.word 0xf94013a1
-.word 0xf94017a2
+.word 0xf94017a1
+.word 0xaa1803e0
 .word 0xf9401ba3
 .word 0xf9401fa4
 .word 0xaa0503e0
+.word 0xaa1803e2
 .word 0xf94000a5
 .word 0xf940ecb0
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf94023b1
-.word 0xf940ce31
+.word 0xf9410631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0x53001c00
 .word 0xaa0003f6
-.loc 2 42 0
+.loc 2 46 0
 .word 0xf94023b1
-.word 0xf940ea31
+.word 0xf9412231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xaa1603e0
 .word 0xf94023b1
-.word 0xf9410231
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bb6
+.word 0xf9400fb8
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
@@ -558,7 +595,7 @@ CleverBuoy_iOS_AppDelegate__ctor:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #288]
+ldr x16, [x16, #304]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -567,7 +604,7 @@ ldr x16, [x16, #288]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_14
+bl _p_16
 .word 0xf9400fb1
 .word 0xf9404a31
 .word 0xb4000051
@@ -598,7 +635,7 @@ CleverBuoy_iOS_FacebookManager_Login_System_Action_2_CleverBuoy_Model_User_strin
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #296]
+ldr x16, [x16, #312]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -614,12 +651,12 @@ ldr x16, [x16, #296]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #304]
+ldr x0, [x16, #320]
 .word 0xd2800401
 .word 0xd2800401
-bl _p_7
+bl _p_8
 .word 0xf9004ba0
-bl _p_15
+bl _p_17
 .word 0xf9402bb1
 .word 0xf9408a31
 .word 0xb4000051
@@ -671,7 +708,7 @@ ldr x2, [x16, #16]
 .word 0xf9413231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_16
+bl _p_18
 .word 0xf90047a0
 .word 0xf9402bb1
 .word 0xf9414a31
@@ -772,12 +809,12 @@ bl _p_16
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #312]
+ldr x0, [x16, #328]
 .word 0xd2800301
 .word 0xd2800301
-bl _p_7
+bl _p_8
 .word 0xf9004ba0
-bl _p_17
+bl _p_19
 .word 0xf9402bb1
 .word 0xf942d231
 .word 0xb4000051
@@ -804,10 +841,10 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #320]
-bl _p_18
+ldr x0, [x16, #336]
+bl _p_20
 .word 0xf90047a0
-bl _p_19
+bl _p_21
 .word 0xf9402bb1
 .word 0xf9433e31
 .word 0xb4000051
@@ -841,9 +878,9 @@ bl _p_19
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #328]
+ldr x0, [x16, #344]
 .word 0xd2800041
-bl _p_20
+bl _p_22
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xf90043a0
@@ -852,7 +889,7 @@ bl _p_20
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x2, [x16, #336]
+ldr x2, [x16, #352]
 .word 0xaa1303e0
 .word 0xd2800001
 .word 0xf9400263
@@ -867,7 +904,7 @@ ldr x2, [x16, #336]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x2, [x16, #344]
+ldr x2, [x16, #360]
 .word 0xaa0303e0
 .word 0xd2800021
 .word 0xf9400063
@@ -881,10 +918,10 @@ ldr x2, [x16, #344]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #352]
+ldr x0, [x16, #368]
 .word 0xd2800e01
 .word 0xd2800e01
-bl _p_7
+bl _p_8
 .word 0xaa0003e3
 .word 0xf9403ba1
 .word 0xf9403fa4
@@ -907,17 +944,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #360]
+ldr x0, [x16, #376]
 .word 0xf9001460
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #368]
+ldr x0, [x16, #384]
 .word 0xf9002060
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #376]
+ldr x0, [x16, #392]
 .word 0xf9401402
 .word 0xf9000c62
 .word 0xf9401000
@@ -951,10 +988,10 @@ ldr x0, [x16, #376]
 .word 0xd65f03c0
 .word 0xd2801f00
 .word 0xaa1103e1
-bl _p_21
+bl _p_23
 .word 0xd28011e0
 .word 0xaa1103e1
-bl _p_21
+bl _p_23
 
 Lme_6:
 .text
@@ -969,7 +1006,7 @@ CleverBuoy_iOS_FacebookManager_Logout:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #384]
+ldr x16, [x16, #400]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -994,10 +1031,10 @@ ldr x16, [x16, #384]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #320]
-bl _p_18
+ldr x0, [x16, #336]
+bl _p_20
 .word 0xf90023a0
-bl _p_19
+bl _p_21
 .word 0xf94013b1
 .word 0xf9409231
 .word 0xb4000051
@@ -1043,7 +1080,7 @@ CleverBuoy_iOS_FacebookManager__ctor:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #392]
+ldr x16, [x16, #408]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1077,7 +1114,7 @@ CleverBuoy_iOS_GoogleManager_get__viewController:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #400]
+ldr x16, [x16, #416]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1116,7 +1153,7 @@ CleverBuoy_iOS_GoogleManager_set__viewController_UIKit_UIViewController:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #408]
+ldr x16, [x16, #424]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -1168,7 +1205,7 @@ CleverBuoy_iOS_GoogleManager__ctor:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #416]
+ldr x16, [x16, #432]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1186,7 +1223,7 @@ ldr x16, [x16, #416]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_22
+bl _p_24
 .word 0xf9400fb1
 .word 0xf9407231
 .word 0xb4000051
@@ -1269,7 +1306,7 @@ CleverBuoy_iOS_GoogleManager_Login_System_Action_2_CleverBuoy_Model_User_string:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #424]
+ldr x16, [x16, #440]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -1313,7 +1350,7 @@ ldr x2, [x16, #16]
 .word 0xf940c231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_16
+bl _p_18
 .word 0xf90037a0
 .word 0xf9401fb1
 .word 0xf940da31
@@ -1414,7 +1451,7 @@ bl _p_16
 .word 0xaa1703e0
 .word 0xaa1903e0
 .word 0xaa1703e1
-bl _p_23
+bl _p_25
 .word 0xf9401fb1
 .word 0xf9425231
 .word 0xb4000051
@@ -1466,7 +1503,7 @@ CleverBuoy_iOS_GoogleManager_Logout:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #432]
+ldr x16, [x16, #448]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1534,7 +1571,7 @@ CleverBuoy_iOS_GoogleManager_DidSignIn_Google_SignIn_SignIn_Google_SignIn_Google
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #440]
+ldr x16, [x16, #456]
 .word 0xf9003bb0
 .word 0xf9400a11
 .word 0xf9003fb1
@@ -1589,12 +1626,12 @@ ldr x16, [x16, #440]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #448]
+ldr x0, [x16, #464]
 .word 0xd2800901
 .word 0xd2800901
-bl _p_7
+bl _p_8
 .word 0xf9008fa0
-bl _p_24
+bl _p_26
 .word 0xf9403bb1
 .word 0xf9412631
 .word 0xb4000051
@@ -1608,7 +1645,7 @@ bl _p_24
 .word 0xaa1a03e0
 .word 0xd2800021
 .word 0xf940035e
-bl _p_25
+bl _p_27
 .word 0xf9403bb1
 .word 0xf9415e31
 .word 0xb4000051
@@ -1643,7 +1680,7 @@ bl _p_25
 .word 0xf94083a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_26
+bl _p_28
 .word 0xf9403bb1
 .word 0xf941ea31
 .word 0xb4000051
@@ -1678,7 +1715,7 @@ bl _p_26
 .word 0xf94073a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_27
+bl _p_29
 .word 0xf9403bb1
 .word 0xf9427631
 .word 0xb4000051
@@ -1722,7 +1759,7 @@ bl _p_27
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #456]
+ldr x0, [x16, #472]
 .word 0xf9400000
 .word 0xf90053a0
 .word 0x1400002d
@@ -1741,7 +1778,7 @@ ldr x0, [x16, #456]
 .word 0xd63f0220
 .word 0xd2803e80
 .word 0xd2803e80
-bl _p_28
+bl _p_30
 .word 0xf90063a0
 .word 0xf9403bb1
 .word 0xf9437231
@@ -1776,7 +1813,7 @@ bl _p_28
 .word 0xf94053a1
 .word 0xaa1803e0
 .word 0xf940031e
-bl _p_29
+bl _p_31
 .word 0xf9403bb1
 .word 0xf943fa31
 .word 0xb4000051
@@ -1784,7 +1821,7 @@ bl _p_29
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #456]
+ldr x0, [x16, #472]
 .word 0xf9400002
 .word 0xaa1403e0
 .word 0xaa1903e1
@@ -1866,7 +1903,7 @@ CleverBuoy_iOS_GoogleManager_DidDisconnect_Google_SignIn_SignIn_Google_SignIn_Go
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #464]
+ldr x16, [x16, #480]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -1909,7 +1946,7 @@ CleverBuoy_iOS_GoogleManager_WillDispatch_Google_SignIn_SignIn_Foundation_NSErro
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #472]
+ldr x16, [x16, #488]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -1953,7 +1990,7 @@ CleverBuoy_iOS_GoogleManager_PresentViewController_Google_SignIn_SignIn_UIKit_UI
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #480]
+ldr x16, [x16, #496]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -1975,7 +2012,7 @@ ldr x16, [x16, #480]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013a0
-bl _p_30
+bl _p_32
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf9408a31
@@ -2036,7 +2073,7 @@ CleverBuoy_iOS_GoogleManager_DismissViewController_Google_SignIn_SignIn_UIKit_UI
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #488]
+ldr x16, [x16, #504]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -2058,7 +2095,7 @@ ldr x16, [x16, #488]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013a0
-bl _p_30
+bl _p_32
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf9408a31
@@ -2106,6 +2143,201 @@ bl _p_30
 Lme_12:
 .text
 	.align 4
+	.no_dead_strip CleverBuoy_iOS_MSLoginPageRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+CleverBuoy_iOS_MSLoginPageRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs:
+.file 5 "/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/MSLoginPageRenderer.cs"
+.loc 5 13 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xa9036bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
+add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
+ldr x16, [x16, #512]
+.word 0xf90023b0
+.word 0xf9400a11
+.word 0xf90027b1
+.word 0xf94023b1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 14 0
+.word 0xf94023b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1a03e1
+bl _p_33
+.word 0xf94023b1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 15 0
+.word 0xf94023b1
+.word 0xf940a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903f8
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0xf940035e
+bl _p_34
+.word 0xaa0003f7
+.word 0xf94023b1
+.word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703f6
+.word 0xeb1f02ff
+.word 0x540001e0
+.word 0xf94002e0
+.word 0xf9400015
+.word 0x794032a0
+.word 0xd280011e
+.word 0xeb1e001f
+.word 0x54000103
+.word 0xf9400aa0
+.word 0xf9401c00
+
+adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
+add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
+ldr x1, [x16, #520]
+.word 0xeb01001f
+.word 0x54000040
+.word 0xd2800016
+.word 0xaa1603e0
+.word 0xf9003716
+.word 0x9101a300
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
+add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
+ldr x1, [x16, #16]
+.word 0x8b010000
+.word 0xd280003e
+.word 0x3900001e
+.loc 5 16 0
+.word 0xf94023b1
+.word 0xf9415631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9416631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xa9436bb9
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_13:
+.text
+	.align 4
+	.no_dead_strip CleverBuoy_iOS_MSLoginPageRenderer_ViewDidLoad
+CleverBuoy_iOS_MSLoginPageRenderer_ViewDidLoad:
+.loc 5 18 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
+add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
+ldr x16, [x16, #528]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 19 0
+.word 0xf9400fb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_35
+.word 0xf9400fb1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 20 0
+.word 0xf9400fb1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_14:
+.text
+	.align 4
+	.no_dead_strip CleverBuoy_iOS_MSLoginPageRenderer__ctor
+CleverBuoy_iOS_MSLoginPageRenderer__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
+add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
+ldr x16, [x16, #536]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_36
+.word 0xf9400fb1
+.word 0xf9404a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_15:
+.text
+	.align 4
 	.no_dead_strip CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__ctor
 CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__ctor:
 .word 0xa9bd7bfd
@@ -2114,7 +2346,7 @@ CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__ctor:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #496]
+ldr x16, [x16, #544]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -2135,7 +2367,7 @@ ldr x16, [x16, #496]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_13:
+Lme_16:
 .text
 	.align 4
 	.no_dead_strip CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__Loginb__0_Facebook_LoginKit_LoginManagerLoginResult_Foundation_NSError
@@ -2153,7 +2385,7 @@ CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__Loginb__0_Facebook_LoginKit_
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #504]
+ldr x16, [x16, #552]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -2169,12 +2401,12 @@ ldr x16, [x16, #504]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #512]
+ldr x0, [x16, #560]
 .word 0xd2800401
 .word 0xd2800401
-bl _p_7
+bl _p_8
 .word 0xf9004ba0
-bl _p_31
+bl _p_37
 .word 0xf9402fb1
 .word 0xf9408e31
 .word 0xb4000051
@@ -2349,7 +2581,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x2, [x16, #520]
+ldr x2, [x16, #568]
 .word 0xaa1a03e0
 .word 0xd2800001
 .word 0xf9400f50
@@ -2373,7 +2605,7 @@ ldr x2, [x16, #520]
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0xf940005e
-bl _p_32
+bl _p_38
 .word 0x53001c00
 .word 0xf9402fb1
 .word 0xf9438231
@@ -2398,23 +2630,23 @@ bl _p_32
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #528]
+ldr x0, [x16, #576]
 .word 0xf90053a0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #536]
+ldr x0, [x16, #584]
 .word 0xf9005ba0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #544]
+ldr x0, [x16, #592]
 .word 0xf9005fa0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x15, [x16, #552]
-bl _p_33
+ldr x15, [x16, #600]
+bl _p_39
 .word 0xf90063a0
 .word 0xf9402fb1
 .word 0xf9440a31
@@ -2423,13 +2655,13 @@ bl _p_33
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #560]
-bl _p_18
+ldr x0, [x16, #608]
+bl _p_20
 .word 0xf9405ba1
 .word 0xf9405fa2
 .word 0xf94063a3
 .word 0xf90057a0
-bl _p_34
+bl _p_40
 .word 0xf9402fb1
 .word 0xf9443e31
 .word 0xb4000051
@@ -2437,12 +2669,12 @@ bl _p_34
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #568]
-bl _p_18
+ldr x0, [x16, #616]
+bl _p_20
 .word 0xf94053a1
 .word 0xf94057a2
 .word 0xf9004fa0
-bl _p_35
+bl _p_41
 .word 0xf9402fb1
 .word 0xf9446e31
 .word 0xb4000051
@@ -2463,10 +2695,10 @@ bl _p_35
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #576]
+ldr x0, [x16, #624]
 .word 0xd2800e01
 .word 0xd2800e01
-bl _p_7
+bl _p_8
 .word 0xaa0003e1
 .word 0xf9404ba2
 .word 0xeb1f02ff
@@ -2488,17 +2720,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #584]
+ldr x0, [x16, #632]
 .word 0xf9001420
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #592]
+ldr x0, [x16, #640]
 .word 0xf9002020
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #600]
+ldr x0, [x16, #648]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -2540,12 +2772,12 @@ ldr x0, [x16, #600]
 .word 0xd65f03c0
 .word 0xd2801f00
 .word 0xaa1103e1
-bl _p_21
+bl _p_23
 .word 0xd28011e0
 .word 0xaa1103e1
-bl _p_21
+bl _p_23
 
-Lme_14:
+Lme_17:
 .text
 	.align 4
 	.no_dead_strip CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__ctor
@@ -2556,7 +2788,7 @@ CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__ctor:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #608]
+ldr x16, [x16, #656]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -2577,7 +2809,7 @@ ldr x16, [x16, #608]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_15:
+Lme_18:
 .text
 	.align 4
 	.no_dead_strip CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__Loginb__1_Facebook_CoreKit_GraphRequestConnection_Foundation_NSObject_Foundation_NSError
@@ -2594,7 +2826,7 @@ CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__Loginb__1_Facebook_CoreKit_G
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #616]
+ldr x16, [x16, #664]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -2667,7 +2899,7 @@ ldr x16, [x16, #616]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940dba0
-bl _p_36
+bl _p_42
 .word 0xf94027b1
 .word 0xf9415231
 .word 0xb4000051
@@ -2684,7 +2916,7 @@ bl _p_36
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0xf940005e
-bl _p_32
+bl _p_38
 .word 0x53001c00
 .word 0xf94027b1
 .word 0xf9419631
@@ -2713,7 +2945,7 @@ bl _p_32
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #456]
+ldr x0, [x16, #472]
 .word 0xf9400000
 .word 0xf90033a0
 .loc 3 58 0
@@ -2724,7 +2956,7 @@ ldr x0, [x16, #456]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #456]
+ldr x0, [x16, #472]
 .word 0xf9400000
 .word 0xf90037a0
 .loc 3 59 0
@@ -2735,7 +2967,7 @@ ldr x0, [x16, #456]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #456]
+ldr x0, [x16, #472]
 .word 0xf9400000
 .word 0xf9003ba0
 .loc 3 60 0
@@ -2746,7 +2978,7 @@ ldr x0, [x16, #456]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #456]
+ldr x0, [x16, #472]
 .word 0xf9400000
 .word 0xf9003fa0
 .loc 3 61 0
@@ -2757,7 +2989,7 @@ ldr x0, [x16, #456]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #456]
+ldr x0, [x16, #472]
 .word 0xf9400000
 .word 0xf90043a0
 .loc 3 64 0
@@ -2779,16 +3011,16 @@ ldr x0, [x16, #456]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #624]
+ldr x0, [x16, #672]
 .word 0xf900e7a0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #632]
-bl _p_18
+ldr x0, [x16, #680]
+bl _p_20
 .word 0xf940e7a1
 .word 0xf900dfa0
-bl _p_37
+bl _p_43
 .word 0xf94027b1
 .word 0xf942f231
 .word 0xb4000051
@@ -2865,7 +3097,7 @@ bl _p_37
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940dba0
-bl _p_36
+bl _p_42
 .word 0xf94027b1
 .word 0xf9441631
 .word 0xb4000051
@@ -2875,12 +3107,12 @@ bl _p_36
 .word 0xf9442631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_38
+bl _p_44
 .word 0xf900c3a0
 .word 0xf940c3a0
 .word 0xb4000060
 .word 0xf940c3a0
-bl _p_39
+bl _p_45
 .word 0x14000001
 .loc 3 73 0
 .word 0xf9402bb1
@@ -2901,16 +3133,16 @@ bl _p_39
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #640]
+ldr x0, [x16, #688]
 .word 0xf900e7a0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #632]
-bl _p_18
+ldr x0, [x16, #680]
+bl _p_20
 .word 0xf940e7a1
 .word 0xf900dfa0
-bl _p_37
+bl _p_43
 .word 0xf94027b1
 .word 0xf944b631
 .word 0xb4000051
@@ -2987,7 +3219,7 @@ bl _p_37
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940dba0
-bl _p_36
+bl _p_42
 .word 0xf94027b1
 .word 0xf945da31
 .word 0xb4000051
@@ -2997,12 +3229,12 @@ bl _p_36
 .word 0xf945ea31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_38
+bl _p_44
 .word 0xf900c7a0
 .word 0xf940c7a0
 .word 0xb4000060
 .word 0xf940c7a0
-bl _p_39
+bl _p_45
 .word 0x14000001
 .loc 3 82 0
 .word 0xf9402bb1
@@ -3023,16 +3255,16 @@ bl _p_39
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #344]
+ldr x0, [x16, #360]
 .word 0xf900e7a0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #632]
-bl _p_18
+ldr x0, [x16, #680]
+bl _p_20
 .word 0xf940e7a1
 .word 0xf900dfa0
-bl _p_37
+bl _p_43
 .word 0xf94027b1
 .word 0xf9467a31
 .word 0xb4000051
@@ -3109,7 +3341,7 @@ bl _p_37
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940dba0
-bl _p_36
+bl _p_42
 .word 0xf94027b1
 .word 0xf9479e31
 .word 0xb4000051
@@ -3119,12 +3351,12 @@ bl _p_36
 .word 0xf947ae31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_38
+bl _p_44
 .word 0xf900cba0
 .word 0xf940cba0
 .word 0xb4000060
 .word 0xf940cba0
-bl _p_39
+bl _p_45
 .word 0x14000001
 .loc 3 91 0
 .word 0xf9402bb1
@@ -3145,16 +3377,16 @@ bl _p_39
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #648]
+ldr x0, [x16, #696]
 .word 0xf900e7a0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #632]
-bl _p_18
+ldr x0, [x16, #680]
+bl _p_20
 .word 0xf940e7a1
 .word 0xf900dfa0
-bl _p_37
+bl _p_43
 .word 0xf94027b1
 .word 0xf9483e31
 .word 0xb4000051
@@ -3231,7 +3463,7 @@ bl _p_37
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940dba0
-bl _p_36
+bl _p_42
 .word 0xf94027b1
 .word 0xf9496231
 .word 0xb4000051
@@ -3241,12 +3473,12 @@ bl _p_36
 .word 0xf9497231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_38
+bl _p_44
 .word 0xf900cfa0
 .word 0xf940cfa0
 .word 0xb4000060
 .word 0xf940cfa0
-bl _p_39
+bl _p_45
 .word 0x14000001
 .loc 3 100 0
 .word 0xf9402bb1
@@ -3267,16 +3499,16 @@ bl _p_39
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #656]
+ldr x0, [x16, #704]
 .word 0xf900e3a0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #632]
-bl _p_18
+ldr x0, [x16, #680]
+bl _p_20
 .word 0xf940e3a1
 .word 0xf900dba0
-bl _p_37
+bl _p_43
 .word 0xf94027b1
 .word 0xf94a0231
 .word 0xb4000051
@@ -3305,7 +3537,7 @@ bl _p_37
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x1, [x16, #664]
+ldr x1, [x16, #712]
 .word 0xeb01001f
 .word 0x54000060
 .word 0xf90073bf
@@ -3315,16 +3547,16 @@ ldr x1, [x16, #664]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #672]
+ldr x0, [x16, #720]
 .word 0xf900e3a0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #632]
-bl _p_18
+ldr x0, [x16, #680]
+bl _p_20
 .word 0xf940e3a1
 .word 0xf900dba0
-bl _p_37
+bl _p_43
 .word 0xf94027b1
 .word 0xf94ab631
 .word 0xb4000051
@@ -3353,7 +3585,7 @@ bl _p_37
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x1, [x16, #664]
+ldr x1, [x16, #712]
 .word 0xeb01001f
 .word 0x54000060
 .word 0xf9007bbf
@@ -3363,16 +3595,16 @@ ldr x1, [x16, #664]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #680]
+ldr x0, [x16, #728]
 .word 0xf900eba0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #632]
-bl _p_18
+ldr x0, [x16, #680]
+bl _p_20
 .word 0xf940eba1
 .word 0xf900e3a0
-bl _p_37
+bl _p_43
 .word 0xf94027b1
 .word 0xf94b6a31
 .word 0xb4000051
@@ -3437,7 +3669,7 @@ bl _p_37
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf940dba0
-bl _p_36
+bl _p_42
 .word 0xf94027b1
 .word 0xf94c5e31
 .word 0xb4000051
@@ -3447,12 +3679,12 @@ bl _p_36
 .word 0xf94c6e31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_38
+bl _p_44
 .word 0xf900d3a0
 .word 0xf940d3a0
 .word 0xb4000060
 .word 0xf940d3a0
-bl _p_39
+bl _p_45
 .word 0x14000001
 .loc 3 107 0
 .word 0xf9402bb1
@@ -3526,10 +3758,10 @@ bl _p_39
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #448]
+ldr x0, [x16, #464]
 .word 0xd2800901
 .word 0xd2800901
-bl _p_7
+bl _p_8
 .word 0xf940e3a1
 .word 0xf940e7a2
 .word 0xf940eba3
@@ -3538,7 +3770,7 @@ bl _p_7
 .word 0xf940f7a6
 .word 0xf900dba0
 .word 0xd2800007
-bl _p_40
+bl _p_46
 .word 0xf94027b1
 .word 0xf94dde31
 .word 0xb4000051
@@ -3547,7 +3779,7 @@ bl _p_40
 .word 0xf940dfa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_32
+bl _p_38
 .word 0x53001c00
 .word 0xf94027b1
 .word 0xf94e0631
@@ -3606,10 +3838,10 @@ bl _p_32
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #448]
+ldr x0, [x16, #464]
 .word 0xd2800901
 .word 0xd2800901
-bl _p_7
+bl _p_8
 .word 0xf940e7a1
 .word 0xf940eba2
 .word 0xf940efa3
@@ -3618,7 +3850,7 @@ bl _p_7
 .word 0xf940fba6
 .word 0xf900dfa0
 .word 0xd2800007
-bl _p_40
+bl _p_46
 .word 0xf94027b1
 .word 0xf94f1631
 .word 0xb4000051
@@ -3628,7 +3860,7 @@ bl _p_40
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #456]
+ldr x0, [x16, #472]
 .word 0xf9400002
 .word 0xaa0303e0
 .word 0xf900dba3
@@ -3680,7 +3912,7 @@ ldr x0, [x16, #456]
 .word 0x9100023f
 .word 0xd65f03c0
 
-Lme_16:
+Lme_19:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_CleverBuoy_Model_User_invoke_TResult_T_object
@@ -3696,7 +3928,7 @@ wrapper_delegate_invoke_System_Func_2_object_CleverBuoy_Model_User_invoke_TResul
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #688]
+ldr x16, [x16, #736]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -3713,17 +3945,17 @@ ldr x16, [x16, #688]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #744]
 .word 0xb9400000
 .word 0x34000140
-bl _p_41
+bl _p_47
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_39
+bl _p_45
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -3819,9 +4051,9 @@ bl _p_39
 .word 0xd65f03c0
 .word 0xd2801c60
 .word 0xaa1103e1
-bl _p_21
+bl _p_23
 
-Lme_18:
+Lme_1b:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_CleverBuoy_Model_User_invoke_TResult
@@ -3836,7 +4068,7 @@ wrapper_delegate_invoke_System_Func_1_CleverBuoy_Model_User_invoke_TResult:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #704]
+ldr x16, [x16, #752]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -3853,17 +4085,17 @@ ldr x16, [x16, #704]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #744]
 .word 0xb9400000
 .word 0x34000140
-bl _p_41
+bl _p_47
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_39
+bl _p_45
 .word 0xf94037a0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
@@ -3953,9 +4185,9 @@ bl _p_39
 .word 0xd65f03c0
 .word 0xd2801c60
 .word 0xaa1103e1
-bl _p_21
+bl _p_23
 
-Lme_19:
+Lme_1c:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_CleverBuoy_Model_User_invoke_void_T_System_Threading_Tasks_Task_1_CleverBuoy_Model_User
@@ -3971,7 +4203,7 @@ wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_CleverBuoy
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #712]
+ldr x16, [x16, #760]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -3987,17 +4219,17 @@ ldr x16, [x16, #712]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #744]
 .word 0xb9400000
 .word 0x34000140
-bl _p_41
+bl _p_47
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_39
+bl _p_45
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -4087,9 +4319,9 @@ bl _p_39
 .word 0xd65f03c0
 .word 0xd2801c60
 .word 0xaa1103e1
-bl _p_21
+bl _p_23
 
-Lme_1a:
+Lme_1d:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_CleverBuoy_Model_User_invoke_TResult_T_System_IAsyncResult
@@ -4105,7 +4337,7 @@ wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_CleverBuoy_Model_User_
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #720]
+ldr x16, [x16, #768]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4122,17 +4354,17 @@ ldr x16, [x16, #720]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #744]
 .word 0xb9400000
 .word 0x34000140
-bl _p_41
+bl _p_47
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_39
+bl _p_45
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -4228,9 +4460,9 @@ bl _p_39
 .word 0xd65f03c0
 .word 0xd2801c60
 .word 0xaa1103e1
-bl _p_21
+bl _p_23
 
-Lme_1b:
+Lme_1e:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
@@ -4246,7 +4478,7 @@ wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #728]
+ldr x16, [x16, #776]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4262,17 +4494,17 @@ ldr x16, [x16, #728]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #744]
 .word 0xb9400000
 .word 0x34000140
-bl _p_41
+bl _p_47
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_39
+bl _p_45
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -4362,9 +4594,9 @@ bl _p_39
 .word 0xd65f03c0
 .word 0xd2801c60
 .word 0xaa1103e1
-bl _p_21
+bl _p_23
 
-Lme_1c:
+Lme_1f:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
@@ -4381,7 +4613,7 @@ wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncR
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #784]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4398,17 +4630,17 @@ ldr x16, [x16, #736]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #744]
 .word 0xb9400000
 .word 0x34000140
-bl _p_41
+bl _p_47
 .word 0xf9003ba0
 .word 0xf9403ba1
 .word 0xf9403ba0
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_39
+bl _p_45
 .word 0xf9403fa0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -4509,9 +4741,9 @@ bl _p_39
 .word 0xd65f03c0
 .word 0xd2801c60
 .word 0xaa1103e1
-bl _p_21
+bl _p_23
 
-Lme_1d:
+Lme_20:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
@@ -4527,7 +4759,7 @@ wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #744]
+ldr x16, [x16, #792]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4544,17 +4776,17 @@ ldr x16, [x16, #744]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #744]
 .word 0xb9400000
 .word 0x34000140
-bl _p_41
+bl _p_47
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_39
+bl _p_45
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -4650,9 +4882,9 @@ bl _p_39
 .word 0xd65f03c0
 .word 0xd2801c60
 .word 0xaa1103e1
-bl _p_21
+bl _p_23
 
-Lme_1e:
+Lme_21:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
@@ -4667,7 +4899,7 @@ wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #800]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4684,17 +4916,17 @@ ldr x16, [x16, #752]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #744]
 .word 0xb9400000
 .word 0x34000140
-bl _p_41
+bl _p_47
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_39
+bl _p_45
 .word 0xf94037a0
 .word 0xaa1a03e0
 .word 0xaa1a03e0
@@ -4784,9 +5016,9 @@ bl _p_39
 .word 0xd65f03c0
 .word 0xd2801c60
 .word 0xaa1103e1
-bl _p_21
+bl _p_23
 
-Lme_1f:
+Lme_22:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
@@ -4802,7 +5034,7 @@ wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Thr
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #760]
+ldr x16, [x16, #808]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4818,17 +5050,17 @@ ldr x16, [x16, #760]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #744]
 .word 0xb9400000
 .word 0x34000140
-bl _p_41
+bl _p_47
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_39
+bl _p_45
 .word 0xf94037a0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -4918,9 +5150,9 @@ bl _p_39
 .word 0xd65f03c0
 .word 0xd2801c60
 .word 0xaa1103e1
-bl _p_21
+bl _p_23
 
-Lme_20:
+Lme_23:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
@@ -4936,7 +5168,7 @@ wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #816]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4953,17 +5185,17 @@ ldr x16, [x16, #768]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #744]
 .word 0xb9400000
 .word 0x34000140
-bl _p_41
+bl _p_47
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_39
+bl _p_45
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -5059,9 +5291,9 @@ bl _p_39
 .word 0xd65f03c0
 .word 0xd2801c60
 .word 0xaa1103e1
-bl _p_21
+bl _p_23
 
-Lme_21:
+Lme_24:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
@@ -5077,7 +5309,7 @@ wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threa
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #824]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -5094,17 +5326,17 @@ ldr x16, [x16, #776]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #744]
 .word 0xb9400000
 .word 0x34000140
-bl _p_41
+bl _p_47
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_39
+bl _p_45
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -5200,9 +5432,9 @@ bl _p_39
 .word 0xd65f03c0
 .word 0xd2801c60
 .word 0xaa1103e1
-bl _p_21
+bl _p_23
 
-Lme_22:
+Lme_25:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_CleverBuoy_Model_User_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
@@ -5218,7 +5450,7 @@ wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threa
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #832]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -5235,17 +5467,17 @@ ldr x16, [x16, #784]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #744]
 .word 0xb9400000
 .word 0x34000140
-bl _p_41
+bl _p_47
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_39
+bl _p_45
 .word 0xf9403ba0
 .word 0xaa1903e0
 .word 0xaa1903e0
@@ -5341,9 +5573,9 @@ bl _p_39
 .word 0xd65f03c0
 .word 0xd2801c60
 .word 0xaa1103e1
-bl _p_21
+bl _p_23
 
-Lme_23:
+Lme_26:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_2_CleverBuoy_Model_User_string_invoke_void_T1_T2_CleverBuoy_Model_User_string
@@ -5360,7 +5592,7 @@ wrapper_delegate_invoke_System_Action_2_CleverBuoy_Model_User_string_invoke_void
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #840]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -5376,17 +5608,17 @@ ldr x16, [x16, #792]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #696]
+ldr x0, [x16, #744]
 .word 0xb9400000
 .word 0x34000140
-bl _p_41
+bl _p_47
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_39
+bl _p_45
 .word 0xf9403ba0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -5482,9 +5714,9 @@ bl _p_39
 .word 0xd65f03c0
 .word 0xd2801c60
 .word 0xaa1103e1
-bl _p_21
+bl _p_23
 
-Lme_24:
+Lme_27:
 .text
 	.align 3
 jit_code_end:
@@ -5513,6 +5745,9 @@ bl CleverBuoy_iOS_GoogleManager_DidDisconnect_Google_SignIn_SignIn_Google_SignIn
 bl CleverBuoy_iOS_GoogleManager_WillDispatch_Google_SignIn_SignIn_Foundation_NSError
 bl CleverBuoy_iOS_GoogleManager_PresentViewController_Google_SignIn_SignIn_UIKit_UIViewController
 bl CleverBuoy_iOS_GoogleManager_DismissViewController_Google_SignIn_SignIn_UIKit_UIViewController
+bl CleverBuoy_iOS_MSLoginPageRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+bl CleverBuoy_iOS_MSLoginPageRenderer_ViewDidLoad
+bl CleverBuoy_iOS_MSLoginPageRenderer__ctor
 bl CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__ctor
 bl CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__Loginb__0_Facebook_LoginKit_LoginManagerLoginResult_Foundation_NSError
 bl CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__ctor
@@ -5549,13 +5784,14 @@ unbox_trampoline_addresses:
 unwind_info:
 
 	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,22,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14
-	.byte 151,13,68,152,12,13,12,31,0,68,14,64,157,8,158,7,68,13,29,16,12,31,0,68,14,112,157,14,158,13,68,13
-	.byte 29,68,150,12,32,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16,150,15,68,151,14
-	.byte 152,13,68,153,12,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8,16,12,31,0,68,14,64,157,8,158
-	.byte 7,68,13,29,68,154,6,23,12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9,34
-	.byte 12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,147,34,148,33,68,149,32,150,31,68,151,30,152,29,68,153,28
-	.byte 154,27,13,12,31,0,68,14,80,157,10,158,9,68,13,29,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68,151
-	.byte 10,152,9,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,32,12,31,0,68,14,208,1,157,26
+	.byte 151,13,68,152,12,13,12,31,0,68,14,64,157,8,158,7,68,13,29,19,12,31,0,68,14,112,157,14,158,13,68,13
+	.byte 29,68,150,12,68,152,11,32,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16,150,15
+	.byte 68,151,14,152,13,68,153,12,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8,16,12,31,0,68,14,64
+	.byte 157,8,158,7,68,13,29,68,154,6,23,12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10
+	.byte 153,9,34,12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,147,34,148,33,68,149,32,150,31,68,151,30,152,29
+	.byte 68,153,28,154,27,13,12,31,0,68,14,80,157,10,158,9,68,13,29,18,12,31,0,68,14,96,157,12,158,11,68,13
+	.byte 29,68,151,10,152,9,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,28,12,31,0,68,14,96
+	.byte 157,12,158,11,68,13,29,68,149,10,150,9,68,151,8,152,7,68,153,6,154,5,32,12,31,0,68,14,208,1,157,26
 	.byte 158,25,68,13,29,68,147,24,148,23,68,149,22,150,21,68,151,20,152,19,68,154,18,24,12,31,0,68,14,128,4,157
 	.byte 64,158,63,68,13,29,68,151,62,152,61,68,153,60,154,59,34,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68
 	.byte 147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,34,12,31,0,68,14,128,1,157,16,158,15,68
@@ -5570,333 +5806,381 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #856]
 br x16
-.word 953
+.word 982
 	.no_dead_strip plt_Xamarin_Forms_Forms_Init
 plt_Xamarin_Forms_Forms_Init:
 _p_2:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #864]
 br x16
-.word 958
+.word 987
 	.no_dead_strip plt_Xamarin_Forms_DependencyService_Register_CleverBuoy_Interfaces_IFbLoginInterface_CleverBuoy_iOS_FacebookManager
 plt_Xamarin_Forms_DependencyService_Register_CleverBuoy_Interfaces_IFbLoginInterface_CleverBuoy_iOS_FacebookManager:
 _p_3:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #872]
 br x16
-.word 963
+.word 992
 	.no_dead_strip plt_Xamarin_Forms_DependencyService_Register_CleverBuoy_Interfaces_IGoogleLoginInterface_CleverBuoy_iOS_GoogleManager
 plt_Xamarin_Forms_DependencyService_Register_CleverBuoy_Interfaces_IGoogleLoginInterface_CleverBuoy_iOS_GoogleManager:
 _p_4:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #880]
 br x16
-.word 975
+.word 1004
 	.no_dead_strip plt_Foundation_NSDictionary_FromFile_string
 plt_Foundation_NSDictionary_FromFile_string:
 _p_5:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #888]
 br x16
-.word 987
+.word 1016
 	.no_dead_strip plt_Google_SignIn_SignIn_get_SharedInstance
 plt_Google_SignIn_SignIn_get_SharedInstance:
 _p_6:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #848]
-br x16
-.word 992
-	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
-plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
-_p_7:
-adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
-add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #856]
-br x16
-.word 997
-	.no_dead_strip plt_CleverBuoy_App__ctor
-plt_CleverBuoy_App__ctor:
-_p_8:
-adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
-add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #864]
-br x16
-.word 1005
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
-_p_9:
-adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
-add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #872]
-br x16
-.word 1010
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
-_p_10:
-adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
-add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #880]
-br x16
-.word 1015
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_OnActivated_UIKit_UIApplication
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_OnActivated_UIKit_UIApplication:
-_p_11:
-adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
-add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #888]
-br x16
-.word 1020
-	.no_dead_strip plt_Facebook_CoreKit_AppEvents_ActivateApp
-plt_Facebook_CoreKit_AppEvents_ActivateApp:
-_p_12:
-adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
-add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #896]
 br x16
-.word 1025
-	.no_dead_strip plt_Facebook_CoreKit_ApplicationDelegate_get_SharedInstance
-plt_Facebook_CoreKit_ApplicationDelegate_get_SharedInstance:
-_p_13:
+.word 1021
+	.no_dead_strip plt_Microsoft_Identity_Client_ClientApplicationBase_set_RedirectUri_string
+plt_Microsoft_Identity_Client_ClientApplicationBase_set_RedirectUri_string:
+_p_7:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #904]
 br x16
-.word 1030
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
-_p_14:
+.word 1026
+	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
+plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
+_p_8:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #912]
 br x16
-.word 1035
-	.no_dead_strip plt_CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__ctor
-plt_CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__ctor:
-_p_15:
+.word 1031
+	.no_dead_strip plt_CleverBuoy_App__ctor
+plt_CleverBuoy_App__ctor:
+_p_9:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #920]
 br x16
-.word 1040
-	.no_dead_strip plt_UIKit_UIApplication_get_SharedApplication
-plt_UIKit_UIApplication_get_SharedApplication:
-_p_16:
+.word 1039
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
+_p_10:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #928]
 br x16
-.word 1045
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_CleverBuoy_Model_User__ctor
-plt_System_Threading_Tasks_TaskCompletionSource_1_CleverBuoy_Model_User__ctor:
-_p_17:
+.word 1044
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
+_p_11:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #936]
 br x16
-.word 1050
-	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
-plt__jit_icall_ves_icall_object_new_specific:
-_p_18:
+.word 1049
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_OnActivated_UIKit_UIApplication
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_OnActivated_UIKit_UIApplication:
+_p_12:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #944]
 br x16
-.word 1061
-	.no_dead_strip plt_Facebook_LoginKit_LoginManager__ctor
-plt_Facebook_LoginKit_LoginManager__ctor:
-_p_19:
+.word 1054
+	.no_dead_strip plt_Facebook_CoreKit_AppEvents_ActivateApp
+plt_Facebook_CoreKit_AppEvents_ActivateApp:
+_p_13:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #952]
 br x16
-.word 1093
-	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
-plt_wrapper_alloc_object_AllocVector_intptr_intptr:
-_p_20:
+.word 1059
+	.no_dead_strip plt_Microsoft_Identity_Client_AuthenticationContinuationHelper_SetAuthenticationContinuationEventArgs_Foundation_NSUrl
+plt_Microsoft_Identity_Client_AuthenticationContinuationHelper_SetAuthenticationContinuationEventArgs_Foundation_NSUrl:
+_p_14:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #960]
 br x16
-.word 1098
-	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
-plt__jit_icall_mono_arch_throw_corlib_exception:
-_p_21:
+.word 1064
+	.no_dead_strip plt_Facebook_CoreKit_ApplicationDelegate_get_SharedInstance
+plt_Facebook_CoreKit_ApplicationDelegate_get_SharedInstance:
+_p_15:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #968]
 br x16
-.word 1106
-	.no_dead_strip plt_Foundation_NSObject__ctor
-plt_Foundation_NSObject__ctor:
-_p_22:
+.word 1069
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
+_p_16:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #976]
 br x16
-.word 1141
-	.no_dead_strip plt_CleverBuoy_iOS_GoogleManager_set__viewController_UIKit_UIViewController
-plt_CleverBuoy_iOS_GoogleManager_set__viewController_UIKit_UIViewController:
-_p_23:
+.word 1074
+	.no_dead_strip plt_CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__ctor
+plt_CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__ctor:
+_p_17:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #984]
 br x16
-.word 1146
-	.no_dead_strip plt_CleverBuoy_Model_User__ctor
-plt_CleverBuoy_Model_User__ctor:
-_p_24:
+.word 1079
+	.no_dead_strip plt_UIKit_UIApplication_get_SharedApplication
+plt_UIKit_UIApplication_get_SharedApplication:
+_p_18:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #992]
 br x16
-.word 1151
-	.no_dead_strip plt_CleverBuoy_Model_User_set_CurrentUserLoginType_LoginType
-plt_CleverBuoy_Model_User_set_CurrentUserLoginType_LoginType:
-_p_25:
+.word 1084
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_CleverBuoy_Model_User__ctor
+plt_System_Threading_Tasks_TaskCompletionSource_1_CleverBuoy_Model_User__ctor:
+_p_19:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #1000]
 br x16
-.word 1156
-	.no_dead_strip plt_CleverBuoy_Model_User_set_FirstName_string
-plt_CleverBuoy_Model_User_set_FirstName_string:
-_p_26:
+.word 1089
+	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
+plt__jit_icall_ves_icall_object_new_specific:
+_p_20:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #1008]
 br x16
-.word 1161
-	.no_dead_strip plt_CleverBuoy_Model_User_set_Email_string
-plt_CleverBuoy_Model_User_set_Email_string:
-_p_27:
+.word 1100
+	.no_dead_strip plt_Facebook_LoginKit_LoginManager__ctor
+plt_Facebook_LoginKit_LoginManager__ctor:
+_p_21:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #1016]
 br x16
-.word 1166
-	.no_dead_strip plt_System_nuint_op_Implicit_uint16
-plt_System_nuint_op_Implicit_uint16:
-_p_28:
+.word 1132
+	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
+plt_wrapper_alloc_object_AllocVector_intptr_intptr:
+_p_22:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #1024]
 br x16
-.word 1171
-	.no_dead_strip plt_CleverBuoy_Model_User_set_Picture_string
-plt_CleverBuoy_Model_User_set_Picture_string:
-_p_29:
+.word 1137
+	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
+plt__jit_icall_mono_arch_throw_corlib_exception:
+_p_23:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #1032]
 br x16
-.word 1176
-	.no_dead_strip plt_CleverBuoy_iOS_GoogleManager_get__viewController
-plt_CleverBuoy_iOS_GoogleManager_get__viewController:
-_p_30:
+.word 1145
+	.no_dead_strip plt_Foundation_NSObject__ctor
+plt_Foundation_NSObject__ctor:
+_p_24:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #1040]
 br x16
-.word 1181
-	.no_dead_strip plt_CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__ctor
-plt_CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__ctor:
-_p_31:
+.word 1180
+	.no_dead_strip plt_CleverBuoy_iOS_GoogleManager_set__viewController_UIKit_UIViewController
+plt_CleverBuoy_iOS_GoogleManager_set__viewController_UIKit_UIViewController:
+_p_25:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #1048]
 br x16
-.word 1186
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_CleverBuoy_Model_User_TrySetResult_CleverBuoy_Model_User
-plt_System_Threading_Tasks_TaskCompletionSource_1_CleverBuoy_Model_User_TrySetResult_CleverBuoy_Model_User:
-_p_32:
+.word 1185
+	.no_dead_strip plt_CleverBuoy_Model_User__ctor
+plt_CleverBuoy_Model_User__ctor:
+_p_26:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #1056]
 br x16
-.word 1191
-	.no_dead_strip plt_System_Array_Empty_object
-plt_System_Array_Empty_object:
-_p_33:
+.word 1190
+	.no_dead_strip plt_CleverBuoy_Model_User_set_CurrentUserLoginType_LoginType
+plt_CleverBuoy_Model_User_set_CurrentUserLoginType_LoginType:
+_p_27:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #1064]
 br x16
-.word 1202
-	.no_dead_strip plt_Foundation_NSDictionary__ctor_object_object_object__
-plt_Foundation_NSDictionary__ctor_object_object_object__:
-_p_34:
+.word 1195
+	.no_dead_strip plt_CleverBuoy_Model_User_set_FirstName_string
+plt_CleverBuoy_Model_User_set_FirstName_string:
+_p_28:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #1072]
 br x16
-.word 1214
-	.no_dead_strip plt_Facebook_CoreKit_GraphRequest__ctor_string_Foundation_NSDictionary
-plt_Facebook_CoreKit_GraphRequest__ctor_string_Foundation_NSDictionary:
-_p_35:
+.word 1200
+	.no_dead_strip plt_CleverBuoy_Model_User_set_Email_string
+plt_CleverBuoy_Model_User_set_Email_string:
+_p_29:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #1080]
 br x16
-.word 1219
-	.no_dead_strip plt_System_Diagnostics_Debug_WriteLine_string
-plt_System_Diagnostics_Debug_WriteLine_string:
-_p_36:
+.word 1205
+	.no_dead_strip plt_System_nuint_op_Implicit_uint16
+plt_System_nuint_op_Implicit_uint16:
+_p_30:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #1088]
 br x16
-.word 1224
-	.no_dead_strip plt_Foundation_NSString__ctor_string
-plt_Foundation_NSString__ctor_string:
-_p_37:
+.word 1210
+	.no_dead_strip plt_CleverBuoy_Model_User_set_Picture_string
+plt_CleverBuoy_Model_User_set_Picture_string:
+_p_31:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #1096]
 br x16
-.word 1229
-	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
-plt__jit_icall_mono_thread_get_undeniable_exception:
-_p_38:
+.word 1215
+	.no_dead_strip plt_CleverBuoy_iOS_GoogleManager_get__viewController
+plt_CleverBuoy_iOS_GoogleManager_get__viewController:
+_p_32:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #1104]
 br x16
-.word 1234
-	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
-plt__jit_icall_mono_arch_throw_exception:
-_p_39:
+.word 1220
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_PageRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+plt_Xamarin_Forms_Platform_iOS_PageRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs:
+_p_33:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #1112]
 br x16
-.word 1273
-	.no_dead_strip plt_CleverBuoy_Model_User__ctor_string_string_string_string_string_string_LoginType
-plt_CleverBuoy_Model_User__ctor_string_string_string_string_string_string_LoginType:
-_p_40:
+.word 1225
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Xamarin_Forms_VisualElement_get_NewElement
+plt_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Xamarin_Forms_VisualElement_get_NewElement:
+_p_34:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #1120]
 br x16
-.word 1301
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
-_p_41:
+.word 1230
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_PageRenderer_ViewDidLoad
+plt_Xamarin_Forms_Platform_iOS_PageRenderer_ViewDidLoad:
+_p_35:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x16, [x16, #1128]
 br x16
-.word 1306
+.word 1241
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_PageRenderer__ctor
+plt_Xamarin_Forms_Platform_iOS_PageRenderer__ctor:
+_p_36:
+adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
+add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
+ldr x16, [x16, #1136]
+br x16
+.word 1246
+	.no_dead_strip plt_CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__ctor
+plt_CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__ctor:
+_p_37:
+adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
+add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
+ldr x16, [x16, #1144]
+br x16
+.word 1251
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_CleverBuoy_Model_User_TrySetResult_CleverBuoy_Model_User
+plt_System_Threading_Tasks_TaskCompletionSource_1_CleverBuoy_Model_User_TrySetResult_CleverBuoy_Model_User:
+_p_38:
+adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
+add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
+ldr x16, [x16, #1152]
+br x16
+.word 1256
+	.no_dead_strip plt_System_Array_Empty_object
+plt_System_Array_Empty_object:
+_p_39:
+adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
+add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
+ldr x16, [x16, #1160]
+br x16
+.word 1267
+	.no_dead_strip plt_Foundation_NSDictionary__ctor_object_object_object__
+plt_Foundation_NSDictionary__ctor_object_object_object__:
+_p_40:
+adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
+add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
+ldr x16, [x16, #1168]
+br x16
+.word 1279
+	.no_dead_strip plt_Facebook_CoreKit_GraphRequest__ctor_string_Foundation_NSDictionary
+plt_Facebook_CoreKit_GraphRequest__ctor_string_Foundation_NSDictionary:
+_p_41:
+adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
+add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
+ldr x16, [x16, #1176]
+br x16
+.word 1284
+	.no_dead_strip plt_System_Diagnostics_Debug_WriteLine_string
+plt_System_Diagnostics_Debug_WriteLine_string:
+_p_42:
+adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
+add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
+ldr x16, [x16, #1184]
+br x16
+.word 1289
+	.no_dead_strip plt_Foundation_NSString__ctor_string
+plt_Foundation_NSString__ctor_string:
+_p_43:
+adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
+add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
+ldr x16, [x16, #1192]
+br x16
+.word 1294
+	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
+plt__jit_icall_mono_thread_get_undeniable_exception:
+_p_44:
+adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
+add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
+ldr x16, [x16, #1200]
+br x16
+.word 1299
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
+_p_45:
+adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
+add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
+ldr x16, [x16, #1208]
+br x16
+.word 1338
+	.no_dead_strip plt_CleverBuoy_Model_User__ctor_string_string_string_string_string_string_LoginType
+plt_CleverBuoy_Model_User__ctor_string_string_string_string_string_string_LoginType:
+_p_46:
+adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
+add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
+ldr x16, [x16, #1216]
+br x16
+.word 1366
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_47:
+adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
+add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
+ldr x16, [x16, #1224]
+br x16
+.word 1371
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_CleverBuoy_iOS_got, 1136
+.lcomm mono_aot_CleverBuoy_iOS_got, 1232
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -5919,7 +6203,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "3E669AE9-D515-4C03-9256-7DC34A8133B0"
+	.asciz "920D9D0F-B833-4938-BDC2-5B58D5B6BDFA"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -5996,13 +6280,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 100,1136,42,37,70,391195135,0,9429
-	.long 128,8,8,9,0,25,10976,1536
-	.long 792,472,0,672,760,520,0,360
+	.long 106,1232,48,40,70,391195135,0,10333
+	.long 128,8,8,9,0,25,12040,1696
+	.long 848,472,0,720,816,560,0,360
 	.long 72,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 34,191,245,42,36,36,130,126,181,44,96,11,194,229,200,139
+	.byte 56,143,78,246,157,82,162,167,107,9,102,65,45,139,222,131
 	.globl _mono_aot_module_CleverBuoy_iOS_info
 	.align 3
 _mono_aot_module_CleverBuoy_iOS_info:
@@ -10874,7 +11158,7 @@ LDIFF_SYM864=LTDIE_139 - Ldebug_info_start
 	.asciz "CleverBuoy.iOS.AppDelegate:FinishedLaunching"
 	.asciz "CleverBuoy_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary"
 
-	.byte 2,17
+	.byte 2,18
 	.quad CleverBuoy_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 	.quad Lme_2
 
@@ -10928,7 +11212,7 @@ Lfde2_end:
 	.asciz "CleverBuoy.iOS.AppDelegate:OnActivated"
 	.asciz "CleverBuoy_iOS_AppDelegate_OnActivated_UIKit_UIApplication"
 
-	.byte 2,33
+	.byte 2,36
 	.quad CleverBuoy_iOS_AppDelegate_OnActivated_UIKit_UIApplication
 	.quad Lme_3
 
@@ -10989,7 +11273,7 @@ LDIFF_SYM879=LTDIE_140 - Ldebug_info_start
 	.asciz "CleverBuoy.iOS.AppDelegate:OpenUrl"
 	.asciz "CleverBuoy_iOS_AppDelegate_OpenUrl_UIKit_UIApplication_Foundation_NSUrl_string_Foundation_NSObject"
 
-	.byte 2,39
+	.byte 2,42
 	.quad CleverBuoy_iOS_AppDelegate_OpenUrl_UIKit_UIApplication_Foundation_NSUrl_string_Foundation_NSObject
 	.quad Lme_4
 
@@ -10998,17 +11282,17 @@ LDIFF_SYM879=LTDIE_140 - Ldebug_info_start
 
 LDIFF_SYM880=LTDIE_2_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM880
-	.byte 2,141,24,3
+	.byte 2,141,32,3
 	.asciz "application"
 
 LDIFF_SYM881=LTDIE_138_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM881
-	.byte 2,141,32,3
+	.byte 2,141,40,3
 	.asciz "url"
 
 LDIFF_SYM882=LTDIE_140_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM882
-	.byte 2,141,40,3
+	.byte 1,104,3
 	.asciz "sourceApplication"
 
 LDIFF_SYM883=LDIE_STRING - Ldebug_info_start
@@ -11038,7 +11322,7 @@ Lfde4_start:
 LDIFF_SYM887=Lme_4 - CleverBuoy_iOS_AppDelegate_OpenUrl_UIKit_UIApplication_Foundation_NSUrl_string_Foundation_NSObject
 	.long LDIFF_SYM887
 	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,68,152,11
 	.align 3
 Lfde4_end:
 
@@ -12040,1067 +12324,901 @@ LDIFF_SYM1024=Lme_12 - CleverBuoy_iOS_GoogleManager_DismissViewController_Google
 Lfde18_end:
 
 .section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "CleverBuoy.iOS.FacebookManager/<>c__DisplayClass1_0:.ctor"
-	.asciz "CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__ctor"
-
-	.byte 0,0
-	.quad CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__ctor
-	.quad Lme_13
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1025=LTDIE_143_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1025
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1026=Lfde19_end - Lfde19_start
-	.long LDIFF_SYM1026
-Lfde19_start:
-
-	.long 0
-	.align 3
-	.quad CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__ctor
-
-LDIFF_SYM1027=Lme_13 - CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__ctor
-	.long LDIFF_SYM1027
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde19_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_154:
-
-	.byte 5
-	.asciz "Facebook_LoginKit_LoginManagerLoginResult"
-
-	.byte 40,16
-LDIFF_SYM1028=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1028
-	.byte 2,35,0,0,7
-	.asciz "Facebook_LoginKit_LoginManagerLoginResult"
-
-LDIFF_SYM1029=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1029
-LTDIE_154_POINTER:
-
-	.byte 13
-LDIFF_SYM1030=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1030
-LTDIE_154_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1031=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1031
-LTDIE_155:
-
-	.byte 5
-	.asciz "_<>c__DisplayClass1_1"
-
-	.byte 32,16
-LDIFF_SYM1032=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1032
-	.byte 2,35,0,6
-	.asciz "result"
-
-LDIFF_SYM1033=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1033
-	.byte 2,35,16,6
-	.asciz "CS$<>8__locals1"
-
-LDIFF_SYM1034=LTDIE_143_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1034
-	.byte 2,35,24,0,7
-	.asciz "_<>c__DisplayClass1_1"
-
-LDIFF_SYM1035=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1035
-LTDIE_155_POINTER:
-
-	.byte 13
-LDIFF_SYM1036=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1036
-LTDIE_155_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1037=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1037
-LTDIE_156:
-
-	.byte 5
-	.asciz "Facebook_CoreKit_GraphRequest"
-
-	.byte 40,16
-LDIFF_SYM1038=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1038
-	.byte 2,35,0,0,7
-	.asciz "Facebook_CoreKit_GraphRequest"
-
-LDIFF_SYM1039=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM1039
-LTDIE_156_POINTER:
-
-	.byte 13
-LDIFF_SYM1040=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM1040
-LTDIE_156_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1041=LTDIE_156 - Ldebug_info_start
-	.long LDIFF_SYM1041
-	.byte 2
-	.asciz "CleverBuoy.iOS.FacebookManager/<>c__DisplayClass1_0:<Login>b__0"
-	.asciz "CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__Loginb__0_Facebook_LoginKit_LoginManagerLoginResult_Foundation_NSError"
-
-	.byte 3,0
-	.quad CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__Loginb__0_Facebook_LoginKit_LoginManagerLoginResult_Foundation_NSError
-	.quad Lme_14
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1042=LTDIE_143_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1042
-	.byte 1,104,3
-	.asciz "result"
-
-LDIFF_SYM1043=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1043
-	.byte 3,141,200,0,3
-	.asciz "error"
-
-LDIFF_SYM1044=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1044
-	.byte 3,141,208,0,11
-	.asciz "CS$<>8__locals0"
-
-LDIFF_SYM1045=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1045
-	.byte 1,103,11
-	.asciz "V_1"
-
-LDIFF_SYM1046=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1046
-	.byte 1,102,11
-	.asciz "V_2"
-
-LDIFF_SYM1047=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1047
-	.byte 1,101,11
-	.asciz "V_3"
-
-LDIFF_SYM1048=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1048
-	.byte 1,100,11
-	.asciz "request"
-
-LDIFF_SYM1049=LTDIE_156_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1049
-	.byte 1,99,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1050=Lfde20_end - Lfde20_start
-	.long LDIFF_SYM1050
-Lfde20_start:
-
-	.long 0
-	.align 3
-	.quad CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__Loginb__0_Facebook_LoginKit_LoginManagerLoginResult_Foundation_NSError
-
-LDIFF_SYM1051=Lme_14 - CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__Loginb__0_Facebook_LoginKit_LoginManagerLoginResult_Foundation_NSError
-	.long LDIFF_SYM1051
-	.long 0
-	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,147,24,148,23,68,149,22,150,21,68,151,20,152,19,68,154,18
-	.align 3
-Lfde20_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "CleverBuoy.iOS.FacebookManager/<>c__DisplayClass1_1:.ctor"
-	.asciz "CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__ctor"
-
-	.byte 0,0
-	.quad CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__ctor
-	.quad Lme_15
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1052=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1052
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1053=Lfde21_end - Lfde21_start
-	.long LDIFF_SYM1053
-Lfde21_start:
-
-	.long 0
-	.align 3
-	.quad CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__ctor
-
-LDIFF_SYM1054=Lme_15 - CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__ctor
-	.long LDIFF_SYM1054
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde21_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_157:
-
-	.byte 5
-	.asciz "Facebook_CoreKit_GraphRequestConnection"
-
-	.byte 48,16
-LDIFF_SYM1055=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1055
-	.byte 2,35,0,6
-	.asciz "__mt_Delegate_var"
-
-LDIFF_SYM1056=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1056
-	.byte 2,35,40,0,7
-	.asciz "Facebook_CoreKit_GraphRequestConnection"
-
-LDIFF_SYM1057=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM1057
-LTDIE_157_POINTER:
-
-	.byte 13
-LDIFF_SYM1058=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM1058
-LTDIE_157_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1059=LTDIE_157 - Ldebug_info_start
-	.long LDIFF_SYM1059
-	.byte 2
-	.asciz "CleverBuoy.iOS.FacebookManager/<>c__DisplayClass1_1:<Login>b__1"
-	.asciz "CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__Loginb__1_Facebook_CoreKit_GraphRequestConnection_Foundation_NSObject_Foundation_NSError"
-
-	.byte 3,49
-	.quad CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__Loginb__1_Facebook_CoreKit_GraphRequestConnection_Foundation_NSObject_Foundation_NSError
-	.quad Lme_16
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1060=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1060
-	.byte 2,141,48,3
-	.asciz "connection"
-
-LDIFF_SYM1061=LTDIE_157_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1061
-	.byte 2,141,56,3
-	.asciz "result1"
-
-LDIFF_SYM1062=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1062
-	.byte 3,141,192,0,3
-	.asciz "error1"
-
-LDIFF_SYM1063=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1063
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1064=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1064
-	.byte 1,105,11
-	.asciz "id"
-
-LDIFF_SYM1065=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1065
-	.byte 3,141,224,0,11
-	.asciz "first_name"
-
-LDIFF_SYM1066=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1066
-	.byte 3,141,232,0,11
-	.asciz "email"
-
-LDIFF_SYM1067=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1067
-	.byte 3,141,240,0,11
-	.asciz "last_name"
-
-LDIFF_SYM1068=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1068
-	.byte 3,141,248,0,11
-	.asciz "url"
-
-LDIFF_SYM1069=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1069
-	.byte 3,141,128,1,11
-	.asciz "e"
-
-LDIFF_SYM1070=LTDIE_71_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1070
-	.byte 3,141,136,1,11
-	.asciz "e"
-
-LDIFF_SYM1071=LTDIE_71_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1071
-	.byte 3,141,144,1,11
-	.asciz "e"
-
-LDIFF_SYM1072=LTDIE_71_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1072
-	.byte 3,141,152,1,11
-	.asciz "e"
-
-LDIFF_SYM1073=LTDIE_71_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1073
-	.byte 3,141,160,1,11
-	.asciz "e"
-
-LDIFF_SYM1074=LTDIE_71_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1074
-	.byte 3,141,168,1,11
-	.asciz "V_11"
-
-LDIFF_SYM1075=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1075
-	.byte 3,141,176,1,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1076=Lfde22_end - Lfde22_start
-	.long LDIFF_SYM1076
-Lfde22_start:
-
-	.long 0
-	.align 3
-	.quad CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__Loginb__1_Facebook_CoreKit_GraphRequestConnection_Foundation_NSObject_Foundation_NSError
-
-LDIFF_SYM1077=Lme_16 - CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__Loginb__1_Facebook_CoreKit_GraphRequestConnection_Foundation_NSObject_Foundation_NSError
-	.long LDIFF_SYM1077
-	.long 0
-	.byte 12,31,0,68,14,128,4,157,64,158,63,68,13,29,68,151,62,152,61,68,153,60,154,59
-	.align 3
-Lfde22_end:
-
-.section __DWARF, __debug_info,regular,debug
 LTDIE_158:
 
-	.byte 5
-	.asciz "System_Func`2"
+	.byte 17
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-	.byte 112,16
-LDIFF_SYM1078=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1078
-	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
+	.byte 16,7
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM1079=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM1079
+LDIFF_SYM1025=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1025
 LTDIE_158_POINTER:
 
 	.byte 13
-LDIFF_SYM1080=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM1080
+LDIFF_SYM1026=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1026
 LTDIE_158_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1081=LTDIE_158 - Ldebug_info_start
-	.long LDIFF_SYM1081
+LDIFF_SYM1027=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1027
 LTDIE_159:
 
 	.byte 5
-	.asciz "System_Array"
+	.asciz "_KeyCollection"
 
-	.byte 16,16
-LDIFF_SYM1082=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1082
-	.byte 2,35,0,0,7
-	.asciz "System_Array"
+	.byte 24,16
+LDIFF_SYM1028=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1028
+	.byte 2,35,0,6
+	.asciz "dictionary"
 
-LDIFF_SYM1083=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM1083
+LDIFF_SYM1029=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1029
+	.byte 2,35,16,0,7
+	.asciz "_KeyCollection"
+
+LDIFF_SYM1030=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1030
 LTDIE_159_POINTER:
 
 	.byte 13
-LDIFF_SYM1084=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM1084
+LDIFF_SYM1031=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1031
 LTDIE_159_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1085=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM1085
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_CleverBuoy.Model.User>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_object_CleverBuoy_Model_User_invoke_TResult_T_object"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_object_CleverBuoy_Model_User_invoke_TResult_T_object
-	.quad Lme_18
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1086=LTDIE_158_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1086
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1087=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1087
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1088=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1088
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM1089=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1089
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM1090=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1090
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM1091=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1091
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM1092=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1092
-	.byte 1,100,11
-	.asciz "V_5"
-
-LDIFF_SYM1093=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1093
-	.byte 1,99,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1094=Lfde23_end - Lfde23_start
-	.long LDIFF_SYM1094
-Lfde23_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_object_CleverBuoy_Model_User_invoke_TResult_T_object
-
-LDIFF_SYM1095=Lme_18 - wrapper_delegate_invoke_System_Func_2_object_CleverBuoy_Model_User_invoke_TResult_T_object
-	.long LDIFF_SYM1095
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
-	.align 3
-Lfde23_end:
-
-.section __DWARF, __debug_info,regular,debug
+LDIFF_SYM1032=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1032
 LTDIE_160:
 
 	.byte 5
-	.asciz "System_Func`1"
+	.asciz "_ValueCollection"
 
-	.byte 112,16
-LDIFF_SYM1096=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1096
-	.byte 2,35,0,0,7
-	.asciz "System_Func`1"
+	.byte 24,16
+LDIFF_SYM1033=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1033
+	.byte 2,35,0,6
+	.asciz "dictionary"
 
-LDIFF_SYM1097=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1097
+LDIFF_SYM1034=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1034
+	.byte 2,35,16,0,7
+	.asciz "_ValueCollection"
+
+LDIFF_SYM1035=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1035
 LTDIE_160_POINTER:
 
 	.byte 13
-LDIFF_SYM1098=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1098
+LDIFF_SYM1036=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1036
 LTDIE_160_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1099=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1099
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`1<CleverBuoy.Model.User>:invoke_TResult"
-	.asciz "wrapper_delegate_invoke_System_Func_1_CleverBuoy_Model_User_invoke_TResult"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_1_CleverBuoy_Model_User_invoke_TResult
-	.quad Lme_19
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1100=LTDIE_160_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1100
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1101=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1101
-	.byte 1,105,11
-	.asciz "V_1"
-
-LDIFF_SYM1102=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1102
-	.byte 1,104,11
-	.asciz "V_2"
-
-LDIFF_SYM1103=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1103
-	.byte 1,103,11
-	.asciz "V_3"
-
-LDIFF_SYM1104=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1104
-	.byte 1,102,11
-	.asciz "V_4"
-
-LDIFF_SYM1105=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1105
-	.byte 1,101,11
-	.asciz "V_5"
-
-LDIFF_SYM1106=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1106
-	.byte 1,100,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1107=Lfde24_end - Lfde24_start
-	.long LDIFF_SYM1107
-Lfde24_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Func_1_CleverBuoy_Model_User_invoke_TResult
-
-LDIFF_SYM1108=Lme_19 - wrapper_delegate_invoke_System_Func_1_CleverBuoy_Model_User_invoke_TResult
-	.long LDIFF_SYM1108
-	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
-	.byte 154,7
-	.align 3
-Lfde24_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_161:
+LDIFF_SYM1037=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1037
+LTDIE_157:
 
 	.byte 5
-	.asciz "System_Action`1"
+	.asciz "System_Collections_Generic_Dictionary`2"
 
-	.byte 112,16
-LDIFF_SYM1109=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1109
-	.byte 2,35,0,0,7
-	.asciz "System_Action`1"
+	.byte 80,16
+LDIFF_SYM1038=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1038
+	.byte 2,35,0,6
+	.asciz "buckets"
 
-LDIFF_SYM1110=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1110
+LDIFF_SYM1039=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1039
+	.byte 2,35,16,6
+	.asciz "entries"
+
+LDIFF_SYM1040=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1040
+	.byte 2,35,24,6
+	.asciz "count"
+
+LDIFF_SYM1041=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1041
+	.byte 2,35,64,6
+	.asciz "version"
+
+LDIFF_SYM1042=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1042
+	.byte 2,35,68,6
+	.asciz "freeList"
+
+LDIFF_SYM1043=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1043
+	.byte 2,35,72,6
+	.asciz "freeCount"
+
+LDIFF_SYM1044=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1044
+	.byte 2,35,76,6
+	.asciz "comparer"
+
+LDIFF_SYM1045=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1045
+	.byte 2,35,32,6
+	.asciz "keys"
+
+LDIFF_SYM1046=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1046
+	.byte 2,35,40,6
+	.asciz "values"
+
+LDIFF_SYM1047=LTDIE_160_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1047
+	.byte 2,35,48,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM1048=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1048
+	.byte 2,35,56,0,7
+	.asciz "System_Collections_Generic_Dictionary`2"
+
+LDIFF_SYM1049=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1049
+LTDIE_157_POINTER:
+
+	.byte 13
+LDIFF_SYM1050=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1050
+LTDIE_157_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1051=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1051
+LTDIE_161:
+
+	.byte 17
+	.asciz "Xamarin_Forms_Platform_iOS_IVisualElementRenderer"
+
+	.byte 16,7
+	.asciz "Xamarin_Forms_Platform_iOS_IVisualElementRenderer"
+
+LDIFF_SYM1052=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1052
 LTDIE_161_POINTER:
 
 	.byte 13
-LDIFF_SYM1111=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1111
+LDIFF_SYM1053=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1053
 LTDIE_161_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1112=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1112
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<CleverBuoy.Model.User>>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_CleverBuoy_Model_User_invoke_void_T_System_Threading_Tasks_Task_1_CleverBuoy_Model_User"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_CleverBuoy_Model_User_invoke_void_T_System_Threading_Tasks_Task_1_CleverBuoy_Model_User
-	.quad Lme_1a
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1113=LTDIE_161_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1113
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1114=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1114
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1115=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1115
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM1116=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1116
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM1117=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1117
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM1118=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1118
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM1119=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1119
-	.byte 1,100,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1120=Lfde25_end - Lfde25_start
-	.long LDIFF_SYM1120
-Lfde25_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_CleverBuoy_Model_User_invoke_void_T_System_Threading_Tasks_Task_1_CleverBuoy_Model_User
-
-LDIFF_SYM1121=Lme_1a - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_CleverBuoy_Model_User_invoke_void_T_System_Threading_Tasks_Task_1_CleverBuoy_Model_User
-	.long LDIFF_SYM1121
-	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
-	.byte 154,7
-	.align 3
-Lfde25_end:
-
-.section __DWARF, __debug_info,regular,debug
+LDIFF_SYM1054=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1054
 LTDIE_162:
 
 	.byte 5
-	.asciz "System_Func`2"
+	.asciz "UIKit_UITouchEventArgs"
 
 	.byte 112,16
-LDIFF_SYM1122=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1122
+LDIFF_SYM1055=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1055
 	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
+	.asciz "UIKit_UITouchEventArgs"
 
-LDIFF_SYM1123=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM1123
+LDIFF_SYM1056=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1056
 LTDIE_162_POINTER:
 
 	.byte 13
-LDIFF_SYM1124=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM1124
+LDIFF_SYM1057=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1057
 LTDIE_162_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1125=LTDIE_162 - Ldebug_info_start
-	.long LDIFF_SYM1125
+LDIFF_SYM1058=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1058
+LTDIE_156:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Platform_iOS_EventTracker"
+
+	.byte 72,16
+LDIFF_SYM1059=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1059
+	.byte 2,35,0,6
+	.asciz "_collectionChangedHandler"
+
+LDIFF_SYM1060=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1060
+	.byte 2,35,16,6
+	.asciz "_gestureRecognizers"
+
+LDIFF_SYM1061=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1061
+	.byte 2,35,24,6
+	.asciz "_renderer"
+
+LDIFF_SYM1062=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1062
+	.byte 2,35,32,6
+	.asciz "_disposed"
+
+LDIFF_SYM1063=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1063
+	.byte 2,35,56,6
+	.asciz "_handler"
+
+LDIFF_SYM1064=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1064
+	.byte 2,35,40,6
+	.asciz "_previousScale"
+
+LDIFF_SYM1065=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1065
+	.byte 2,35,64,6
+	.asciz "_shouldReceiveTouch"
+
+LDIFF_SYM1066=LTDIE_162_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1066
+	.byte 2,35,48,0,7
+	.asciz "Xamarin_Forms_Platform_iOS_EventTracker"
+
+LDIFF_SYM1067=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1067
+LTDIE_156_POINTER:
+
+	.byte 13
+LDIFF_SYM1068=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1068
+LTDIE_156_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1069=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1069
 LTDIE_163:
 
-	.byte 17
-	.asciz "System_IAsyncResult"
+	.byte 5
+	.asciz "Xamarin_Forms_Platform_iOS_VisualElementPackager"
 
-	.byte 16,7
-	.asciz "System_IAsyncResult"
+	.byte 40,16
+LDIFF_SYM1070=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1070
+	.byte 2,35,0,6
+	.asciz "_element"
 
-LDIFF_SYM1126=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM1126
+LDIFF_SYM1071=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1071
+	.byte 2,35,16,6
+	.asciz "_isDisposed"
+
+LDIFF_SYM1072=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1072
+	.byte 2,35,32,6
+	.asciz "<Renderer>k__BackingField"
+
+LDIFF_SYM1073=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1073
+	.byte 2,35,24,0,7
+	.asciz "Xamarin_Forms_Platform_iOS_VisualElementPackager"
+
+LDIFF_SYM1074=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM1074
 LTDIE_163_POINTER:
 
 	.byte 13
-LDIFF_SYM1127=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM1127
+LDIFF_SYM1075=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM1075
 LTDIE_163_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1128=LTDIE_163 - Ldebug_info_start
-	.long LDIFF_SYM1128
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_CleverBuoy.Model.User>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_CleverBuoy_Model_User_invoke_TResult_T_System_IAsyncResult"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_CleverBuoy_Model_User_invoke_TResult_T_System_IAsyncResult
-	.quad Lme_1b
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1129=LTDIE_162_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1129
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1130=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1130
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1131=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1131
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM1132=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1132
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM1133=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1133
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM1134=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1134
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM1135=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1135
-	.byte 1,100,11
-	.asciz "V_5"
-
-LDIFF_SYM1136=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1136
-	.byte 1,99,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1137=Lfde26_end - Lfde26_start
-	.long LDIFF_SYM1137
-Lfde26_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_CleverBuoy_Model_User_invoke_TResult_T_System_IAsyncResult
-
-LDIFF_SYM1138=Lme_1b - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_CleverBuoy_Model_User_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1138
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
-	.align 3
-Lfde26_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_164:
-
-	.byte 5
-	.asciz "System_Action`1"
-
-	.byte 112,16
-LDIFF_SYM1139=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1139
-	.byte 2,35,0,0,7
-	.asciz "System_Action`1"
-
-LDIFF_SYM1140=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM1140
-LTDIE_164_POINTER:
-
-	.byte 13
-LDIFF_SYM1141=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM1141
-LTDIE_164_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1142=LTDIE_164 - Ldebug_info_start
-	.long LDIFF_SYM1142
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.IAsyncResult>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-	.quad Lme_1c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1143=LTDIE_164_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1143
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1144=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1144
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1145=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1145
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM1146=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1146
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM1147=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1147
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM1148=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1148
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM1149=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1149
-	.byte 1,100,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1150=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM1150
-Lfde27_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-
-LDIFF_SYM1151=Lme_1c - wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-	.long LDIFF_SYM1151
-	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
-	.byte 154,7
-	.align 3
-Lfde27_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_165:
-
-	.byte 5
-	.asciz "System_Func`3"
-
-	.byte 112,16
-LDIFF_SYM1152=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1152
-	.byte 2,35,0,0,7
-	.asciz "System_Func`3"
-
-LDIFF_SYM1153=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM1153
-LTDIE_165_POINTER:
-
-	.byte 13
-LDIFF_SYM1154=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM1154
-LTDIE_165_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1155=LTDIE_165 - Ldebug_info_start
-	.long LDIFF_SYM1155
+LDIFF_SYM1076=LTDIE_163 - Ldebug_info_start
+	.long LDIFF_SYM1076
 LTDIE_166:
 
 	.byte 5
-	.asciz "System_AsyncCallback"
+	.asciz "System_WeakReference"
 
-	.byte 112,16
-LDIFF_SYM1156=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1156
-	.byte 2,35,0,0,7
-	.asciz "System_AsyncCallback"
+	.byte 24,16
+LDIFF_SYM1077=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1077
+	.byte 2,35,0,6
+	.asciz "isLongReference"
 
-LDIFF_SYM1157=LTDIE_166 - Ldebug_info_start
-	.long LDIFF_SYM1157
+LDIFF_SYM1078=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1078
+	.byte 2,35,16,6
+	.asciz "gcHandle"
+
+LDIFF_SYM1079=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1079
+	.byte 2,35,20,0,7
+	.asciz "System_WeakReference"
+
+LDIFF_SYM1080=LTDIE_166 - Ldebug_info_start
+	.long LDIFF_SYM1080
 LTDIE_166_POINTER:
 
 	.byte 13
-LDIFF_SYM1158=LTDIE_166 - Ldebug_info_start
-	.long LDIFF_SYM1158
+LDIFF_SYM1081=LTDIE_166 - Ldebug_info_start
+	.long LDIFF_SYM1081
 LTDIE_166_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1159=LTDIE_166 - Ldebug_info_start
-	.long LDIFF_SYM1159
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`3<System.AsyncCallback,_object,_System.IAsyncResult>:invoke_TResult_T1_T2"
-	.asciz "wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object"
+LDIFF_SYM1082=LTDIE_166 - Ldebug_info_start
+	.long LDIFF_SYM1082
+LTDIE_165:
 
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
-	.quad Lme_1d
+	.byte 5
+	.asciz "CoreAnimation_CALayer"
 
-	.byte 2,118,16,3
-	.asciz "this"
+	.byte 56,16
+LDIFF_SYM1083=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1083
+	.byte 2,35,0,6
+	.asciz "calayerdelegate"
 
-LDIFF_SYM1160=LTDIE_165_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1160
-	.byte 1,104,3
-	.asciz "param0"
+LDIFF_SYM1084=LTDIE_166_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1084
+	.byte 2,35,40,6
+	.asciz "__mt_WeakDelegate_var"
 
-LDIFF_SYM1161=LTDIE_166_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1161
-	.byte 1,105,3
-	.asciz "param1"
+LDIFF_SYM1085=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1085
+	.byte 2,35,48,0,7
+	.asciz "CoreAnimation_CALayer"
 
-LDIFF_SYM1162=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1162
-	.byte 1,106,11
-	.asciz "V_0"
+LDIFF_SYM1086=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM1086
+LTDIE_165_POINTER:
 
-LDIFF_SYM1163=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1163
-	.byte 1,103,11
-	.asciz "V_1"
+	.byte 13
+LDIFF_SYM1087=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM1087
+LTDIE_165_REFERENCE:
 
-LDIFF_SYM1164=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1164
-	.byte 1,102,11
-	.asciz "V_2"
+	.byte 14
+LDIFF_SYM1088=LTDIE_165 - Ldebug_info_start
+	.long LDIFF_SYM1088
+LTDIE_164:
 
-LDIFF_SYM1165=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1165
-	.byte 1,101,11
-	.asciz "V_3"
+	.byte 5
+	.asciz "Xamarin_Forms_Platform_iOS_VisualElementTracker"
 
-LDIFF_SYM1166=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1166
-	.byte 1,100,11
-	.asciz "V_4"
+	.byte 120,16
+LDIFF_SYM1089=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1089
+	.byte 2,35,0,6
+	.asciz "_batchCommittedHandler"
 
-LDIFF_SYM1167=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1167
-	.byte 1,99,11
-	.asciz "V_5"
+LDIFF_SYM1090=LTDIE_118_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1090
+	.byte 2,35,16,6
+	.asciz "_propertyChangedHandler"
 
-LDIFF_SYM1168=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1168
-	.byte 3,141,232,0,0
+LDIFF_SYM1091=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1091
+	.byte 2,35,24,6
+	.asciz "_sizeChangedEventHandler"
 
-.section __DWARF, __debug_frame,regular,debug
+LDIFF_SYM1092=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1092
+	.byte 2,35,32,6
+	.asciz "_disposed"
 
-LDIFF_SYM1169=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM1169
-Lfde28_start:
+LDIFF_SYM1093=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1093
+	.byte 2,35,72,6
+	.asciz "_element"
 
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+LDIFF_SYM1094=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1094
+	.byte 2,35,40,6
+	.asciz "_isInteractive"
 
-LDIFF_SYM1170=Lme_1d - wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
-	.long LDIFF_SYM1170
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
-	.align 3
-Lfde28_end:
+LDIFF_SYM1095=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1095
+	.byte 2,35,73,6
+	.asciz "_lastBounds"
 
-.section __DWARF, __debug_info,regular,debug
+LDIFF_SYM1096=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1096
+	.byte 2,35,80,6
+	.asciz "_layer"
+
+LDIFF_SYM1097=LTDIE_165_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1097
+	.byte 2,35,48,6
+	.asciz "_updateCount"
+
+LDIFF_SYM1098=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1098
+	.byte 2,35,112,6
+	.asciz "<Renderer>k__BackingField"
+
+LDIFF_SYM1099=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1099
+	.byte 2,35,56,6
+	.asciz "NativeControlUpdated"
+
+LDIFF_SYM1100=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1100
+	.byte 2,35,64,0,7
+	.asciz "Xamarin_Forms_Platform_iOS_VisualElementTracker"
+
+LDIFF_SYM1101=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM1101
+LTDIE_164_POINTER:
+
+	.byte 13
+LDIFF_SYM1102=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM1102
+LTDIE_164_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1103=LTDIE_164 - Ldebug_info_start
+	.long LDIFF_SYM1103
 LTDIE_167:
 
 	.byte 5
-	.asciz "System_Func`2"
+	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM1171=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1171
+LDIFF_SYM1104=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1104
 	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
+	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1172=LTDIE_167 - Ldebug_info_start
-	.long LDIFF_SYM1172
+LDIFF_SYM1105=LTDIE_167 - Ldebug_info_start
+	.long LDIFF_SYM1105
 LTDIE_167_POINTER:
 
 	.byte 13
-LDIFF_SYM1173=LTDIE_167 - Ldebug_info_start
-	.long LDIFF_SYM1173
+LDIFF_SYM1106=LTDIE_167 - Ldebug_info_start
+	.long LDIFF_SYM1106
 LTDIE_167_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1174=LTDIE_167 - Ldebug_info_start
-	.long LDIFF_SYM1174
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Threading.Tasks.Task>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object"
+LDIFF_SYM1107=LTDIE_167 - Ldebug_info_start
+	.long LDIFF_SYM1107
+LTDIE_155:
 
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
-	.quad Lme_1e
+	.byte 5
+	.asciz "Xamarin_Forms_Platform_iOS_PageRenderer"
 
-	.byte 2,118,16,3
-	.asciz "this"
+	.byte 104,16
+LDIFF_SYM1108=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM1108
+	.byte 2,35,0,6
+	.asciz "_appeared"
 
-LDIFF_SYM1175=LTDIE_167_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1175
-	.byte 1,105,3
-	.asciz "param0"
+LDIFF_SYM1109=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1109
+	.byte 2,35,96,6
+	.asciz "_disposed"
 
-LDIFF_SYM1176=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1176
-	.byte 1,106,11
-	.asciz "V_0"
+LDIFF_SYM1110=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1110
+	.byte 2,35,97,6
+	.asciz "_events"
 
-LDIFF_SYM1177=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1177
-	.byte 1,104,11
-	.asciz "V_1"
+LDIFF_SYM1111=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1111
+	.byte 2,35,56,6
+	.asciz "_packager"
 
-LDIFF_SYM1178=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1178
-	.byte 1,103,11
-	.asciz "V_2"
+LDIFF_SYM1112=LTDIE_163_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1112
+	.byte 2,35,64,6
+	.asciz "_tracker"
 
-LDIFF_SYM1179=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1179
-	.byte 1,102,11
-	.asciz "V_3"
+LDIFF_SYM1113=LTDIE_164_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1113
+	.byte 2,35,72,6
+	.asciz "<Element>k__BackingField"
 
-LDIFF_SYM1180=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1180
-	.byte 1,101,11
-	.asciz "V_4"
+LDIFF_SYM1114=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1114
+	.byte 2,35,80,6
+	.asciz "ElementChanged"
 
-LDIFF_SYM1181=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1181
-	.byte 1,100,11
-	.asciz "V_5"
+LDIFF_SYM1115=LTDIE_167_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1115
+	.byte 2,35,88,0,7
+	.asciz "Xamarin_Forms_Platform_iOS_PageRenderer"
 
-LDIFF_SYM1182=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1182
-	.byte 1,99,0
+LDIFF_SYM1116=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1116
+LTDIE_155_POINTER:
 
-.section __DWARF, __debug_frame,regular,debug
+	.byte 13
+LDIFF_SYM1117=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1117
+LTDIE_155_REFERENCE:
 
-LDIFF_SYM1183=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM1183
-Lfde29_start:
+	.byte 14
+LDIFF_SYM1118=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1118
+LTDIE_170:
 
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+	.byte 5
+	.asciz "Xamarin_Forms_TemplatedPage"
 
-LDIFF_SYM1184=Lme_1e - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
-	.long LDIFF_SYM1184
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
-	.align 3
-Lfde29_end:
+	.byte 200,3,16
+LDIFF_SYM1119=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM1119
+	.byte 2,35,0,0,7
+	.asciz "Xamarin_Forms_TemplatedPage"
 
-.section __DWARF, __debug_info,regular,debug
-LTDIE_168:
+LDIFF_SYM1120=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1120
+LTDIE_170_POINTER:
+
+	.byte 13
+LDIFF_SYM1121=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1121
+LTDIE_170_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1122=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1122
+LTDIE_169:
+
+	.byte 5
+	.asciz "Xamarin_Forms_ContentPage"
+
+	.byte 200,3,16
+LDIFF_SYM1123=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1123
+	.byte 2,35,0,0,7
+	.asciz "Xamarin_Forms_ContentPage"
+
+LDIFF_SYM1124=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1124
+LTDIE_169_POINTER:
+
+	.byte 13
+LDIFF_SYM1125=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1125
+LTDIE_169_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1126=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1126
+LTDIE_171:
+
+	.byte 17
+	.asciz "CleverBuoy_Interfaces_IFbLoginInterface"
+
+	.byte 16,7
+	.asciz "CleverBuoy_Interfaces_IFbLoginInterface"
+
+LDIFF_SYM1127=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1127
+LTDIE_171_POINTER:
+
+	.byte 13
+LDIFF_SYM1128=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1128
+LTDIE_171_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1129=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1129
+LTDIE_172:
+
+	.byte 17
+	.asciz "CleverBuoy_Interfaces_IGoogleLoginInterface"
+
+	.byte 16,7
+	.asciz "CleverBuoy_Interfaces_IGoogleLoginInterface"
+
+LDIFF_SYM1130=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1130
+LTDIE_172_POINTER:
+
+	.byte 13
+LDIFF_SYM1131=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1131
+LTDIE_172_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1132=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1132
+LTDIE_177:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IList`1"
+
+	.byte 16,7
+	.asciz "System_Collections_Generic_IList`1"
+
+LDIFF_SYM1133=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1133
+LTDIE_177_POINTER:
+
+	.byte 13
+LDIFF_SYM1134=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1134
+LTDIE_177_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1135=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1135
+LTDIE_176:
+
+	.byte 5
+	.asciz "System_Collections_ObjectModel_Collection`1"
+
+	.byte 32,16
+LDIFF_SYM1136=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1136
+	.byte 2,35,0,6
+	.asciz "items"
+
+LDIFF_SYM1137=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1137
+	.byte 2,35,16,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM1138=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1138
+	.byte 2,35,24,0,7
+	.asciz "System_Collections_ObjectModel_Collection`1"
+
+LDIFF_SYM1139=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1139
+LTDIE_176_POINTER:
+
+	.byte 13
+LDIFF_SYM1140=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1140
+LTDIE_176_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1141=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1141
+LTDIE_178:
+
+	.byte 5
+	.asciz "_SimpleMonitor"
+
+	.byte 20,16
+LDIFF_SYM1142=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1142
+	.byte 2,35,0,6
+	.asciz "_busyCount"
+
+LDIFF_SYM1143=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1143
+	.byte 2,35,16,0,7
+	.asciz "_SimpleMonitor"
+
+LDIFF_SYM1144=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1144
+LTDIE_178_POINTER:
+
+	.byte 13
+LDIFF_SYM1145=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1145
+LTDIE_178_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1146=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1146
+LTDIE_175:
+
+	.byte 5
+	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
+
+	.byte 56,16
+LDIFF_SYM1147=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1147
+	.byte 2,35,0,6
+	.asciz "CollectionChanged"
+
+LDIFF_SYM1148=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1148
+	.byte 2,35,32,6
+	.asciz "PropertyChanged"
+
+LDIFF_SYM1149=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1149
+	.byte 2,35,40,6
+	.asciz "_monitor"
+
+LDIFF_SYM1150=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1150
+	.byte 2,35,48,0,7
+	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
+
+LDIFF_SYM1151=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1151
+LTDIE_175_POINTER:
+
+	.byte 13
+LDIFF_SYM1152=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1152
+LTDIE_175_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1153=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1153
+LTDIE_174:
+
+	.byte 5
+	.asciz "Xamarin_Forms_View"
+
+	.byte 232,2,16
+LDIFF_SYM1154=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM1154
+	.byte 2,35,0,6
+	.asciz "_gestureRecognizers"
+
+LDIFF_SYM1155=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1155
+	.byte 3,35,224,2,0,7
+	.asciz "Xamarin_Forms_View"
+
+LDIFF_SYM1156=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1156
+LTDIE_174_POINTER:
+
+	.byte 13
+LDIFF_SYM1157=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1157
+LTDIE_174_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1158=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1158
+LTDIE_180:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1185=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1185
+LDIFF_SYM1159=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1159
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
+
+LDIFF_SYM1160=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1160
+LTDIE_180_POINTER:
+
+	.byte 13
+LDIFF_SYM1161=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1161
+LTDIE_180_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1162=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1162
+LTDIE_179:
+
+	.byte 5
+	.asciz "System_Lazy`1"
+
+	.byte 40,16
+LDIFF_SYM1163=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1163
+	.byte 2,35,0,6
+	.asciz "m_boxed"
+
+LDIFF_SYM1164=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1164
+	.byte 2,35,16,6
+	.asciz "m_valueFactory"
+
+LDIFF_SYM1165=LTDIE_180_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1165
+	.byte 2,35,24,6
+	.asciz "m_threadSafeObj"
+
+LDIFF_SYM1166=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1166
+	.byte 2,35,32,0,7
+	.asciz "System_Lazy`1"
+
+LDIFF_SYM1167=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1167
+LTDIE_179_POINTER:
+
+	.byte 13
+LDIFF_SYM1168=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1168
+LTDIE_179_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1169=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1169
+LTDIE_173:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Button"
+
+	.byte 136,3,16
+LDIFF_SYM1170=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1170
+	.byte 2,35,0,6
+	.asciz "_platformConfigurationRegistry"
+
+LDIFF_SYM1171=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1171
+	.byte 3,35,232,2,6
+	.asciz "Clicked"
+
+LDIFF_SYM1172=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1172
+	.byte 3,35,240,2,6
+	.asciz "Pressed"
+
+LDIFF_SYM1173=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1173
+	.byte 3,35,248,2,6
+	.asciz "Released"
+
+LDIFF_SYM1174=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1174
+	.byte 3,35,128,3,0,7
+	.asciz "Xamarin_Forms_Button"
+
+LDIFF_SYM1175=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1175
+LTDIE_173_POINTER:
+
+	.byte 13
+LDIFF_SYM1176=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1176
+LTDIE_173_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1177=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1177
+LTDIE_168:
+
+	.byte 5
+	.asciz "CleverBuoy_CleverBuoyPage"
+
+	.byte 128,4,16
+LDIFF_SYM1178=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1178
+	.byte 2,35,0,6
+	.asciz "_currentUser"
+
+LDIFF_SYM1179=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1179
+	.byte 3,35,200,3,6
+	.asciz "IsLogedIn"
+
+LDIFF_SYM1180=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1180
+	.byte 3,35,248,3,6
+	.asciz "_facebookManager"
+
+LDIFF_SYM1181=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1181
+	.byte 3,35,208,3,6
+	.asciz "_googleManager"
+
+LDIFF_SYM1182=LTDIE_172_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1182
+	.byte 3,35,216,3,6
+	.asciz "LoginWithFbBtn"
+
+LDIFF_SYM1183=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1183
+	.byte 3,35,224,3,6
+	.asciz "LoginWithGoogleBtn"
+
+LDIFF_SYM1184=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1184
+	.byte 3,35,232,3,6
+	.asciz "LoginWithMicrosoftBtn"
+
+LDIFF_SYM1185=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1185
+	.byte 3,35,240,3,0,7
+	.asciz "CleverBuoy_CleverBuoyPage"
 
 LDIFF_SYM1186=LTDIE_168 - Ldebug_info_start
 	.long LDIFF_SYM1186
@@ -13114,63 +13232,1051 @@ LTDIE_168_REFERENCE:
 	.byte 14
 LDIFF_SYM1188=LTDIE_168 - Ldebug_info_start
 	.long LDIFF_SYM1188
+LTDIE_154:
+
+	.byte 5
+	.asciz "CleverBuoy_iOS_MSLoginPageRenderer"
+
+	.byte 112,16
+LDIFF_SYM1189=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1189
+	.byte 2,35,0,6
+	.asciz "page"
+
+LDIFF_SYM1190=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1190
+	.byte 2,35,104,0,7
+	.asciz "CleverBuoy_iOS_MSLoginPageRenderer"
+
+LDIFF_SYM1191=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1191
+LTDIE_154_POINTER:
+
+	.byte 13
+LDIFF_SYM1192=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1192
+LTDIE_154_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1193=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1193
+LTDIE_183:
+
+	.byte 5
+	.asciz "System_EventArgs"
+
+	.byte 16,16
+LDIFF_SYM1194=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1194
+	.byte 2,35,0,0,7
+	.asciz "System_EventArgs"
+
+LDIFF_SYM1195=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1195
+LTDIE_183_POINTER:
+
+	.byte 13
+LDIFF_SYM1196=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1196
+LTDIE_183_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1197=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1197
+LTDIE_182:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Platform_iOS_ElementChangedEventArgs`1"
+
+	.byte 32,16
+LDIFF_SYM1198=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1198
+	.byte 2,35,0,6
+	.asciz "<NewElement>k__BackingField"
+
+LDIFF_SYM1199=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1199
+	.byte 2,35,16,6
+	.asciz "<OldElement>k__BackingField"
+
+LDIFF_SYM1200=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1200
+	.byte 2,35,24,0,7
+	.asciz "Xamarin_Forms_Platform_iOS_ElementChangedEventArgs`1"
+
+LDIFF_SYM1201=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1201
+LTDIE_182_POINTER:
+
+	.byte 13
+LDIFF_SYM1202=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1202
+LTDIE_182_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1203=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1203
+LTDIE_181:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
+
+	.byte 32,16
+LDIFF_SYM1204=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1204
+	.byte 2,35,0,0,7
+	.asciz "Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
+
+LDIFF_SYM1205=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1205
+LTDIE_181_POINTER:
+
+	.byte 13
+LDIFF_SYM1206=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1206
+LTDIE_181_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1207=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1207
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Threading.Tasks.Task>:invoke_TResult"
-	.asciz "wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult"
+	.asciz "CleverBuoy.iOS.MSLoginPageRenderer:OnElementChanged"
+	.asciz "CleverBuoy_iOS_MSLoginPageRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
+
+	.byte 5,13
+	.quad CleverBuoy_iOS_MSLoginPageRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+	.quad Lme_13
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1208=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1208
+	.byte 1,105,3
+	.asciz "e"
+
+LDIFF_SYM1209=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1209
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1210=Lfde19_end - Lfde19_start
+	.long LDIFF_SYM1210
+Lfde19_start:
+
+	.long 0
+	.align 3
+	.quad CleverBuoy_iOS_MSLoginPageRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+
+LDIFF_SYM1211=Lme_13 - CleverBuoy_iOS_MSLoginPageRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+	.long LDIFF_SYM1211
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,149,10,150,9,68,151,8,152,7,68,153,6,154,5
+	.align 3
+Lfde19_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "CleverBuoy.iOS.MSLoginPageRenderer:ViewDidLoad"
+	.asciz "CleverBuoy_iOS_MSLoginPageRenderer_ViewDidLoad"
+
+	.byte 5,18
+	.quad CleverBuoy_iOS_MSLoginPageRenderer_ViewDidLoad
+	.quad Lme_14
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1212=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1212
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1213=Lfde20_end - Lfde20_start
+	.long LDIFF_SYM1213
+Lfde20_start:
+
+	.long 0
+	.align 3
+	.quad CleverBuoy_iOS_MSLoginPageRenderer_ViewDidLoad
+
+LDIFF_SYM1214=Lme_14 - CleverBuoy_iOS_MSLoginPageRenderer_ViewDidLoad
+	.long LDIFF_SYM1214
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde20_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "CleverBuoy.iOS.MSLoginPageRenderer:.ctor"
+	.asciz "CleverBuoy_iOS_MSLoginPageRenderer__ctor"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+	.quad CleverBuoy_iOS_MSLoginPageRenderer__ctor
+	.quad Lme_15
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1215=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1215
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1216=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM1216
+Lfde21_start:
+
+	.long 0
+	.align 3
+	.quad CleverBuoy_iOS_MSLoginPageRenderer__ctor
+
+LDIFF_SYM1217=Lme_15 - CleverBuoy_iOS_MSLoginPageRenderer__ctor
+	.long LDIFF_SYM1217
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde21_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "CleverBuoy.iOS.FacebookManager/<>c__DisplayClass1_0:.ctor"
+	.asciz "CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__ctor"
+
+	.byte 0,0
+	.quad CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__ctor
+	.quad Lme_16
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1218=LTDIE_143_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1218
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1219=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM1219
+Lfde22_start:
+
+	.long 0
+	.align 3
+	.quad CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__ctor
+
+LDIFF_SYM1220=Lme_16 - CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__ctor
+	.long LDIFF_SYM1220
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde22_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_184:
+
+	.byte 5
+	.asciz "Facebook_LoginKit_LoginManagerLoginResult"
+
+	.byte 40,16
+LDIFF_SYM1221=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1221
+	.byte 2,35,0,0,7
+	.asciz "Facebook_LoginKit_LoginManagerLoginResult"
+
+LDIFF_SYM1222=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1222
+LTDIE_184_POINTER:
+
+	.byte 13
+LDIFF_SYM1223=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1223
+LTDIE_184_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1224=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1224
+LTDIE_185:
+
+	.byte 5
+	.asciz "_<>c__DisplayClass1_1"
+
+	.byte 32,16
+LDIFF_SYM1225=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1225
+	.byte 2,35,0,6
+	.asciz "result"
+
+LDIFF_SYM1226=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1226
+	.byte 2,35,16,6
+	.asciz "CS$<>8__locals1"
+
+LDIFF_SYM1227=LTDIE_143_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1227
+	.byte 2,35,24,0,7
+	.asciz "_<>c__DisplayClass1_1"
+
+LDIFF_SYM1228=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1228
+LTDIE_185_POINTER:
+
+	.byte 13
+LDIFF_SYM1229=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1229
+LTDIE_185_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1230=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1230
+LTDIE_186:
+
+	.byte 5
+	.asciz "Facebook_CoreKit_GraphRequest"
+
+	.byte 40,16
+LDIFF_SYM1231=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1231
+	.byte 2,35,0,0,7
+	.asciz "Facebook_CoreKit_GraphRequest"
+
+LDIFF_SYM1232=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1232
+LTDIE_186_POINTER:
+
+	.byte 13
+LDIFF_SYM1233=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1233
+LTDIE_186_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1234=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1234
+	.byte 2
+	.asciz "CleverBuoy.iOS.FacebookManager/<>c__DisplayClass1_0:<Login>b__0"
+	.asciz "CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__Loginb__0_Facebook_LoginKit_LoginManagerLoginResult_Foundation_NSError"
+
+	.byte 3,0
+	.quad CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__Loginb__0_Facebook_LoginKit_LoginManagerLoginResult_Foundation_NSError
+	.quad Lme_17
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1235=LTDIE_143_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1235
+	.byte 1,104,3
+	.asciz "result"
+
+LDIFF_SYM1236=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1236
+	.byte 3,141,200,0,3
+	.asciz "error"
+
+LDIFF_SYM1237=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1237
+	.byte 3,141,208,0,11
+	.asciz "CS$<>8__locals0"
+
+LDIFF_SYM1238=LTDIE_185_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1238
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM1239=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1239
+	.byte 1,102,11
+	.asciz "V_2"
+
+LDIFF_SYM1240=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1240
+	.byte 1,101,11
+	.asciz "V_3"
+
+LDIFF_SYM1241=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1241
+	.byte 1,100,11
+	.asciz "request"
+
+LDIFF_SYM1242=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1242
+	.byte 1,99,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1243=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM1243
+Lfde23_start:
+
+	.long 0
+	.align 3
+	.quad CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__Loginb__0_Facebook_LoginKit_LoginManagerLoginResult_Foundation_NSError
+
+LDIFF_SYM1244=Lme_17 - CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__Loginb__0_Facebook_LoginKit_LoginManagerLoginResult_Foundation_NSError
+	.long LDIFF_SYM1244
+	.long 0
+	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,147,24,148,23,68,149,22,150,21,68,151,20,152,19,68,154,18
+	.align 3
+Lfde23_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "CleverBuoy.iOS.FacebookManager/<>c__DisplayClass1_1:.ctor"
+	.asciz "CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__ctor"
+
+	.byte 0,0
+	.quad CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__ctor
+	.quad Lme_18
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1245=LTDIE_185_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1245
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1246=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM1246
+Lfde24_start:
+
+	.long 0
+	.align 3
+	.quad CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__ctor
+
+LDIFF_SYM1247=Lme_18 - CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__ctor
+	.long LDIFF_SYM1247
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde24_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_187:
+
+	.byte 5
+	.asciz "Facebook_CoreKit_GraphRequestConnection"
+
+	.byte 48,16
+LDIFF_SYM1248=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1248
+	.byte 2,35,0,6
+	.asciz "__mt_Delegate_var"
+
+LDIFF_SYM1249=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1249
+	.byte 2,35,40,0,7
+	.asciz "Facebook_CoreKit_GraphRequestConnection"
+
+LDIFF_SYM1250=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM1250
+LTDIE_187_POINTER:
+
+	.byte 13
+LDIFF_SYM1251=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM1251
+LTDIE_187_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1252=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM1252
+	.byte 2
+	.asciz "CleverBuoy.iOS.FacebookManager/<>c__DisplayClass1_1:<Login>b__1"
+	.asciz "CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__Loginb__1_Facebook_CoreKit_GraphRequestConnection_Foundation_NSObject_Foundation_NSError"
+
+	.byte 3,49
+	.quad CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__Loginb__1_Facebook_CoreKit_GraphRequestConnection_Foundation_NSObject_Foundation_NSError
+	.quad Lme_19
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1253=LTDIE_185_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1253
+	.byte 2,141,48,3
+	.asciz "connection"
+
+LDIFF_SYM1254=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1254
+	.byte 2,141,56,3
+	.asciz "result1"
+
+LDIFF_SYM1255=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1255
+	.byte 3,141,192,0,3
+	.asciz "error1"
+
+LDIFF_SYM1256=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1256
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1257=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1257
+	.byte 1,105,11
+	.asciz "id"
+
+LDIFF_SYM1258=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1258
+	.byte 3,141,224,0,11
+	.asciz "first_name"
+
+LDIFF_SYM1259=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1259
+	.byte 3,141,232,0,11
+	.asciz "email"
+
+LDIFF_SYM1260=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1260
+	.byte 3,141,240,0,11
+	.asciz "last_name"
+
+LDIFF_SYM1261=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1261
+	.byte 3,141,248,0,11
+	.asciz "url"
+
+LDIFF_SYM1262=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1262
+	.byte 3,141,128,1,11
+	.asciz "e"
+
+LDIFF_SYM1263=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1263
+	.byte 3,141,136,1,11
+	.asciz "e"
+
+LDIFF_SYM1264=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1264
+	.byte 3,141,144,1,11
+	.asciz "e"
+
+LDIFF_SYM1265=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1265
+	.byte 3,141,152,1,11
+	.asciz "e"
+
+LDIFF_SYM1266=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1266
+	.byte 3,141,160,1,11
+	.asciz "e"
+
+LDIFF_SYM1267=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1267
+	.byte 3,141,168,1,11
+	.asciz "V_11"
+
+LDIFF_SYM1268=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1268
+	.byte 3,141,176,1,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1269=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM1269
+Lfde25_start:
+
+	.long 0
+	.align 3
+	.quad CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__Loginb__1_Facebook_CoreKit_GraphRequestConnection_Foundation_NSObject_Foundation_NSError
+
+LDIFF_SYM1270=Lme_19 - CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__Loginb__1_Facebook_CoreKit_GraphRequestConnection_Foundation_NSObject_Foundation_NSError
+	.long LDIFF_SYM1270
+	.long 0
+	.byte 12,31,0,68,14,128,4,157,64,158,63,68,13,29,68,151,62,152,61,68,153,60,154,59
+	.align 3
+Lfde25_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_188:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 112,16
+LDIFF_SYM1271=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1271
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM1272=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1272
+LTDIE_188_POINTER:
+
+	.byte 13
+LDIFF_SYM1273=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1273
+LTDIE_188_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1274=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1274
+LTDIE_189:
+
+	.byte 5
+	.asciz "System_Array"
+
+	.byte 16,16
+LDIFF_SYM1275=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1275
+	.byte 2,35,0,0,7
+	.asciz "System_Array"
+
+LDIFF_SYM1276=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1276
+LTDIE_189_POINTER:
+
+	.byte 13
+LDIFF_SYM1277=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1277
+LTDIE_189_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1278=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1278
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_CleverBuoy.Model.User>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_CleverBuoy_Model_User_invoke_TResult_T_object"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_object_CleverBuoy_Model_User_invoke_TResult_T_object
+	.quad Lme_1b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1279=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1279
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1280=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1280
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1281=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1281
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1282=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1282
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1283=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1283
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM1284=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1284
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1285=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1285
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM1286=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1286
+	.byte 1,99,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1287=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM1287
+Lfde26_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_object_CleverBuoy_Model_User_invoke_TResult_T_object
+
+LDIFF_SYM1288=Lme_1b - wrapper_delegate_invoke_System_Func_2_object_CleverBuoy_Model_User_invoke_TResult_T_object
+	.long LDIFF_SYM1288
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde26_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_190:
+
+	.byte 5
+	.asciz "System_Func`1"
+
+	.byte 112,16
+LDIFF_SYM1289=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1289
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM1290=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1290
+LTDIE_190_POINTER:
+
+	.byte 13
+LDIFF_SYM1291=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1291
+LTDIE_190_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1292=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1292
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`1<CleverBuoy.Model.User>:invoke_TResult"
+	.asciz "wrapper_delegate_invoke_System_Func_1_CleverBuoy_Model_User_invoke_TResult"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_1_CleverBuoy_Model_User_invoke_TResult
+	.quad Lme_1c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1293=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1293
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1294=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1294
+	.byte 1,105,11
+	.asciz "V_1"
+
+LDIFF_SYM1295=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1295
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM1296=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1296
+	.byte 1,103,11
+	.asciz "V_3"
+
+LDIFF_SYM1297=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1297
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM1298=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1298
+	.byte 1,101,11
+	.asciz "V_5"
+
+LDIFF_SYM1299=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1299
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1300=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM1300
+Lfde27_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_1_CleverBuoy_Model_User_invoke_TResult
+
+LDIFF_SYM1301=Lme_1c - wrapper_delegate_invoke_System_Func_1_CleverBuoy_Model_User_invoke_TResult
+	.long LDIFF_SYM1301
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
+	.align 3
+Lfde27_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_191:
+
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 112,16
+LDIFF_SYM1302=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1302
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM1303=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1303
+LTDIE_191_POINTER:
+
+	.byte 13
+LDIFF_SYM1304=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1304
+LTDIE_191_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1305=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1305
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<CleverBuoy.Model.User>>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_CleverBuoy_Model_User_invoke_void_T_System_Threading_Tasks_Task_1_CleverBuoy_Model_User"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_CleverBuoy_Model_User_invoke_void_T_System_Threading_Tasks_Task_1_CleverBuoy_Model_User
+	.quad Lme_1d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1306=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1306
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1307=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1307
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1308=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1308
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1309=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1309
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1310=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1310
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM1311=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1311
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1312=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1312
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1313=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM1313
+Lfde28_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_CleverBuoy_Model_User_invoke_void_T_System_Threading_Tasks_Task_1_CleverBuoy_Model_User
+
+LDIFF_SYM1314=Lme_1d - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_CleverBuoy_Model_User_invoke_void_T_System_Threading_Tasks_Task_1_CleverBuoy_Model_User
+	.long LDIFF_SYM1314
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
+	.align 3
+Lfde28_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_192:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 112,16
+LDIFF_SYM1315=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1315
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM1316=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1316
+LTDIE_192_POINTER:
+
+	.byte 13
+LDIFF_SYM1317=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1317
+LTDIE_192_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1318=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1318
+LTDIE_193:
+
+	.byte 17
+	.asciz "System_IAsyncResult"
+
+	.byte 16,7
+	.asciz "System_IAsyncResult"
+
+LDIFF_SYM1319=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1319
+LTDIE_193_POINTER:
+
+	.byte 13
+LDIFF_SYM1320=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1320
+LTDIE_193_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1321=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1321
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_CleverBuoy.Model.User>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_CleverBuoy_Model_User_invoke_TResult_T_System_IAsyncResult"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_CleverBuoy_Model_User_invoke_TResult_T_System_IAsyncResult
+	.quad Lme_1e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1322=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1322
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1323=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1323
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1324=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1324
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1325=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1325
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1326=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1326
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM1327=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1327
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1328=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1328
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM1329=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1329
+	.byte 1,99,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1330=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM1330
+Lfde29_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_CleverBuoy_Model_User_invoke_TResult_T_System_IAsyncResult
+
+LDIFF_SYM1331=Lme_1e - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_CleverBuoy_Model_User_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM1331
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde29_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_194:
+
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 112,16
+LDIFF_SYM1332=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1332
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM1333=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1333
+LTDIE_194_POINTER:
+
+	.byte 13
+LDIFF_SYM1334=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1334
+LTDIE_194_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1335=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1335
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.IAsyncResult>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
 	.quad Lme_1f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1189=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1189
+LDIFF_SYM1336=LTDIE_194_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1336
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1337=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1337
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1190=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1190
-	.byte 1,105,11
+LDIFF_SYM1338=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1338
+	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1191=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1191
-	.byte 1,104,11
+LDIFF_SYM1339=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1339
+	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1192=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1192
-	.byte 1,103,11
+LDIFF_SYM1340=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1340
+	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1193=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1193
-	.byte 1,102,11
+LDIFF_SYM1341=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1341
+	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1194=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1194
-	.byte 1,101,11
-	.asciz "V_5"
-
-LDIFF_SYM1195=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1195
+LDIFF_SYM1342=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1342
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1196=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM1196
+LDIFF_SYM1343=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM1343
 Lfde30_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
 
-LDIFF_SYM1197=Lme_1f - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
-	.long LDIFF_SYM1197
+LDIFF_SYM1344=Lme_1f - wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
+	.long LDIFF_SYM1344
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
@@ -13178,206 +14284,211 @@ LDIFF_SYM1197=Lme_1f - wrapper_delegate_invoke_System_Func_1_System_Threading_Ta
 Lfde30_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_169:
+LTDIE_195:
 
 	.byte 5
-	.asciz "System_Action`1"
+	.asciz "System_Func`3"
 
 	.byte 112,16
-LDIFF_SYM1198=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1198
+LDIFF_SYM1345=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1345
 	.byte 2,35,0,0,7
-	.asciz "System_Action`1"
+	.asciz "System_Func`3"
 
-LDIFF_SYM1199=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM1199
-LTDIE_169_POINTER:
+LDIFF_SYM1346=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1346
+LTDIE_195_POINTER:
 
 	.byte 13
-LDIFF_SYM1200=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM1200
-LTDIE_169_REFERENCE:
+LDIFF_SYM1347=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1347
+LTDIE_195_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1201=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM1201
-LTDIE_170:
+LDIFF_SYM1348=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1348
+LTDIE_196:
 
 	.byte 5
-	.asciz "System_Threading_Tasks_Task`1"
+	.asciz "System_AsyncCallback"
 
-	.byte 80,16
-LDIFF_SYM1202=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM1202
-	.byte 2,35,0,6
-	.asciz "m_result"
+	.byte 112,16
+LDIFF_SYM1349=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1349
+	.byte 2,35,0,0,7
+	.asciz "System_AsyncCallback"
 
-LDIFF_SYM1203=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1203
-	.byte 2,35,72,0,7
-	.asciz "System_Threading_Tasks_Task`1"
-
-LDIFF_SYM1204=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM1204
-LTDIE_170_POINTER:
+LDIFF_SYM1350=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1350
+LTDIE_196_POINTER:
 
 	.byte 13
-LDIFF_SYM1205=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM1205
-LTDIE_170_REFERENCE:
+LDIFF_SYM1351=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1351
+LTDIE_196_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1206=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM1206
+LDIFF_SYM1352=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1352
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
+	.asciz "(wrapper_delegate-invoke)_System.Func`3<System.AsyncCallback,_object,_System.IAsyncResult>:invoke_TResult_T1_T2"
+	.asciz "wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
 	.quad Lme_20
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1207=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1207
-	.byte 1,105,3
+LDIFF_SYM1353=LTDIE_195_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1353
+	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1208=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1208
+LDIFF_SYM1354=LTDIE_196_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1354
+	.byte 1,105,3
+	.asciz "param1"
+
+LDIFF_SYM1355=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1355
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1209=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1209
-	.byte 1,104,11
+LDIFF_SYM1356=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1356
+	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1210=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1210
-	.byte 1,103,11
+LDIFF_SYM1357=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1357
+	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1211=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1211
-	.byte 1,102,11
+LDIFF_SYM1358=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1358
+	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1212=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1212
-	.byte 1,101,11
+LDIFF_SYM1359=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1359
+	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1213=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1213
-	.byte 1,100,0
+LDIFF_SYM1360=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1360
+	.byte 1,99,11
+	.asciz "V_5"
+
+LDIFF_SYM1361=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1361
+	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1214=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM1214
+LDIFF_SYM1362=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM1362
 Lfde31_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
 
-LDIFF_SYM1215=Lme_20 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1215
+LDIFF_SYM1363=Lme_20 - wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+	.long LDIFF_SYM1363
 	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
-	.byte 154,7
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
 	.align 3
 Lfde31_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_171:
+LTDIE_197:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1216=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1216
+LDIFF_SYM1364=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1364
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1217=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1217
-LTDIE_171_POINTER:
+LDIFF_SYM1365=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1365
+LTDIE_197_POINTER:
 
 	.byte 13
-LDIFF_SYM1218=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1218
-LTDIE_171_REFERENCE:
+LDIFF_SYM1366=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1366
+LTDIE_197_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1219=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1219
+LDIFF_SYM1367=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1367
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.Threading.Tasks.Task>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Threading.Tasks.Task>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
 	.quad Lme_21
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1220=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1220
+LDIFF_SYM1368=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1368
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1221=LTDIE_163_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1221
+LDIFF_SYM1369=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1369
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1222=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1222
+LDIFF_SYM1370=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1370
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1223=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1223
+LDIFF_SYM1371=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1371
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1224=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1224
+LDIFF_SYM1372=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1372
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1225=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1225
+LDIFF_SYM1373=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1373
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1226=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1226
+LDIFF_SYM1374=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1374
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1227=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1227
+LDIFF_SYM1375=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1375
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1228=Lfde32_end - Lfde32_start
-	.long LDIFF_SYM1228
+LDIFF_SYM1376=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM1376
 Lfde32_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
 
-LDIFF_SYM1229=Lme_21 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM1229
+LDIFF_SYM1377=Lme_21 - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+	.long LDIFF_SYM1377
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -13385,188 +14496,482 @@ LDIFF_SYM1229=Lme_21 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult
 Lfde32_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_172:
+LTDIE_198:
+
+	.byte 5
+	.asciz "System_Func`1"
+
+	.byte 112,16
+LDIFF_SYM1378=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1378
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM1379=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1379
+LTDIE_198_POINTER:
+
+	.byte 13
+LDIFF_SYM1380=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1380
+LTDIE_198_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1381=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1381
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Threading.Tasks.Task>:invoke_TResult"
+	.asciz "wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+	.quad Lme_22
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1382=LTDIE_198_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1382
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1383=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1383
+	.byte 1,105,11
+	.asciz "V_1"
+
+LDIFF_SYM1384=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1384
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM1385=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1385
+	.byte 1,103,11
+	.asciz "V_3"
+
+LDIFF_SYM1386=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1386
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM1387=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1387
+	.byte 1,101,11
+	.asciz "V_5"
+
+LDIFF_SYM1388=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1388
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1389=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM1389
+Lfde33_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+
+LDIFF_SYM1390=Lme_22 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+	.long LDIFF_SYM1390
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
+	.align 3
+Lfde33_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_199:
+
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 112,16
+LDIFF_SYM1391=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1391
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM1392=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1392
+LTDIE_199_POINTER:
+
+	.byte 13
+LDIFF_SYM1393=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1393
+LTDIE_199_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1394=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1394
+LTDIE_200:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_Task`1"
+
+	.byte 80,16
+LDIFF_SYM1395=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM1395
+	.byte 2,35,0,6
+	.asciz "m_result"
+
+LDIFF_SYM1396=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1396
+	.byte 2,35,72,0,7
+	.asciz "System_Threading_Tasks_Task`1"
+
+LDIFF_SYM1397=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1397
+LTDIE_200_POINTER:
+
+	.byte 13
+LDIFF_SYM1398=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1398
+LTDIE_200_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1399=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1399
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.quad Lme_23
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1400=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1400
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1401=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1401
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1402=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1402
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1403=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1403
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1404=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1404
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM1405=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1405
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1406=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1406
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1407=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM1407
+Lfde34_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+
+LDIFF_SYM1408=Lme_23 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM1408
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
+	.align 3
+Lfde34_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_201:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1230=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1230
+LDIFF_SYM1409=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1409
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1231=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM1231
-LTDIE_172_POINTER:
+LDIFF_SYM1410=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM1410
+LTDIE_201_POINTER:
 
 	.byte 13
-LDIFF_SYM1232=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM1232
-LTDIE_172_REFERENCE:
+LDIFF_SYM1411=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM1411
+LTDIE_201_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1233=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM1233
+LDIFF_SYM1412=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM1412
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.Threading.Tasks.Task>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+	.quad Lme_24
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1413=LTDIE_201_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1413
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1414=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1414
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1415=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1415
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1416=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1416
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1417=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1417
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM1418=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1418
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1419=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1419
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM1420=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1420
+	.byte 1,99,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1421=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM1421
+Lfde35_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+
+LDIFF_SYM1422=Lme_24 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_Task_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM1422
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde35_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_202:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 112,16
+LDIFF_SYM1423=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1423
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM1424=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1424
+LTDIE_202_POINTER:
+
+	.byte 13
+LDIFF_SYM1425=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1425
+LTDIE_202_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1426=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1426
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.quad Lme_22
+	.quad Lme_25
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1234=LTDIE_172_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1234
+LDIFF_SYM1427=LTDIE_202_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1427
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1235=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1235
+LDIFF_SYM1428=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1428
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1236=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1236
+LDIFF_SYM1429=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1429
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1237=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1237
+LDIFF_SYM1430=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1430
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1238=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1238
+LDIFF_SYM1431=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1431
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1239=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1239
+LDIFF_SYM1432=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1432
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1240=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1240
+LDIFF_SYM1433=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1433
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1241=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1241
+LDIFF_SYM1434=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1434
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1242=Lfde33_end - Lfde33_start
-	.long LDIFF_SYM1242
-Lfde33_start:
+LDIFF_SYM1435=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM1435
+Lfde36_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM1243=Lme_22 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1243
+LDIFF_SYM1436=Lme_25 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM1436
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde33_end:
+Lfde36_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_173:
+LTDIE_203:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1244=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM1244
+LDIFF_SYM1437=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM1437
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1245=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM1245
-LTDIE_173_POINTER:
+LDIFF_SYM1438=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1438
+LTDIE_203_POINTER:
 
 	.byte 13
-LDIFF_SYM1246=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM1246
-LTDIE_173_REFERENCE:
+LDIFF_SYM1439=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1439
+LTDIE_203_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1247=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM1247
+LDIFF_SYM1440=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1440
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<CleverBuoy.Model.User>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_CleverBuoy_Model_User_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_CleverBuoy_Model_User_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.quad Lme_23
+	.quad Lme_26
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1248=LTDIE_173_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1248
+LDIFF_SYM1441=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1441
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1249=LTDIE_170_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1249
+LDIFF_SYM1442=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1442
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1250=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1250
+LDIFF_SYM1443=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1443
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1251=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1251
+LDIFF_SYM1444=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1444
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1252=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1252
+LDIFF_SYM1445=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1445
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1253=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1253
+LDIFF_SYM1446=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1446
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1254=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1254
+LDIFF_SYM1447=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1447
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1255=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1255
+LDIFF_SYM1448=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1448
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1256=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM1256
-Lfde34_start:
+LDIFF_SYM1449=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM1449
+Lfde37_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_CleverBuoy_Model_User_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM1257=Lme_23 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_CleverBuoy_Model_User_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1257
+LDIFF_SYM1450=Lme_26 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_CleverBuoy_Model_User_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM1450
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde34_end:
+Lfde37_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13576,67 +14981,67 @@ Lfde34_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_2_CleverBuoy_Model_User_string_invoke_void_T1_T2_CleverBuoy_Model_User_string
-	.quad Lme_24
+	.quad Lme_27
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1258=LTDIE_142_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1258
+LDIFF_SYM1451=LTDIE_142_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1451
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1259=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1259
+LDIFF_SYM1452=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1452
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1260=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1260
+LDIFF_SYM1453=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1453
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1261=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1261
+LDIFF_SYM1454=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1454
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1262=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1262
+LDIFF_SYM1455=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1455
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1263=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1263
+LDIFF_SYM1456=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1456
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1264=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1264
+LDIFF_SYM1457=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1457
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1265=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1265
+LDIFF_SYM1458=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1458
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1266=Lfde35_end - Lfde35_start
-	.long LDIFF_SYM1266
-Lfde35_start:
+LDIFF_SYM1459=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM1459
+Lfde38_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_2_CleverBuoy_Model_User_string_invoke_void_T1_T2_CleverBuoy_Model_User_string
 
-LDIFF_SYM1267=Lme_24 - wrapper_delegate_invoke_System_Action_2_CleverBuoy_Model_User_string_invoke_void_T1_T2_CleverBuoy_Model_User_string
-	.long LDIFF_SYM1267
+LDIFF_SYM1460=Lme_27 - wrapper_delegate_invoke_System_Action_2_CleverBuoy_Model_User_string_invoke_void_T1_T2_CleverBuoy_Model_User_string
+	.long LDIFF_SYM1460
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde35_end:
+Lfde38_end:
 
 .section __DWARF, __debug_info,regular,debug
 

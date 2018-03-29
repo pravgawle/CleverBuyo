@@ -59,6 +59,7 @@
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>fb357892324694611</string>
+				<string>msalfcff1ae9-a516-4158-aeb2-a6b0c0a9d159</string>
 			</array>
 			<key>CFBundleURLTypes</key>
 			<string>Editor</string>
