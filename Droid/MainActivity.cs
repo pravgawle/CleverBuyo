@@ -38,20 +38,17 @@ namespace CleverBuoy.Droid
         protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)  
         {  
             base.OnActivityResult(requestCode, resultCode, data);  
-            var manager = DependencyService.Get<ISocialLoginInterface>();  
-            if (manager != null)  
-            {
-                if (manager.GetType() == typeof(FaceBookManager)) {
-                    (manager as FaceBookManager)._callbackManager.OnActivityResult(requestCode, (int)resultCode, data);
+            var fbManger = DependencyService.Get<IFbLoginInterface>();  
+            if ((fbManger as FaceBookManager)._callbackManager != null){
+                (fbManger as FaceBookManager)._callbackManager.OnActivityResult(requestCode, (int)resultCode, data);
+            } else {
+                var gManger = DependencyService.Get<IGoogleLoginInterface>();  
+                if (gManger.GetType() == typeof(GoogleManager)) {
+                    GoogleSignInResult result = Auth.GoogleSignInApi.GetSignInResultFromIntent(data);
+                    GoogleManager.Instance.OnAuthCompleted(result);
                 }
-                else if (manager.GetType() == typeof(GoogleManager)) {
-                    if (requestCode == 1)
-                    {
-                        GoogleSignInResult result = Auth.GoogleSignInApi.GetSignInResultFromIntent(data);
-                        GoogleManager.Instance.OnAuthCompleted(result);
-                    }               
-                }
-            }  
+
+            }
         } 
     }
 
