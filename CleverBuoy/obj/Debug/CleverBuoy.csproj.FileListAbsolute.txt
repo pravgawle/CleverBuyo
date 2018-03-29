@@ -14,3 +14,4 @@
 /Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/obj/Debug/CleverBuoy.CleverBuoyPage.xaml.g.cs
 /Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/obj/Debug/CleverBuoy.dll
 /Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/obj/Debug/CleverBuoy.pdb
+/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/obj/Debug/CleverBuoy.csprojResolveAssemblyReference.cache

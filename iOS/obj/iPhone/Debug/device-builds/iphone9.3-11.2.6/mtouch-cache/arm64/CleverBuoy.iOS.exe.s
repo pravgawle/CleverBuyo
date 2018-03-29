@@ -587,7 +587,7 @@ Lme_5:
 CleverBuoy_iOS_FacebookManager_Login_System_Action_2_CleverBuoy_Model_User_string:
 .file 3 "/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/FaceBookManager.cs"
 .loc 3 0 0 prologue_end
-.word 0xa9b57bfd
+.word 0xa9b67bfd
 .word 0x910003fd
 .word 0xa90153b3
 .word 0xa9025bb5
@@ -618,13 +618,13 @@ ldr x0, [x16, #304]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_7
-.word 0xf90053a0
+.word 0xf9004ba0
 bl _p_15
 .word 0xf9402bb1
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94053a0
+.word 0xf9404ba0
 .word 0xaa0003f8
 .word 0xaa1803e0
 .word 0xaa1903e1
@@ -672,41 +672,41 @@ ldr x2, [x16, #16]
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_16
-.word 0xf9004fa0
+.word 0xf90047a0
 .word 0xf9402bb1
 .word 0xf9414a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9404fa1
+.word 0xf94047a1
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf9411830
 .word 0xd63f0200
-.word 0xf9004ba0
+.word 0xf90043a0
 .word 0xf9402bb1
 .word 0xf9417231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9404ba0
-.word 0xf90047a0
+.word 0xf94043a0
+.word 0xf9003fa0
 .word 0xaa0003f7
 .loc 3 24 0
 .word 0xf9402bb1
 .word 0xf9418e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94047a1
+.word 0xf9403fa1
 .word 0xaa0103e0
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf9428030
 .word 0xd63f0200
-.word 0xf90043a0
+.word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf941ba31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94043a0
+.word 0xf9403ba0
 .word 0xaa0003f6
 .word 0x14000019
 .loc 3 26 0
@@ -724,12 +724,12 @@ bl _p_16
 .word 0xf94002c1
 .word 0xf9417430
 .word 0xd63f0200
-.word 0xf90043a0
+.word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf9420e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94043a0
+.word 0xf9403ba0
 .word 0xaa0003f6
 .loc 3 28 0
 .word 0xf9402bb1
@@ -750,12 +750,12 @@ bl _p_16
 .word 0xf94002c1
 .word 0xf9417430
 .word 0xd63f0200
-.word 0xf90043a0
+.word 0xf9003ba0
 .word 0xf9402bb1
 .word 0xf9426e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94043a0
+.word 0xf9403ba0
 .word 0xd2800001
 .word 0xeb1f001f
 .word 0x9a9f97e0
@@ -776,13 +776,13 @@ ldr x0, [x16, #312]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_7
-.word 0xf90057a0
+.word 0xf9004ba0
 bl _p_17
 .word 0xf9402bb1
 .word 0xf942d231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94057a0
+.word 0xf9404ba0
 .word 0xf9000b00
 .word 0x91004301
 .word 0xd349fc21
@@ -806,13 +806,13 @@ adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x0, [x16, #320]
 bl _p_18
-.word 0xf90053a0
+.word 0xf90047a0
 bl _p_19
 .word 0xf9402bb1
 .word 0xf9433e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94053a0
+.word 0xf94047a0
 .word 0xaa0003f5
 .loc 3 33 0
 .word 0xf9402bb1
@@ -836,17 +836,17 @@ bl _p_19
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
-.word 0xf90047a0
-.word 0xd2800060
+.word 0xf9003fa0
+.word 0xd2800040
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
 ldr x0, [x16, #328]
-.word 0xd2800061
+.word 0xd2800041
 bl _p_20
 .word 0xaa0003f3
 .word 0xaa1303e0
-.word 0xf9004fa0
+.word 0xf90043a0
 .word 0xaa1303e0
 .word 0xd2800000
 
@@ -858,10 +858,10 @@ ldr x2, [x16, #336]
 .word 0xf9400263
 .word 0xf9408070
 .word 0xd63f0200
-.word 0xf9404fa0
+.word 0xf94043a0
 .word 0xf90037a0
 .word 0xf94037a0
-.word 0xf9004ba0
+.word 0xf9003ba0
 .word 0xf94037a3
 .word 0xd2800020
 
@@ -873,21 +873,6 @@ ldr x2, [x16, #344]
 .word 0xf9400063
 .word 0xf9408070
 .word 0xd63f0200
-.word 0xf9404ba0
-.word 0xf9003ba0
-.word 0xf9403ba0
-.word 0xf90043a0
-.word 0xf9403ba3
-.word 0xd2800040
-
-adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
-add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x2, [x16, #352]
-.word 0xaa0303e0
-.word 0xd2800041
-.word 0xf9400063
-.word 0xf9408070
-.word 0xd63f0200
 .word 0xaa1603e0
 .word 0xaa1803e0
 .word 0xeb1f031f
@@ -896,13 +881,13 @@ ldr x2, [x16, #352]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #360]
+ldr x0, [x16, #352]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_7
 .word 0xaa0003e3
-.word 0xf94043a1
-.word 0xf94047a4
+.word 0xf9403ba1
+.word 0xf9403fa4
 .word 0xeb1f031f
 .word 0x10000011
 .word 0x540006c0
@@ -922,17 +907,17 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #368]
+ldr x0, [x16, #360]
 .word 0xf9001460
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #376]
+ldr x0, [x16, #368]
 .word 0xf9002060
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #384]
+ldr x0, [x16, #376]
 .word 0xf9401402
 .word 0xf9000c62
 .word 0xf9401000
@@ -945,16 +930,16 @@ ldr x0, [x16, #384]
 .word 0xf9410090
 .word 0xd63f0200
 .word 0xf9402bb1
-.word 0xf9453231
+.word 0xf944fa31
 .word 0xb4000051
 .word 0xd63f0220
 .loc 3 116 0
 .word 0xf9402bb1
-.word 0xf9454231
+.word 0xf9450a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402bb1
-.word 0xf9455231
+.word 0xf9451a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -962,7 +947,7 @@ ldr x0, [x16, #384]
 .word 0xa94363b7
 .word 0xf94023b9
 .word 0x910003bf
-.word 0xa8cb7bfd
+.word 0xa8ca7bfd
 .word 0xd65f03c0
 .word 0xd2801f00
 .word 0xaa1103e1
@@ -984,7 +969,7 @@ CleverBuoy_iOS_FacebookManager_Logout:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #392]
+ldr x16, [x16, #384]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -1058,7 +1043,7 @@ CleverBuoy_iOS_FacebookManager__ctor:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #400]
+ldr x16, [x16, #392]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1092,7 +1077,7 @@ CleverBuoy_iOS_GoogleManager_get__viewController:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #408]
+ldr x16, [x16, #400]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1131,7 +1116,7 @@ CleverBuoy_iOS_GoogleManager_set__viewController_UIKit_UIViewController:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #416]
+ldr x16, [x16, #408]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -1183,7 +1168,7 @@ CleverBuoy_iOS_GoogleManager__ctor:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #424]
+ldr x16, [x16, #416]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1284,7 +1269,7 @@ CleverBuoy_iOS_GoogleManager_Login_System_Action_2_CleverBuoy_Model_User_string:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #432]
+ldr x16, [x16, #424]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -1481,7 +1466,7 @@ CleverBuoy_iOS_GoogleManager_Logout:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #440]
+ldr x16, [x16, #432]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1549,7 +1534,7 @@ CleverBuoy_iOS_GoogleManager_DidSignIn_Google_SignIn_SignIn_Google_SignIn_Google
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #448]
+ldr x16, [x16, #440]
 .word 0xf9003bb0
 .word 0xf9400a11
 .word 0xf9003fb1
@@ -1604,7 +1589,7 @@ ldr x16, [x16, #448]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #456]
+ldr x0, [x16, #448]
 .word 0xd2800901
 .word 0xd2800901
 bl _p_7
@@ -1737,7 +1722,7 @@ bl _p_27
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #464]
+ldr x0, [x16, #456]
 .word 0xf9400000
 .word 0xf90053a0
 .word 0x1400002d
@@ -1799,7 +1784,7 @@ bl _p_29
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #464]
+ldr x0, [x16, #456]
 .word 0xf9400002
 .word 0xaa1403e0
 .word 0xaa1903e1
@@ -1881,7 +1866,7 @@ CleverBuoy_iOS_GoogleManager_DidDisconnect_Google_SignIn_SignIn_Google_SignIn_Go
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #472]
+ldr x16, [x16, #464]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -1924,7 +1909,7 @@ CleverBuoy_iOS_GoogleManager_WillDispatch_Google_SignIn_SignIn_Foundation_NSErro
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #480]
+ldr x16, [x16, #472]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -1968,7 +1953,7 @@ CleverBuoy_iOS_GoogleManager_PresentViewController_Google_SignIn_SignIn_UIKit_UI
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #488]
+ldr x16, [x16, #480]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -2051,7 +2036,7 @@ CleverBuoy_iOS_GoogleManager_DismissViewController_Google_SignIn_SignIn_UIKit_UI
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #496]
+ldr x16, [x16, #488]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -2129,7 +2114,7 @@ CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__ctor:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #504]
+ldr x16, [x16, #496]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -2168,7 +2153,7 @@ CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__Loginb__0_Facebook_LoginKit_
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #512]
+ldr x16, [x16, #504]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -2184,7 +2169,7 @@ ldr x16, [x16, #512]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #520]
+ldr x0, [x16, #512]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_7
@@ -2364,7 +2349,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x2, [x16, #528]
+ldr x2, [x16, #520]
 .word 0xaa1a03e0
 .word 0xd2800001
 .word 0xf9400f50
@@ -2413,22 +2398,22 @@ bl _p_32
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #536]
+ldr x0, [x16, #528]
 .word 0xf90053a0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #544]
+ldr x0, [x16, #536]
 .word 0xf9005ba0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #552]
+ldr x0, [x16, #544]
 .word 0xf9005fa0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x15, [x16, #560]
+ldr x15, [x16, #552]
 bl _p_33
 .word 0xf90063a0
 .word 0xf9402fb1
@@ -2438,7 +2423,7 @@ bl _p_33
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #568]
+ldr x0, [x16, #560]
 bl _p_18
 .word 0xf9405ba1
 .word 0xf9405fa2
@@ -2452,7 +2437,7 @@ bl _p_34
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #576]
+ldr x0, [x16, #568]
 bl _p_18
 .word 0xf94053a1
 .word 0xf94057a2
@@ -2478,7 +2463,7 @@ bl _p_35
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #584]
+ldr x0, [x16, #576]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_7
@@ -2503,17 +2488,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #592]
+ldr x0, [x16, #584]
 .word 0xf9001420
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #600]
+ldr x0, [x16, #592]
 .word 0xf9002020
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #608]
+ldr x0, [x16, #600]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -2571,7 +2556,7 @@ CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__ctor:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #616]
+ldr x16, [x16, #608]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -2609,7 +2594,7 @@ CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__Loginb__1_Facebook_CoreKit_G
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #624]
+ldr x16, [x16, #616]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -2728,7 +2713,7 @@ bl _p_32
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #464]
+ldr x0, [x16, #456]
 .word 0xf9400000
 .word 0xf90033a0
 .loc 3 58 0
@@ -2739,7 +2724,7 @@ ldr x0, [x16, #464]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #464]
+ldr x0, [x16, #456]
 .word 0xf9400000
 .word 0xf90037a0
 .loc 3 59 0
@@ -2750,7 +2735,7 @@ ldr x0, [x16, #464]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #464]
+ldr x0, [x16, #456]
 .word 0xf9400000
 .word 0xf9003ba0
 .loc 3 60 0
@@ -2761,7 +2746,7 @@ ldr x0, [x16, #464]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #464]
+ldr x0, [x16, #456]
 .word 0xf9400000
 .word 0xf9003fa0
 .loc 3 61 0
@@ -2772,7 +2757,7 @@ ldr x0, [x16, #464]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #464]
+ldr x0, [x16, #456]
 .word 0xf9400000
 .word 0xf90043a0
 .loc 3 64 0
@@ -2794,12 +2779,12 @@ ldr x0, [x16, #464]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #632]
+ldr x0, [x16, #624]
 .word 0xf900e7a0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #640]
+ldr x0, [x16, #632]
 bl _p_18
 .word 0xf940e7a1
 .word 0xf900dfa0
@@ -2916,12 +2901,12 @@ bl _p_39
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #648]
+ldr x0, [x16, #640]
 .word 0xf900e7a0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #640]
+ldr x0, [x16, #632]
 bl _p_18
 .word 0xf940e7a1
 .word 0xf900dfa0
@@ -3043,7 +3028,7 @@ ldr x0, [x16, #344]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #640]
+ldr x0, [x16, #632]
 bl _p_18
 .word 0xf940e7a1
 .word 0xf900dfa0
@@ -3160,12 +3145,12 @@ bl _p_39
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #656]
+ldr x0, [x16, #648]
 .word 0xf900e7a0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #640]
+ldr x0, [x16, #632]
 bl _p_18
 .word 0xf940e7a1
 .word 0xf900dfa0
@@ -3282,12 +3267,12 @@ bl _p_39
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #664]
+ldr x0, [x16, #656]
 .word 0xf900e3a0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #640]
+ldr x0, [x16, #632]
 bl _p_18
 .word 0xf940e3a1
 .word 0xf900dba0
@@ -3320,7 +3305,7 @@ bl _p_37
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x1, [x16, #672]
+ldr x1, [x16, #664]
 .word 0xeb01001f
 .word 0x54000060
 .word 0xf90073bf
@@ -3330,12 +3315,12 @@ ldr x1, [x16, #672]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #680]
+ldr x0, [x16, #672]
 .word 0xf900e3a0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #640]
+ldr x0, [x16, #632]
 bl _p_18
 .word 0xf940e3a1
 .word 0xf900dba0
@@ -3368,7 +3353,7 @@ bl _p_37
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x1, [x16, #672]
+ldr x1, [x16, #664]
 .word 0xeb01001f
 .word 0x54000060
 .word 0xf9007bbf
@@ -3378,12 +3363,12 @@ ldr x1, [x16, #672]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #688]
+ldr x0, [x16, #680]
 .word 0xf900eba0
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #640]
+ldr x0, [x16, #632]
 bl _p_18
 .word 0xf940eba1
 .word 0xf900e3a0
@@ -3541,7 +3526,7 @@ bl _p_39
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #456]
+ldr x0, [x16, #448]
 .word 0xd2800901
 .word 0xd2800901
 bl _p_7
@@ -3621,7 +3606,7 @@ bl _p_32
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #456]
+ldr x0, [x16, #448]
 .word 0xd2800901
 .word 0xd2800901
 bl _p_7
@@ -3643,7 +3628,7 @@ bl _p_40
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #464]
+ldr x0, [x16, #456]
 .word 0xf9400002
 .word 0xaa0303e0
 .word 0xf900dba3
@@ -3711,7 +3696,7 @@ wrapper_delegate_invoke_System_Func_2_object_CleverBuoy_Model_User_invoke_TResul
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #696]
+ldr x16, [x16, #688]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -3728,7 +3713,7 @@ ldr x16, [x16, #696]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #696]
 .word 0xb9400000
 .word 0x34000140
 bl _p_41
@@ -3851,7 +3836,7 @@ wrapper_delegate_invoke_System_Func_1_CleverBuoy_Model_User_invoke_TResult:
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #712]
+ldr x16, [x16, #704]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -3868,7 +3853,7 @@ ldr x16, [x16, #712]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #696]
 .word 0xb9400000
 .word 0x34000140
 bl _p_41
@@ -3986,7 +3971,7 @@ wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_CleverBuoy
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #720]
+ldr x16, [x16, #712]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4002,7 +3987,7 @@ ldr x16, [x16, #720]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #696]
 .word 0xb9400000
 .word 0x34000140
 bl _p_41
@@ -4120,7 +4105,7 @@ wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_CleverBuoy_Model_User_
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #728]
+ldr x16, [x16, #720]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4137,7 +4122,7 @@ ldr x16, [x16, #728]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #696]
 .word 0xb9400000
 .word 0x34000140
 bl _p_41
@@ -4261,7 +4246,7 @@ wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #728]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4277,7 +4262,7 @@ ldr x16, [x16, #736]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #696]
 .word 0xb9400000
 .word 0x34000140
 bl _p_41
@@ -4396,7 +4381,7 @@ wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncR
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #744]
+ldr x16, [x16, #736]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4413,7 +4398,7 @@ ldr x16, [x16, #744]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #696]
 .word 0xb9400000
 .word 0x34000140
 bl _p_41
@@ -4542,7 +4527,7 @@ wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #744]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4559,7 +4544,7 @@ ldr x16, [x16, #752]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #696]
 .word 0xb9400000
 .word 0x34000140
 bl _p_41
@@ -4682,7 +4667,7 @@ wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #760]
+ldr x16, [x16, #752]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4699,7 +4684,7 @@ ldr x16, [x16, #760]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #696]
 .word 0xb9400000
 .word 0x34000140
 bl _p_41
@@ -4817,7 +4802,7 @@ wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Thr
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #760]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4833,7 +4818,7 @@ ldr x16, [x16, #768]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #696]
 .word 0xb9400000
 .word 0x34000140
 bl _p_41
@@ -4951,7 +4936,7 @@ wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #768]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4968,7 +4953,7 @@ ldr x16, [x16, #776]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #696]
 .word 0xb9400000
 .word 0x34000140
 bl _p_41
@@ -5092,7 +5077,7 @@ wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threa
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #776]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -5109,7 +5094,7 @@ ldr x16, [x16, #784]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #696]
 .word 0xb9400000
 .word 0x34000140
 bl _p_41
@@ -5233,7 +5218,7 @@ wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threa
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #784]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -5250,7 +5235,7 @@ ldr x16, [x16, #792]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #696]
 .word 0xb9400000
 .word 0x34000140
 bl _p_41
@@ -5375,7 +5360,7 @@ wrapper_delegate_invoke_System_Action_2_CleverBuoy_Model_User_string_invoke_void
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #792]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -5391,7 +5376,7 @@ ldr x16, [x16, #800]
 
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #696]
 .word 0xb9400000
 .word 0x34000140
 bl _p_41
@@ -5565,8 +5550,8 @@ unwind_info:
 
 	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,22,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14
 	.byte 151,13,68,152,12,13,12,31,0,68,14,64,157,8,158,7,68,13,29,16,12,31,0,68,14,112,157,14,158,13,68,13
-	.byte 29,68,150,12,32,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,147,20,148,19,68,149,18,150,17,68,151,16
-	.byte 152,15,68,153,14,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8,16,12,31,0,68,14,64,157,8,158
+	.byte 29,68,150,12,32,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16,150,15,68,151,14
+	.byte 152,13,68,153,12,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8,16,12,31,0,68,14,64,157,8,158
 	.byte 7,68,13,29,68,154,6,23,12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9,34
 	.byte 12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,147,34,148,33,68,149,32,150,31,68,151,30,152,29,68,153,28
 	.byte 154,27,13,12,31,0,68,14,80,157,10,158,9,68,13,29,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68,151
@@ -5585,333 +5570,333 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #808]
 br x16
-.word 958
+.word 953
 	.no_dead_strip plt_Xamarin_Forms_Forms_Init
 plt_Xamarin_Forms_Forms_Init:
 _p_2:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #816]
 br x16
-.word 963
+.word 958
 	.no_dead_strip plt_Xamarin_Forms_DependencyService_Register_CleverBuoy_Interfaces_IFbLoginInterface_CleverBuoy_iOS_FacebookManager
 plt_Xamarin_Forms_DependencyService_Register_CleverBuoy_Interfaces_IFbLoginInterface_CleverBuoy_iOS_FacebookManager:
 _p_3:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #824]
 br x16
-.word 968
+.word 963
 	.no_dead_strip plt_Xamarin_Forms_DependencyService_Register_CleverBuoy_Interfaces_IGoogleLoginInterface_CleverBuoy_iOS_GoogleManager
 plt_Xamarin_Forms_DependencyService_Register_CleverBuoy_Interfaces_IGoogleLoginInterface_CleverBuoy_iOS_GoogleManager:
 _p_4:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #832]
 br x16
-.word 980
+.word 975
 	.no_dead_strip plt_Foundation_NSDictionary_FromFile_string
 plt_Foundation_NSDictionary_FromFile_string:
 _p_5:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #840]
 br x16
-.word 992
+.word 987
 	.no_dead_strip plt_Google_SignIn_SignIn_get_SharedInstance
 plt_Google_SignIn_SignIn_get_SharedInstance:
 _p_6:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #848]
 br x16
-.word 997
+.word 992
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_7:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #856]
 br x16
-.word 1002
+.word 997
 	.no_dead_strip plt_CleverBuoy_App__ctor
 plt_CleverBuoy_App__ctor:
 _p_8:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #864]
 br x16
-.word 1010
+.word 1005
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
 _p_9:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #872]
 br x16
-.word 1015
+.word 1010
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 _p_10:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #880]
 br x16
-.word 1020
+.word 1015
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_OnActivated_UIKit_UIApplication
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_OnActivated_UIKit_UIApplication:
 _p_11:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #888]
 br x16
-.word 1025
+.word 1020
 	.no_dead_strip plt_Facebook_CoreKit_AppEvents_ActivateApp
 plt_Facebook_CoreKit_AppEvents_ActivateApp:
 _p_12:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #896]
 br x16
-.word 1030
+.word 1025
 	.no_dead_strip plt_Facebook_CoreKit_ApplicationDelegate_get_SharedInstance
 plt_Facebook_CoreKit_ApplicationDelegate_get_SharedInstance:
 _p_13:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #904]
 br x16
-.word 1035
+.word 1030
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
 _p_14:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #912]
 br x16
-.word 1040
+.word 1035
 	.no_dead_strip plt_CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__ctor
 plt_CleverBuoy_iOS_FacebookManager__c__DisplayClass1_0__ctor:
 _p_15:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #920]
 br x16
-.word 1045
+.word 1040
 	.no_dead_strip plt_UIKit_UIApplication_get_SharedApplication
 plt_UIKit_UIApplication_get_SharedApplication:
 _p_16:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #928]
 br x16
-.word 1050
+.word 1045
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_CleverBuoy_Model_User__ctor
 plt_System_Threading_Tasks_TaskCompletionSource_1_CleverBuoy_Model_User__ctor:
 _p_17:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #936]
 br x16
-.word 1055
+.word 1050
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_18:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #944]
 br x16
-.word 1066
+.word 1061
 	.no_dead_strip plt_Facebook_LoginKit_LoginManager__ctor
 plt_Facebook_LoginKit_LoginManager__ctor:
 _p_19:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #952]
 br x16
-.word 1098
+.word 1093
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_20:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #960]
 br x16
-.word 1103
+.word 1098
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_21:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #968]
 br x16
-.word 1111
+.word 1106
 	.no_dead_strip plt_Foundation_NSObject__ctor
 plt_Foundation_NSObject__ctor:
 _p_22:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #976]
 br x16
-.word 1146
+.word 1141
 	.no_dead_strip plt_CleverBuoy_iOS_GoogleManager_set__viewController_UIKit_UIViewController
 plt_CleverBuoy_iOS_GoogleManager_set__viewController_UIKit_UIViewController:
 _p_23:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #984]
 br x16
-.word 1151
+.word 1146
 	.no_dead_strip plt_CleverBuoy_Model_User__ctor
 plt_CleverBuoy_Model_User__ctor:
 _p_24:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #992]
 br x16
-.word 1156
+.word 1151
 	.no_dead_strip plt_CleverBuoy_Model_User_set_CurrentUserLoginType_LoginType
 plt_CleverBuoy_Model_User_set_CurrentUserLoginType_LoginType:
 _p_25:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1000]
 br x16
-.word 1161
+.word 1156
 	.no_dead_strip plt_CleverBuoy_Model_User_set_FirstName_string
 plt_CleverBuoy_Model_User_set_FirstName_string:
 _p_26:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #1008]
 br x16
-.word 1166
+.word 1161
 	.no_dead_strip plt_CleverBuoy_Model_User_set_Email_string
 plt_CleverBuoy_Model_User_set_Email_string:
 _p_27:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1016]
 br x16
-.word 1171
+.word 1166
 	.no_dead_strip plt_System_nuint_op_Implicit_uint16
 plt_System_nuint_op_Implicit_uint16:
 _p_28:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1024]
 br x16
-.word 1176
+.word 1171
 	.no_dead_strip plt_CleverBuoy_Model_User_set_Picture_string
 plt_CleverBuoy_Model_User_set_Picture_string:
 _p_29:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1032]
 br x16
-.word 1181
+.word 1176
 	.no_dead_strip plt_CleverBuoy_iOS_GoogleManager_get__viewController
 plt_CleverBuoy_iOS_GoogleManager_get__viewController:
 _p_30:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1040]
 br x16
-.word 1186
+.word 1181
 	.no_dead_strip plt_CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__ctor
 plt_CleverBuoy_iOS_FacebookManager__c__DisplayClass1_1__ctor:
 _p_31:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1048]
 br x16
-.word 1191
+.word 1186
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_CleverBuoy_Model_User_TrySetResult_CleverBuoy_Model_User
 plt_System_Threading_Tasks_TaskCompletionSource_1_CleverBuoy_Model_User_TrySetResult_CleverBuoy_Model_User:
 _p_32:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1056]
 br x16
-.word 1196
+.word 1191
 	.no_dead_strip plt_System_Array_Empty_object
 plt_System_Array_Empty_object:
 _p_33:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1064]
 br x16
-.word 1207
+.word 1202
 	.no_dead_strip plt_Foundation_NSDictionary__ctor_object_object_object__
 plt_Foundation_NSDictionary__ctor_object_object_object__:
 _p_34:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1072]
 br x16
-.word 1219
+.word 1214
 	.no_dead_strip plt_Facebook_CoreKit_GraphRequest__ctor_string_Foundation_NSDictionary
 plt_Facebook_CoreKit_GraphRequest__ctor_string_Foundation_NSDictionary:
 _p_35:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1080]
 br x16
-.word 1224
+.word 1219
 	.no_dead_strip plt_System_Diagnostics_Debug_WriteLine_string
 plt_System_Diagnostics_Debug_WriteLine_string:
 _p_36:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #1088]
 br x16
-.word 1229
+.word 1224
 	.no_dead_strip plt_Foundation_NSString__ctor_string
 plt_Foundation_NSString__ctor_string:
 _p_37:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #1104]
+ldr x16, [x16, #1096]
 br x16
-.word 1234
+.word 1229
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_38:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1104]
 br x16
-.word 1239
+.word 1234
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_39:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #1112]
 br x16
-.word 1278
+.word 1273
 	.no_dead_strip plt_CleverBuoy_Model_User__ctor_string_string_string_string_string_string_LoginType
 plt_CleverBuoy_Model_User__ctor_string_string_string_string_string_string_LoginType:
 _p_40:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1120]
 br x16
-.word 1306
+.word 1301
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_41:
 adrp x16, mono_aot_CleverBuoy_iOS_got@PAGE+0
 add x16, x16, mono_aot_CleverBuoy_iOS_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1128]
 br x16
-.word 1311
+.word 1306
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_CleverBuoy_iOS_got, 1144
+.lcomm mono_aot_CleverBuoy_iOS_got, 1136
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -5934,7 +5919,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "DB0858EA-4041-4614-AEF9-238D89A8AE29"
+	.asciz "3E669AE9-D515-4C03-9256-7DC34A8133B0"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -6011,13 +5996,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 101,1144,42,37,70,391195135,0,9450
-	.long 128,8,8,9,0,25,10992,1536
+	.long 100,1136,42,37,70,391195135,0,9429
+	.long 128,8,8,9,0,25,10976,1536
 	.long 792,472,0,672,760,520,0,360
 	.long 72,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 190,8,21,236,102,137,239,208,4,155,119,98,145,21,183,69
+	.byte 34,191,245,42,36,36,130,126,181,44,96,11,194,229,200,139
 	.globl _mono_aot_module_CleverBuoy_iOS_info
 	.align 3
 _mono_aot_module_CleverBuoy_iOS_info:
@@ -11436,7 +11421,7 @@ Lfde6_start:
 LDIFF_SYM949=Lme_6 - CleverBuoy_iOS_FacebookManager_Login_System_Action_2_CleverBuoy_Model_User_string
 	.long LDIFF_SYM949
 	.long 0
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,147,20,148,19,68,149,18,150,17,68,151,16,152,15,68,153,14
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12
 	.align 3
 Lfde6_end:
 

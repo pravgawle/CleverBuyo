@@ -31,7 +31,7 @@ namespace CleverBuoy.iOS
             LoginManager manager = new LoginManager();
             //manager.LogOut();
             manager.LoginBehavior = LoginBehavior.Native;
-            manager.LogInWithReadPermissions(new string[] { "public_profile", "email", "user_friends" }, vc, (result, error) =>
+            manager.LogInWithReadPermissions(new string[] { "public_profile", "email" }, vc, (result, error) =>
             {
                 if (error != null || result == null || result.IsCancelled)
                 {
