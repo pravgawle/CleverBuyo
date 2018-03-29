@@ -1,0 +1,257 @@
+Function=xamarin_timezone_get_data
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/mscorlib.dll
+Function=CreateZStream
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/System.dll
+Function=CloseZStream
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/System.dll
+Function=Flush
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/System.dll
+Function=ReadZStream
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/System.dll
+Function=WriteZStream
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/System.dll
+Function=xamarin_start_wwan
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/System.dll
+Function=UIApplicationMain
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Xamarin.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppGroupAddDialog
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppGroupContent
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppGroupJoinDialog
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppInviteContent
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppInviteDialog
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKCameraEffectArguments
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKCameraEffectTextures
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGameRequestContent
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGameRequestDialog
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKHashtag
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLikeButton
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLikeControl
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessageDialog
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKSendButton
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKShareErrorDomain
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareAPI
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareButton
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareCameraEffectContent
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareDialog
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareLinkContent
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareMediaContent
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareMessengerGenericTemplateContent
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareMessengerGenericTemplateElement
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareMessengerMediaTemplateContent
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareMessengerOpenGraphMusicTemplateContent
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareMessengerURLActionButton
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareOpenGraphAction
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareOpenGraphContent
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareOpenGraphObject
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareOpenGraphValueContainer
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKSharePhoto
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKSharePhotoContent
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareVideo
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareVideoContent
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerBroadcastContext
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerContext
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerShareButton
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerShareOptions
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerSharer
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerURLHandler
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerURLHandlerCancelContext
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerURLHandlerOpenFromComposerContext
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerURLHandlerReplyContext
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKLoginErrorDomain
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLoginButton
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLoginManager
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLoginManagerLoginResult
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLoginTooltipView
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKTooltipView
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKSettings
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAccessTokenDidChangeNotification
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAccessTokenChangeNewKey
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAccessTokenChangeOldKey
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAccessTokenDidChangeUserID
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAccessToken
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameAchievedLevel
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameAddedPaymentInfo
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameAddedToCart
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameAddedToWishlist
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameCompletedRegistration
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameCompletedTutorial
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameContentID
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameContent
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameContentType
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameCurrency
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameDescription
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameInitiatedCheckout
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameLevel
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventsLoggingResultNotification
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameMaxRatingValue
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterValueNo
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameNumItems
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventsOverrideAppIDBundleKey
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNamePaymentInfoAvailable
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameRated
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameRegistrationMethod
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameSearchString
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameSearched
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameSpentCredits
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameSuccess
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameUnlockedAchievement
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameViewedContent
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterValueYes
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppEvents
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKApplicationDelegate
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppLinkResolver
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppLinkUtility
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKButton
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGraphErrorRecoveryProcessor
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGraphRequest
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKNonJSONResponseProperty
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGraphRequestConnection
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGraphRequestDataAttachment
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKProfileDidChangeNotification
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKProfileChangeNewKey
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+Field=FBSDKProfileChangeOldKey
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKProfile
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKProfilePictureView
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_BFTask
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKTestUsersManager
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKUtility
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_GIDAuthentication
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Google.SignIn.dll
+ObjectiveCClass=OBJC_CLASS_$_GIDGoogleUser
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Google.SignIn.dll
+ObjectiveCClass=OBJC_CLASS_$_GIDProfileData
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Google.SignIn.dll
+Field=kGIDSignInErrorDomain
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Google.SignIn.dll
+ObjectiveCClass=OBJC_CLASS_$_GIDSignIn
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Google.SignIn.dll
+ObjectiveCClass=OBJC_CLASS_$_GIDSignInButton
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Google.SignIn.dll
+Field=kFIRInstanceIDScopeFirebaseMessaging
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Firebase.InstanceID.dll
+Field=kFIRInstanceIDTokenRefreshNotification
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Firebase.InstanceID.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRInstanceID
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Firebase.InstanceID.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRAnalyticsConfiguration
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Firebase.Core.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRApp
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Firebase.Core.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRConfiguration
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Firebase.Core.dll
+ObjectiveCClass=OBJC_CLASS_$_FIROptions
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Firebase.Core.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRAnalytics
+	/Volumes/Seagate Expansion Drive/CleverBuoy/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.2.6/mtouch-cache/Link/Firebase.Analytics.dll
+Function=mono_pmip

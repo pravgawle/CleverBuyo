@@ -1,0 +1,16 @@
+/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/bin/Debug/CleverBuoy.dll
+/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/bin/Debug/CleverBuoy.pdb
+/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/bin/Debug/Xamarin.Forms.Core.dll
+/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/bin/Debug/Xamarin.Forms.Platform.dll
+/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/bin/Debug/Xamarin.Forms.Xaml.dll
+/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/bin/Debug/Xamarin.Forms.Core.pdb
+/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/bin/Debug/Xamarin.Forms.Core.dll.mdb
+/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/bin/Debug/Xamarin.Forms.Core.xml
+/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/bin/Debug/Xamarin.Forms.Xaml.pdb
+/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/bin/Debug/Xamarin.Forms.Xaml.xml
+/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/obj/Debug/CleverBuoy.csproj.CoreCompileInputs.cache
+/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/obj/Debug/CleverBuoy.App.xaml.g.cs
+/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/obj/Debug/CleverBuoy.CleverBuoyPage.xaml.g.cs
+/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/obj/Debug/CleverBuoy.dll
+/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/obj/Debug/CleverBuoy.pdb

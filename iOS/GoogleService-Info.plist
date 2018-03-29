@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>355376438966-g9h7khdnuc17ug8sq0e6ju8vsok0ec8r.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.355376438966-g9h7khdnuc17ug8sq0e6ju8vsok0ec8r</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.pravinga.CleverBuoy</string>
+	<key>PROJECT_ID</key>
+	<string>cleverbuoy-199412</string>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:355376438966:ios:d03255c8bfcbc82f</string>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+</dict>
+</plist>

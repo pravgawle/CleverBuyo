@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "355376438966",
+    "project_id": "cleverbuoy-199412"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355376438966:android:d03255c8bfcbc82f",
+        "android_client_info": {
+          "package_name": "com.pravinga.CleverBuoy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355376438966-3hnu1e8nppailla1rfpm7il5qiahoe2m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pravinga.CleverBuoy",
+            "certificate_hash": "239b23e9fdd052fa3c4df7303d3bb15e2b645c85"
+          }
+        },
+        {
+          "client_id": "355376438966-3ru4h3hjpemrkjiiibstfvh4pu9km8ic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbqEHAErfKLe1JuSK_8l6GfWFO6kGfSFY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

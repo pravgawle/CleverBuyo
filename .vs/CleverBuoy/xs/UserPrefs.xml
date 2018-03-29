@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{03BD14CB-6A92-4F58-BC76-7DB4FF69B924}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Info.plist">
+    <Files>
+      <File FileName="Droid/Resources/values/strings.xml" Line="4" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="45" Column="66" />
+      <File FileName="CleverBuoy/Interfaces/IFbLoginInterface.cs" Line="9" Column="20" />
+      <File FileName="CleverBuoy/Model/User.cs" Line="21" Column="32" />
+      <File FileName="Droid/Helper/FaceBookManger.cs" Line="97" Column="2" />
+      <File FileName="iOS/AppDelegate.cs" Line="28" Column="13" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="CleverBuoy/App.xaml.cs" Line="21" Column="29" />
+      <File FileName="CleverBuoy/CleverBuoyPage.xaml.cs" Line="39" Column="1" />
+      <File FileName="CleverBuoy/CleverBuoyPage.xaml" Line="17" Column="1" />
+      <File FileName="iOS/FaceBookManager.cs" Line="32" Column="15" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="Droid/Resources/google-services.json" Line="1" Column="1" />
+      <File FileName="iOS/GoogleManager.cs" Line="65" Column="31" />
+      <File FileName="Droid/Helper/GoogleManager.cs" Line="26" Column="82" />
+      <File FileName="CleverBuoy/obj/Debug/CleverBuoy.CleverBuoyPage.xaml.g.cs" Line="27" Column="1" />
+      <File FileName="iOS/Entitlements.plist" />
+      <File FileName="CleverBuoy/App.xaml" Line="7" Column="1" />
+      <File FileName="CleverBuoy/CleverBuoy.csproj" Line="42" Column="34" />
+      <File FileName="iOS/GoogleService-Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Volumes/Seagate Expansion Drive/CleverBuoy/CleverBuoy/CleverBuoyPage.xaml.cs" relfile="CleverBuoy/CleverBuoyPage.xaml.cs" line="39" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CleverBuoy.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.64E54E0E-2F0C-416C-B3D9-0123E284067F" automaticSigning="False" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CleverBuoy.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+</Properties>
